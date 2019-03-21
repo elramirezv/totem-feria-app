@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CompanyComponent from "../components/category";
+import CompanyComponent from "../components/company";
 
 class CompaniesContainer extends Component {
 
@@ -12,10 +12,10 @@ class CompaniesContainer extends Component {
 }
 
   createComponents(){
-    
+
     return this.state.companies.map((company) => {
       return(
-        <CompanyComponent key={company.name} category={company}/>
+        <CompanyComponent key={company.name} company={company}/>
       )
     })
   }

@@ -17,7 +17,7 @@ class App extends Component {
 
     return <CompaniesContainer data={companies}/>
   }
-  
+
   Categories(){
     return <CategoriesContainer data={data}/>
   }

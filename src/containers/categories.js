@@ -9,7 +9,6 @@ class CategoriesContainer extends Component {
     this.state = {
         categories: props.data,
         isLoading: false,
-        companies: false,
     }
 }
 
@@ -23,16 +22,11 @@ class CategoriesContainer extends Component {
     })
   }
 
-  showCompanies(){
-
-  }
-
 
   render() {
     return (
       <div>
-      { !(this.state.companies) && this.createComponents()}
-      { this.state.companies && this.showCompanies()}
+      {this.createComponents()}
       </div>
     );
   }

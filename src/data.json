@@ -1,28 +1,17 @@
-{
-  "categories":{
-    "category1":{
-      "name": "Hola",
+[{
+      "name": "Transporte",
       "companies": ["name1", "name2", "name3"]
     },
-    "category2":{
-      "name": "Como",
+    {
+      "name": "Bodegas",
       "companies": ["lala1", "lala2", "lala3"]
     },
-    "category3":{
-      "name": "Estas",
+    {
+      "name": "Tecnología",
       "companies": ["caca", "caca2", "caca3"]
     },
-    "category4":{
-      "name": "Bien",
+    {
+      "name": "E-Commerce",
       "companies": ["pipi", "pipi2", "pipi3"]
-    },
-    "category5":{
-      "name": "Y tu",
-      "companies": ["mumu1", "mumu2", "mumu3"]
-    },
-    "category6":{
-      "name": "Bien",
-      "companies": ["mamam1", "mamam2", "mamam3"]
     }
-  }
-}
+]

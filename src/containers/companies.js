@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import CategoryComponent from "../components/category";
 
 
-class CategoriesContainer extends Component {
+class CompaniesContainer extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-        categories: props.data,
+        category: props.category,
         isLoading: false,
-        companies: false,
     }
 }
 
@@ -22,19 +21,13 @@ class CategoriesContainer extends Component {
       )
     })
   }
-
-  showCompanies(){
-
-  }
-
   render() {
     return (
       <div>
-      { !(this.state.companies) && this.createComponents()}
-      { this.state.companies && this.showCompanies()}
+      {this.createComponents()}
       </div>
     );
   }
 }
 
-export default CategoriesContainer;
+export default CompaniesContainer;

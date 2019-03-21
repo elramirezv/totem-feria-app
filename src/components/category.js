@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class CategoryComponent extends Component {
 
   render() {
-    console.log(this.props)
     return (
       <div>
-      <button >{this.props.category.name}</button>
+      <button>
+        <Link to={this.props.category.name}>{this.props.category.name}</Link>
+      </button>
       </div>
     );
   }

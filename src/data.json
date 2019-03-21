@@ -1,17 +1,33 @@
 [{
       "name": "Transporte",
-      "companies": ["name1", "name2", "name3"]
+      "companies": [
+        {"name": "Empresa1", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa2", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa3", "description": "Lorem ipsum", "image": "Foto"}
+      ]
     },
     {
       "name": "Bodegas",
-      "companies": ["lala1", "lala2", "lala3"]
+      "companies": [
+        {"name": "Empresa4", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa5", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa6", "description": "Lorem ipsum", "image": "Foto"}
+      ]
     },
     {
       "name": "Tecnología",
-      "companies": ["caca", "caca2", "caca3"]
+      "companies": [
+        {"name": "Empresa7", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa8", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa9", "description": "Lorem ipsum", "image": "Foto"}
+      ]
     },
     {
       "name": "E-Commerce",
-      "companies": ["pipi", "pipi2", "pipi3"]
+      "companies": [
+        {"name": "Empresa10", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa11", "description": "Lorem ipsum", "image": "Foto"},
+        {"name": "Empresa12", "description": "Lorem ipsum", "image": "Foto"}
+      ]
     }
 ]

@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
-import CategoryComponent from "../components/category";
-
+import CompanyComponent from "../components/category";
 
 class CompaniesContainer extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-        category: props.category,
+        companies: props.data.companies,
         isLoading: false,
     }
 }
 
   createComponents(){
-    console.log(this.state.categories);
-
-    return this.state.categories.map((category) => {
+    
+    return this.state.companies.map((company) => {
       return(
-        <CategoryComponent key={category.name} category={category}/>
+        <CompanyComponent key={company.name} category={company}/>
       )
     })
   }
+
   render() {
     return (
       <div>

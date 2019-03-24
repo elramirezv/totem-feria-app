@@ -13,7 +13,6 @@ class CategoriesContainer extends Component {
 }
 
   createComponents(){
-    console.log(this.state.categories);
 
     return this.state.categories.map((category) => {
       return(

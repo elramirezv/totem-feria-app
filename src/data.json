@@ -1,4 +1,4 @@
-[{
+{"categories":[{
       "name": "Transporte",
       "companies": [
         {"name": "Empresa1", "description": "Lorem ipsum", "image": "Foto"},
@@ -30,4 +30,19 @@
         {"name": "Empresa12", "description": "Lorem ipsum", "image": "Foto"}
       ]
     }
-]
+],
+"companies":
+  [
+    {"name": "Empresa1", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa2", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa3", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa4", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa5", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa6", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa7", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa8", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa9", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa10", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa11", "description": "Lorem ipsum", "image": "Foto"},
+    {"name": "Empresa12", "description": "Lorem ipsum", "image": "Foto"}
+    ]}

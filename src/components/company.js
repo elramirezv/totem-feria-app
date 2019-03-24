@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class CompanyComponent extends Component {
 
@@ -6,7 +7,9 @@ class CompanyComponent extends Component {
 
     return (
       <div>
-      <button >{this.props.company.name}</button>
+      <button>
+      <Link to={'/companies/' + this.props.company.name}>{this.props.company.name}</Link>
+      </button>
       </div>
     );
   }

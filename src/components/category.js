@@ -7,7 +7,7 @@ class CategoryComponent extends Component {
     return (
       <div>
       <button>
-        <Link to={this.props.category.name}>{this.props.category.name}</Link>
+        <Link to={'/categories/' + this.props.category.name}>{this.props.category.name}</Link>
       </button>
       </div>
     );

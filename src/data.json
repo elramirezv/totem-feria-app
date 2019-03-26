@@ -33,7 +33,7 @@
 ],
 "companies":
   [
-    {"name": "Empresa1", "description": "Lorem ipsum", "image": "map.jpg"},
+    {"name": "Empresa1", "description": "Lorem ipsum", "image": "map.jpg", "video":"video.mp4", "pdf":"test.pdf"},
     {"name": "Empresa2", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa3", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa4", "description": "Lorem ipsum", "image": "map.jpg"},

@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   Category({ match }){
-    var result = {};
+    var result;
     categories.forEach((category) => {
       if(category.name === match.params.name)
         result = category;

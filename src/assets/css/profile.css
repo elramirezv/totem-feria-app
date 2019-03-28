@@ -1,0 +1,43 @@
+.custom-dialog {
+  min-width: 80%;
+  top:20%;}
+
+.video-player {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.map-image {
+  max-width: 90%;
+  min-width: 90%;
+  margin-left: 5%;
+  margin-top: 1em;
+}
+
+.nice-button {
+  margin-left: 10%;
+  margin-top: 1em;
+}
+
+.name-tag {
+  margin-left: 4%;
+  margin-top: 2em;
+  max-width: 70%;
+  float: right;
+}
+
+.company-description {
+  margin-left: 10%;
+  margin-top: 1em;
+}
+
+.logo {
+  margin-top: 1em;
+  margin-left: 4%;
+  max-width: 30%;
+  float: left;
+}
+
+.container {
+  display: inline-block;
+}

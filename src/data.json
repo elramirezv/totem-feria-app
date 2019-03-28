@@ -1,39 +1,39 @@
 {"categories":[{
       "name": "Transporte",
       "companies": [
-        {"name": "Empresa1", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa2", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa3", "description": "Lorem ipsum", "image": "map.jpg"}
+        {"name": "Faster Soluciones"},
+        {"name": "Empresa2"},
+        {"name": "Empresa3"}
       ]
     },
     {
       "name": "Bodegas",
       "companies": [
-        {"name": "Empresa4", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa5", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa6", "description": "Lorem ipsum", "image": "map.jpg"}
+        {"name": "Empresa4"},
+        {"name": "Empresa5"},
+        {"name": "Empresa6"}
       ]
     },
     {
       "name": "Tecnología",
       "companies": [
-        {"name": "Empresa7", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa8", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa9", "description": "Lorem ipsum", "image": "map.jpg"}
+        {"name": "Empresa7"},
+        {"name": "Empresa8"},
+        {"name": "Empresa9"}
       ]
     },
     {
       "name": "E-Commerce",
       "companies": [
-        {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
+        {"name": "Empresa10"},
+        {"name": "Empresa11"},
+        {"name": "Empresa12"}
       ]
     }
 ],
 "companies":
   [
-    {"name": "Empresa1", "description": "Lorem ipsum", "image": "map.jpg", "video":"video.mp4", "pdf":"test.pdf"},
+    {"name": "Faster Soluciones", "description": "Es una empresa dedicada a proporcionar soluciones integrales a las distintas necesidades corporativas y publicitarias del mercado con rapidez, creatividad e innovación. Realizamos todo tipo de impresiones e instalaciones gráficas, servicio de Wayfinding, Diseño y Desarrollo de Proyectos para Retail. Producciones audiovisuales y Digital Signage. Aquí podrás encontrar todo lo que necesitas en un solo lugar, nos especializamos en dar soluciones integrales, trabajando en diversas materialidades como: Hierro, aceros, aluminio compuesto, acrílico, madera, goma eva, entre otros.", "image": "map.jpg", "video":"video.mp4", "pdf":"faster-sol.pdf", "webpage":"www.fastersoluciones.cl", "logo":"faster.png" },
     {"name": "Empresa2", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa3", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa4", "description": "Lorem ipsum", "image": "map.jpg"},
@@ -45,4 +45,6 @@
     {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
-    ]}
+    ],
+  "logos":
+["logo1.png", "logo2.png"]}

@@ -10,7 +10,6 @@ const categories = data.categories
 const companies = data.companies
 
 class App extends Component {
-
   Company({ match }){
     var result;
     companies.forEach(( company ) => {
@@ -43,6 +42,7 @@ class App extends Component {
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
+
         </div>
       </Router>
     </div>

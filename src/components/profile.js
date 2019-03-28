@@ -1,43 +1,121 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import '../styles/profile.css';
+import '../assets/css/profile.css';
+import { Link } from "react-router-dom";
 
 
 class ProfileComponent extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        show: false,
+        showVid: false,
+        showPdf: false,
+        showPage: false
     };
-    this.handleShow = this.handleShow.bind(this);
-    this.handleClose = this.handleClose.bind(this);
+    this.handleShowVid = this.handleShowVid.bind(this);
+    this.handleCloseVid = this.handleCloseVid.bind(this);
+    this.handleClosePdf = this.handleClosePdf.bind(this)
+    this.handleShowPdf = this.handleShowPdf.bind(this);
+    this.handleClosePage = this.handleClosePage.bind(this);
+    this.handleShowPage = this.handleShowPage.bind(this);
 }
-handleClose() {
-  this.setState({ show: false });
+handleCloseVid() {
+  this.setState({ showVid: false });
 }
 
-handleShow() {
-  this.setState({ show: true });
+handleShowVid() {
+  this.setState({ showVid: true });
+}
+
+handleClosePdf(){
+  this.setState({showPdf: false})
+}
+
+handleShowPdf(){
+  this.setState({showPdf: true})
+}
+
+handleClosePage(){
+  this.setState({showPage: false})
+}
+
+handleShowPage(){
+  this.setState({showPage: true})
+}
+
+getVideo(){
+  if(this.props.data.video){
+    return(
+      <>
+      <Button variant="primary" className = 'nice-button' onClick={this.handleShowVid}>
+        Ver Video
+      </Button>
+
+      <Modal show={this.state.showVid} onHide={this.handleCloseVid} dialogClassName="custom-dialog">
+        <Modal.Body>
+
+          <video className = 'video-player' autoPlay loop>
+          <source src={require('../assets/videos/' + this.props.data.video)}/>
+          </video>
+        </Modal.Body>
+      </Modal>
+    </>
+
+    )
+  }
+}
+getPdf(){
+  if(this.props.data.pdf){
+    return(
+      <>
+      <Button variant="primary" className = 'nice-button' onClick={this.handleShowPdf}>
+        Más Información
+      </Button>
+
+      <Modal show={this.state.showPdf} onHide={this.handleClosePdf} dialogClassName="custom-dialog">
+        <Modal.Body>
+        <embed src={require("../assets/pdfs/" + this.props.data.pdf)+ '#toolbar=0&=0&navpane=0&statusbar=1'}  type="application/pdf" width="100%" height="500px" />
+        </Modal.Body>
+      </Modal>
+    </>
+
+    )
+
+  }
+}
+getWebPage(){
+  if(this.props.data.webpage){
+    return(
+      <>
+      <Button variant="primary" className = 'nice-button' onClick={this.handleShowPage}>
+        Ver Página Web
+      </Button>
+
+      <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
+        <Modal.Body>
+        <iframe src={"https://" + this.props.data.webpage} name ="iframe_a" width="100%" height="500px" />
+        </Modal.Body>
+      </Modal>
+    </>
+
+    )
+
+  }
 }
   render() {
     return (
-      <>
-      <h1>{this.props.data.name}</h1>
-      <img className = 'map-image' src={require('../assets/images/' + this.props.data.image)}/>
-        <Button variant="primary" onClick={this.handleShow}>
-          Ver Video
-        </Button>
-
-        <Modal show={this.state.show} onHide={this.handleClose} dialogClassName="custom-dialog">
-          <Modal.Body>
-
-            <video className = 'video-player' autoPlay loop>
-            <source src={require('../assets/videos/' + this.props.data.video)}/>
-            </video>
-          </Modal.Body>
-        </Modal>
-      </>
+<>
+<div className= 'container'>
+<img className= 'logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
+<h1 className='name-tag'>{this.props.data.name}</h1>
+</div>
+<img className = 'map-image' src={require('../assets/images/' + this.props.data.image)}/>
+<h5 className='company-description'> {this.props.data.description}</h5>
+{this.getVideo()}
+{this.getPdf()}
+{this.getWebPage()}
+</>
     );
     // return(
     //   <div>

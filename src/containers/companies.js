@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import CompanyComponent from "../components/company";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 class CompaniesContainer extends Component {
 
@@ -12,18 +15,41 @@ class CompaniesContainer extends Component {
 }
 
   createComponents(){
-
-    return this.state.companies.map((company) => {
+    let columns=[];
+    var counter = -1;
+    this.state.companies.map((company) => {
+      counter+=1;
+      if ((counter%3)===0){
+        return (
+          columns.push(
+            <div>
+            <Col md={3}>
+            <CompanyComponent key={company.name} company={company}/>
+            </Col>
+            <p className="space">
+            </p>
+          </div>))
+      } else {
       return(
-        <CompanyComponent key={company.name} company={company}/>
-      )
-    })
+        columns.push(
+          <div>
+          <Col md={3}>
+          <CompanyComponent key={company.name} company={company}/>
+          </Col>
+          </div>
+        ))
+    }})
+    return columns;
   }
 
   render() {
     return (
-      <div>
+      <div className="space">
+      <Container>
+      <Row>
       {this.createComponents()}
+      </Row>
+      </Container>
       </div>
     );
   }

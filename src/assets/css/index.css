@@ -16,3 +16,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.logo {
+  max-width:200px;
+}
+
+.space{
+  margin: 7%;
+
+}
+
+.black-text{
+  padding-top: 25%;
+  color: black;
+}

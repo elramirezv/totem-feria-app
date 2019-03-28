@@ -3,6 +3,7 @@ import CompanyComponent from "../components/company";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 class CompaniesContainer extends Component {
 
@@ -44,13 +45,14 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
+      <>
+    <Button className='home-button' href='/'>Home</Button>
       <div className="space">
-      <Container>
       <Row>
       {this.createComponents()}
       </Row>
-      </Container>
       </div>
+      </>
     );
   }
 }

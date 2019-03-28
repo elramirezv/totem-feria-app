@@ -10,8 +10,8 @@ class CategoryComponent extends Component {
       <div>
       <button>
         <Link to={'/categories/' + this.props.category.name}>
-        <Card style={{ width: '20rem', height: '15rem'}}>
-        <Card.Body ><h1 className="black-text">{this.props.category.name}</h1></Card.Body>
+        <Card style={{ width: '10.5rem', height: '9rem'}}>
+        <Card.Body ><h4 className="black-text">{this.props.category.name}</h4></Card.Body>
         </Card>
         </Link>
       </button>

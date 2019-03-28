@@ -13,12 +13,11 @@ class LogoSlider extends Component {
       console.log(logo[0])
       return (
         <Carousel.Item>
-        <Row>
+        <Row className = 'logo-holder'>
           <Col><Image className="logo" src={require('../assets/logos/'+logo[0])} rounded /></Col>
           <Col><Image className="logo" src={require('../assets/logos/'+logo[1])} rounded /></Col>
           <Col><Image className="logo" src={require('../assets/logos/'+logo[2])} rounded /></Col>
           <Col><Image className="logo" src={require('../assets/logos/'+logo[3])} rounded /></Col>
-          <Col><Image className="logo" src={require('../assets/logos/'+logo[0])} rounded /></Col>
         </Row>
         </Carousel.Item>
       )

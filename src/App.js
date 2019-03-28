@@ -4,6 +4,7 @@ import CompaniesContainer from './containers/companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
 import './assets/css/index.css';
+import Button from 'react-bootstrap/Button';
 import data from "./data.json"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 

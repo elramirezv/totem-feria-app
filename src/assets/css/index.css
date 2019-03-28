@@ -17,9 +17,20 @@ code {
     monospace;
 }
 
+.logo-holder {
+  align-items: center;
+  background-color: white;
+}
+
+.home-button {
+  float: right;
+}
 
 .logo {
-  max-width:200px;
+  max-width:155px;
+  max-height: 1;
+  min-width: 155px;
+
 }
 
 .space{

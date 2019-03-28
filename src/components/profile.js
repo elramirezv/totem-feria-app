@@ -106,6 +106,7 @@ getWebPage(){
   render() {
     return (
 <>
+<Button className='home-button' href='/'>Home</Button>
 <div className= 'container'>
 <img className= 'logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
 <h1 className='name-tag'>{this.props.data.name}</h1>

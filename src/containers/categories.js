@@ -3,6 +3,7 @@ import CategoryComponent from "../components/category";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 
 class CategoriesContainer extends Component {
@@ -24,7 +25,7 @@ class CategoriesContainer extends Component {
         return (
           columns.push(
             <div>
-            <Col md={3}>
+            <Col md={3} sm={3} lg = {3}>
             <CategoryComponent key={category.name} category={category}/>
             </Col>
             <p className="space">
@@ -34,7 +35,7 @@ class CategoriesContainer extends Component {
       return(
         columns.push(
           <div>
-          <Col md={3}>
+          <Col lg={3} md= {3} sm={3}>
           <CategoryComponent key={category.name} category={category}/>
           </Col>
           </div>
@@ -47,11 +48,9 @@ class CategoriesContainer extends Component {
   render() {
     return (
       <div className="space">
-      <Container>
       <Row>
       {this.createComponents()}
       </Row>
-      </Container>
       </div>
     );
   }

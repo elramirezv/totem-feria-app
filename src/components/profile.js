@@ -28,7 +28,6 @@ handleShow() {
         <Button variant="primary" onClick={this.handleShow}>
           Ver Video
         </Button>
-
         <Modal show={this.state.show} onHide={this.handleClose} dialogClassName="custom-dialog">
           <Modal.Body>
 

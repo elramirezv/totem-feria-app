@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import CategoryComponent from "../components/category";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 
 class CategoriesContainer extends Component {
@@ -13,19 +16,42 @@ class CategoriesContainer extends Component {
 }
 
   createComponents(){
-
-    return this.state.categories.map((category) => {
+    let columns=[];
+    var counter = -1;
+    this.state.categories.map((category) => {
+      counter+=1;
+      if ((counter%3)===0){
+        return (
+          columns.push(
+            <div>
+            <Col md={3}>
+            <CategoryComponent key={category.name} category={category}/>
+            </Col>
+            <p className="space">
+            </p>
+          </div>))
+      } else {
       return(
-        <CategoryComponent key={category.name} category={category}/>
-      )
-    })
+        columns.push(
+          <div>
+          <Col md={3}>
+          <CategoryComponent key={category.name} category={category}/>
+          </Col>
+          </div>
+        ))
+    }})
+    return columns;
   }
 
 
   render() {
     return (
-      <div>
+      <div className="space">
+      <Container>
+      <Row>
       {this.createComponents()}
+      </Row>
+      </Container>
       </div>
     );
   }

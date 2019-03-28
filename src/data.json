@@ -29,6 +29,30 @@
         {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
         {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
       ]
+    },
+    {
+      "name": "E-Commerce",
+      "companies": [
+        {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
+        {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
+        {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
+      ]
+    },
+    {
+      "name": "E-Commerce",
+      "companies": [
+        {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
+        {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
+        {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
+      ]
+    },
+    {
+      "name": "E-Commerce",
+      "companies": [
+        {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
+        {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
+        {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
+      ]
     }
 ],
 "companies":
@@ -45,4 +69,9 @@
     {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
     {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
-    ]}
+  ],
+
+"logos": [["logo1.png", "logo1.png","logo1.png", "logo1.png"],
+["logo1.png", "logo1.png","logo1.png", "logo1.png"]
+]
+  }

@@ -20,10 +20,13 @@
 }
 
 .name-tag {
-  margin-left: 4%;
-  margin-top: 2em;
-  max-width: 70%;
-  float: right;
+  margin-left: 18%;
+  padding-left: 5em;
+  padding-top: 4em;
+}
+
+.name-tag h1 {
+  font-size: 50px;
 }
 
 .company-description {
@@ -31,13 +34,14 @@
   margin-top: 1em;
 }
 
-.logo {
+.profile-logo {
   margin-top: 1em;
   margin-left: 4%;
   max-width: 30%;
   float: left;
 }
 
-.container {
-  display: inline-block;
+.back-button {
+  padding-left: 5em;
+  padding-top: 3em;
 }

@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import { history } from '../helpers/history';
 
 class CompaniesContainer extends Component {
 
@@ -24,7 +25,7 @@ class CompaniesContainer extends Component {
         return (
           columns.push(
             <div>
-            <Col md={3}>
+            <Col>
             <CompanyComponent key={company.name} company={company}/>
             </Col>
             <p className="space">
@@ -34,7 +35,7 @@ class CompaniesContainer extends Component {
       return(
         columns.push(
           <div>
-          <Col md={3}>
+          <Col>
           <CompanyComponent key={company.name} company={company}/>
           </Col>
           </div>
@@ -45,14 +46,18 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
-      <>
-    <Button className='home-button' href='/'>Home</Button>
+      <div>
       <div className="space">
       <Row>
       {this.createComponents()}
       </Row>
       </div>
-      </>
+      <div className="back-button">
+      <Button variant={"light"} onClick={history.goBack}>
+        Back
+      </Button>
+      </div>
+      </div>
     );
   }
 }

@@ -9,9 +9,9 @@ class CompanyComponent extends Component {
 
     return (
       <div>
-      <button>
-        <Link to={'/companies/' + this.props.company.name}>
-        <Card style={{ width: '10.5rem', height: '9rem' }}>
+      <button className="card-button">
+        <Link style={{"text-decoration": "none"}} to={'/companies/' + this.props.company.name}>
+        <Card>
         <Card.Body><h4 className="black-text">{this.props.company.name}</h4></Card.Body>
         </Card>
         </Link>

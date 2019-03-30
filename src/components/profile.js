@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import '../assets/css/profile.css';
 import { Link } from "react-router-dom";
+import { history } from '../helpers/history';
+import Row from 'react-bootstrap/Row';
 
 
 class ProfileComponent extends Component {
@@ -91,7 +93,6 @@ getWebPage(){
       <Button variant="primary" className = 'nice-button' onClick={this.handleShowPage}>
         Ver Página Web
       </Button>
-
       <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
         <Modal.Body>
         <iframe src={"https://" + this.props.data.webpage} name ="iframe_a" width="100%" height="500px" />
@@ -106,22 +107,26 @@ getWebPage(){
   render() {
     return (
 <>
-<Button className='home-button' href='/'>Home</Button>
-<div className= 'container'>
-<img className= 'logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
-<h1 className='name-tag'>{this.props.data.name}</h1>
+<div className='container'>
+<div>
+<img className='profile-logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
+</div>
+<div className='name-tag'>
+<h1>{this.props.data.name}</h1>
+</div>
 </div>
 <img className = 'map-image' src={require('../assets/images/' + this.props.data.image)}/>
 <h5 className='company-description'> {this.props.data.description}</h5>
 {this.getVideo()}
 {this.getPdf()}
 {this.getWebPage()}
+<div className="back-button">
+<Button variant={"light"} onClick={history.goBack}>
+  Atrás
+</Button>
+</div>
 </>
     );
-    // return(
-    //   <div>
-    //   </div>
-    // );
   }
 }
 

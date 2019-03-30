@@ -7,6 +7,7 @@ import './assets/css/index.css';
 import Button from 'react-bootstrap/Button';
 import data from "./data.json"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { history } from './helpers/history';
 
 const categories = data.categories;
 const companies = data.companies;
@@ -41,12 +42,11 @@ class App extends Component {
     return (
       <div>
       <LogoSlider logos={logos}/>
-      <Router>
+      <Router history={history}>
         <div>
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
-
         </div>
       </Router>
     </div>

@@ -25,7 +25,7 @@ class CategoriesContainer extends Component {
         return (
           columns.push(
             <div>
-            <Col md={3} sm={3} lg = {3}>
+            <Col>
             <CategoryComponent key={category.name} category={category}/>
             </Col>
             <p className="space">
@@ -35,7 +35,7 @@ class CategoriesContainer extends Component {
       return(
         columns.push(
           <div>
-          <Col lg={3} md= {3} sm={3}>
+          <Col>
           <CategoryComponent key={category.name} category={category}/>
           </Col>
           </div>

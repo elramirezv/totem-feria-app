@@ -8,10 +8,10 @@ class CategoryComponent extends Component {
   render() {
     return (
       <div>
-      <button>
-        <Link to={'/categories/' + this.props.category.name}>
-        <Card style={{ width: '10.5rem', height: '9rem'}}>
-        <Card.Body ><h4 className="black-text">{this.props.category.name}</h4></Card.Body>
+      <button className="card-button">
+        <Link style={{"text-decoration": "none"}} to={'/categories/' + this.props.category.name}>
+        <Card>
+        <Card.Body><h4 className="black-text">{this.props.category.name}</h4></Card.Body>
         </Card>
         </Link>
       </button>

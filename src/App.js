@@ -3,6 +3,7 @@ import CategoriesContainer from './containers/categories';
 import CompaniesContainer from './containers/companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
+import NavbarComponent from './components/navbar';
 import './assets/css/index.css';
 import Button from 'react-bootstrap/Button';
 import data from "./data.json"
@@ -41,6 +42,7 @@ class App extends Component {
   render() {
     return (
       <div>
+      <NavbarComponent/>
       <LogoSlider logos={logos}/>
       <Router history={history}>
         <div>

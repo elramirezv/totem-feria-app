@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import SearchBar from '../components/searchbar';
 
 
 class CategoriesContainer extends Component {
@@ -47,11 +48,16 @@ class CategoriesContainer extends Component {
 
   render() {
     return (
+      <>
+      <div className="space">
+      <SearchBar/>
+      </div>
       <div className="space">
       <Row>
       {this.createComponents()}
       </Row>
       </div>
+      </>
     );
   }
 }

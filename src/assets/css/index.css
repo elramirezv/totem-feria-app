@@ -34,11 +34,20 @@ code {
 }
 
 .space{
-  margin: 7%;
+  margin: 5%;
 
 }
 
 .black-text{
+  font-size: 60px;
+  display: center;
   padding-top: 25%;
   color: black;
+}
+
+.white-text{
+  max-width: 11rem;
+  padding-top: 5%;
+  color: white;
+  display: center;
 }

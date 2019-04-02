@@ -12,7 +12,7 @@ class CompanyComponent extends Component {
       <button className="card-button">
         <Link style={{"text-decoration": "none"}} to={'/companies/' + this.props.company.name}>
         <Card>
-        <Card.Body><h4 className="black-text">{this.props.company.name}</h4></Card.Body>
+        <Card.Body><h4 style={{color: "black", "margin-top": "30%"}}>{this.props.company.name}</h4></Card.Body>
         </Card>
         </Link>
       </button>

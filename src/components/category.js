@@ -11,8 +11,15 @@ class CategoryComponent extends Component {
       <button className="card-button">
         <Link style={{"text-decoration": "none"}} to={'/categories/' + this.props.category.name}>
         <Card>
-        <Card.Body><h4 className="black-text">{this.props.category.name}</h4></Card.Body>
+        <Card.Body>
+        <h1 className="black-text">
+        <i className={this.props.category.icon}></i>
+        </h1>
+        </Card.Body>
         </Card>
+        <div className="white-text">
+        <h4>{this.props.category.name}</h4>
+        </div>
         </Link>
       </button>
       </div>

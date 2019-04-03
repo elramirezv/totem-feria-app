@@ -1,5 +1,6 @@
 {"categories":[{
-      "name": "Transporte",
+      "name": "Comercio internacional",
+      "icon": "fas fa-plane-departure",
       "companies": [
         {"name": "Faster Soluciones"},
         {"name": "Empresa2"},
@@ -7,7 +8,8 @@
       ]
     },
     {
-      "name": "Bodegas",
+      "name": "Consultoras Universitarias",
+      "icon": "fas fa-graduation-cap",
       "companies": [
         {"name": "Empresa4"},
         {"name": "Empresa5"},
@@ -15,7 +17,8 @@
       ]
     },
     {
-      "name": "Tecnología",
+      "name": "Comida",
+      "icon": "fas fa-utensils",
       "companies": [
         {"name": "Empresa7"},
         {"name": "Empresa8"},
@@ -23,7 +26,8 @@
       ]
     },
     {
-      "name": "E-Commerce",
+      "name": "Operadores Logísticas",
+      "icon": "fas fa-ship",
       "companies": [
         {"name": "Empresa10"},
         {"name": "Empresa11"},
@@ -31,7 +35,8 @@
       ]
     },
     {
-      "name": "E-Commerce",
+      "name": "Tecnología",
+      "icon": "fas fa-tablet-alt",
       "companies": [
         {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
         {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
@@ -39,15 +44,8 @@
       ]
     },
     {
-      "name": "E-Commerce",
-      "companies": [
-        {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
-        {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
-      ]
-    },
-    {
-      "name": "E-Commerce",
+      "name": "Transporte",
+      "icon": "fas fa-truck",
       "companies": [
         {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
         {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},

@@ -7,7 +7,7 @@ import NavbarComponent from './components/navbar';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
-import { Router, Route, Link } from "react-router-dom";
+import { Router, Route, Link, Redirect } from "react-router-dom";
 import { history } from './helpers/history';
 
 const categories = data.categories;

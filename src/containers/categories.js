@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import CategoryComponent from "../components/category";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import SearchBar from '../components/searchbar';
 
 

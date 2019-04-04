@@ -6,7 +6,6 @@ import LogoSlider from './components/logo-slider';
 import NavbarComponent from './components/navbar';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
-import Button from 'react-bootstrap/Button';
 import data from "./data.json"
 import { Router, Route, Link } from "react-router-dom";
 import { history } from './helpers/history';
@@ -25,8 +24,7 @@ class App extends Component {
 
 
   _onIdle(e) {
-
-   if (document.window.href !== 'http://localhost:3000/') {
+   if (document.window !== 'http://localhost:3000/') {
      history.push("/")
    }
  }
@@ -63,7 +61,7 @@ class App extends Component {
           ref={ref => { this.idleTimer = ref }}
           element={document}
           onIdle={this.onIdle}
-          timeout={1000 * 20} />
+          timeout={1000 * 30} />
       <NavbarComponent/>
       <LogoSlider logos={logos}/>
       <Router history={history}>

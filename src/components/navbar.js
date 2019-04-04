@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 import Image from 'react-bootstrap/Image';
 import '../assets/css/navbar.css';
 import Navbar from 'react-bootstrap/Navbar';

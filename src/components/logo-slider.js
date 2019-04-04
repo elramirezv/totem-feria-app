@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 
 class LogoSlider extends Component {

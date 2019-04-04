@@ -10,7 +10,7 @@ class SearchBar extends Component {
     return (
       <InputGroup size="lg">
         <InputGroup.Prepend>
-          <InputGroup.Text id="inputGroup-sizing-lg"><i class="fas fa-search"></i></InputGroup.Text>
+          <InputGroup.Text id="inputGroup-sizing-lg"><i className="fas fa-search"></i></InputGroup.Text>
         </InputGroup.Prepend>
         <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
       </InputGroup>

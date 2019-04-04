@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 class CategoryComponent extends Component {
@@ -9,7 +8,7 @@ class CategoryComponent extends Component {
     return (
       <div>
       <button className="card-button">
-        <Link style={{"text-decoration": "none"}} to={'/categories/' + this.props.category.name}>
+        <Link style={{"textDecoration": "none"}} to={'/categories/' + this.props.category.name}>
         <Card>
         <Card.Body>
         <h1 className="black-text">

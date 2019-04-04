@@ -4,7 +4,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../assets/css/profile.css';
 import { Link } from "react-router-dom";
 import { history } from '../helpers/history';
-import Row from 'react-bootstrap/Row';
 
 
 class ProfileComponent extends Component {

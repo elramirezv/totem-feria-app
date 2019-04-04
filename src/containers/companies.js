@@ -53,8 +53,8 @@ class CompaniesContainer extends Component {
       </Row>
       </div>
       <div className="back-button">
-      <Button variant={"light"} onClick={history.goBack}>
-        Back
+      <Button style = {{width: "100%", height: "100%", borderRadius: "50%"}} variant={"light"} onClick={history.goBack}>
+        <h1><i class="fas fa-chevron-left"></i></h1>
       </Button>
       </div>
       </div>

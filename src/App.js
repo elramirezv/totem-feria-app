@@ -4,10 +4,11 @@ import CompaniesContainer from './containers/companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
 import NavbarComponent from './components/navbar';
+import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import Button from 'react-bootstrap/Button';
 import data from "./data.json"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Router, Route, Link } from "react-router-dom";
 import { history } from './helpers/history';
 
 const categories = data.categories;
@@ -15,6 +16,22 @@ const companies = data.companies;
 const logos = data.logos;
 
 class App extends Component {
+
+  constructor(props) {
+    super(props)
+    this.idleTimer = null
+    this.onIdle = this._onIdle.bind(this)
+  }
+
+
+  _onIdle(e) {
+
+   if (document.window.href !== 'http://localhost:3000/') {
+     history.push("/")
+   }
+ }
+
+
   Company({ match }){
     var result;
     companies.forEach(( company ) => {
@@ -42,6 +59,11 @@ class App extends Component {
   render() {
     return (
       <div>
+      <IdleTimer
+          ref={ref => { this.idleTimer = ref }}
+          element={document}
+          onIdle={this.onIdle}
+          timeout={1000 * 20} />
       <NavbarComponent/>
       <LogoSlider logos={logos}/>
       <Router history={history}>

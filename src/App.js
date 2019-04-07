@@ -7,7 +7,7 @@ import NavbarComponent from './components/navbar';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
-import { Router, Route, Link, Redirect } from "react-router-dom";
+import { HashRouter, Route, Link, Redirect } from "react-router-dom";
 import { history } from './helpers/history';
 
 const categories = data.categories;
@@ -64,13 +64,13 @@ class App extends Component {
           timeout={1000 * 30} />
       <NavbarComponent/>
       <LogoSlider logos={logos}/>
-      <Router history={history}>
+      <HashRouter history={history}>
         <div>
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
         </div>
-      </Router>
+      </HashRouter>
     </div>
     );
   }

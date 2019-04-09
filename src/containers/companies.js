@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { history } from '../helpers/history';
+import Fade from 'react-reveal/Fade';
 
 class CompaniesContainer extends Component {
 
@@ -45,7 +46,7 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
-      <div>
+      <Fade>
       <div className="space">
       <Row>
       {this.createComponents()}
@@ -56,7 +57,7 @@ class CompaniesContainer extends Component {
         <h1><i class="fas fa-chevron-left"></i></h1>
       </Button>
       </div>
-      </div>
+      </Fade>
     );
   }
 }

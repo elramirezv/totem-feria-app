@@ -4,6 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import '../assets/css/profile.css';
 import { Link } from "react-router-dom";
 import { history } from '../helpers/history';
+import Fade from 'react-reveal/Fade';
 
 
 class ProfileComponent extends Component {
@@ -105,7 +106,7 @@ getWebPage(){
 }
   render() {
     return (
-<>
+<Fade>
 <div className='container'>
 <div>
 <img className='profile-logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
@@ -124,7 +125,7 @@ getWebPage(){
   <h1><i class="fas fa-chevron-left"></i></h1>
 </Button>
 </div>
-</>
+ </Fade>
     );
   }
 }

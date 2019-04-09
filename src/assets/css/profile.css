@@ -42,6 +42,9 @@
 }
 
 .back-button {
-  padding-left: 5em;
-  padding-top: 3em;
+  display: center;
+  width: 80px;
+  height: 80px;
+  margin-left: 10em;
+  margin-top: 5em;
 }

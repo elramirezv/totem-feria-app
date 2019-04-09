@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import CompanyComponent from "../components/company";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import { history } from '../helpers/history';
+import Fade from 'react-reveal/Fade';
 
 class CompaniesContainer extends Component {
 
@@ -46,18 +46,18 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
-      <div>
+      <Fade>
       <div className="space">
       <Row>
       {this.createComponents()}
       </Row>
       </div>
       <div className="back-button">
-      <Button variant={"light"} onClick={history.goBack}>
-        Back
+      <Button style = {{width: "100%", height: "100%", borderRadius: "50%"}} variant={"light"} onClick={history.goBack}>
+        <h1><i class="fas fa-chevron-left"></i></h1>
       </Button>
       </div>
-      </div>
+      </Fade>
     );
   }
 }

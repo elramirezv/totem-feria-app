@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import '../assets/css/profile.css';
 import { Link } from "react-router-dom";
 import { history } from '../helpers/history';
-import Row from 'react-bootstrap/Row';
+import Fade from 'react-reveal/Fade';
 
 
 class ProfileComponent extends Component {
@@ -106,7 +106,7 @@ getWebPage(){
 }
   render() {
     return (
-<>
+<Fade>
 <div className='container'>
 <div>
 <img className='profile-logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
@@ -121,11 +121,11 @@ getWebPage(){
 {this.getPdf()}
 {this.getWebPage()}
 <div className="back-button">
-<Button variant={"light"} onClick={history.goBack}>
-  Atrás
+<Button style = {{ width: "100%", height: "100%", borderRadius: "50%"}} variant={"light"} onClick={history.goBack}>
+  <h1><i class="fas fa-chevron-left"></i></h1>
 </Button>
 </div>
-</>
+ </Fade>
     );
   }
 }

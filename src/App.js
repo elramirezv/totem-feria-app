@@ -7,13 +7,12 @@ import LogoSlider from './components/logo-slider';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
-import { HashRouter, Route, Link, Redirect } from "react-router-dom";
+import { MemoryRouter, Route, Link, Redirect, Switch} from "react-router-dom";
+import { Router } from "react-router";
 import { history } from './helpers/history';
-<<<<<<< HEAD
 import Button from 'react-bootstrap/Button';
-=======
 import BottomButtons from './components/menu-buttons';
->>>>>>> 3cf4ed7bc974543953ba97dd2daae48bb2971030
+import NavbarComponent from './components/navbar';
 
 const categories = data.categories;
 const companies = data.companies;
@@ -41,7 +40,7 @@ class App extends Component {
       result = company;
     })
 
-    return <ProfileComponent data = {result}/>
+    return <ProfileComponent data={result}/>
   }
 
   Category({ match }){
@@ -74,17 +73,16 @@ class App extends Component {
           element={document}
           onIdle={this.onIdle}
           timeout={1000 * 20} />
-      <NavbarComponent/>
       <LogoSlider logos={logos}/>
-      <HashRouter history={history}>
-        <div>
+      <Router history={history}>
+        <Switch>
           <Route exact path = "/" component = {this.Categories}/>
+          <Route path = "/companies/" component = {this.SearchCompanies}/>
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
-          <Route path = "/companies/" component = {this.SearchCompanies}/>
-        </div>
-      </HashRouter>
-      <BottomButtons/>
+        </Switch>
+      </Router>
+      <BottomButtons history={history}/>
     </div>
     );
   }

@@ -19,7 +19,9 @@ class ScrollCompanies extends Component {
 createAlphaArray(){
   let letters = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i));
   return letters.map((letter) => {
-    return <p>{letter}</p>
+    return <p style={{fontWeight: "bold", padding: 0, margin: 5, border: 0}}>
+          {letter}
+          </p>
     })
 }
 

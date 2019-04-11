@@ -4,10 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SearchBar from '../components/searchbar';
 import Fade from 'react-reveal/Fade';
-<<<<<<< HEAD
 import NavbarComponent from '../components/navbar';
-=======
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
 
 
 class CategoriesContainer extends Component {
@@ -52,13 +49,8 @@ class CategoriesContainer extends Component {
   render() {
     return (
       <>
-<<<<<<< HEAD
       <NavbarComponent title={"Categorías"}/>
       <div className="space">
-=======
-      <div className="space">
-      <SearchBar/>
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       </div>
       <Fade>
       <div className="space">

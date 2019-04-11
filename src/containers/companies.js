@@ -5,10 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { history } from '../helpers/history';
 import Fade from 'react-reveal/Fade';
-<<<<<<< HEAD
 import NavbarComponent from '../components/navbar';
-=======
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
 
 class CompaniesContainer extends Component {
 
@@ -51,11 +48,8 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
-<<<<<<< HEAD
       <div>
     <NavbarComponent title={this.state.category}/>
-=======
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       <Fade>
       <div className="space">
       <Row>
@@ -68,10 +62,7 @@ class CompaniesContainer extends Component {
       </Button>
       </div>
       </Fade>
-<<<<<<< HEAD
       </div>
-=======
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
     );
   }
 }

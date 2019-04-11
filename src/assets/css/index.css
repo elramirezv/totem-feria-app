@@ -1,18 +1,11 @@
 @import './home.css';
 @import './profile.css';
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-=======
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
 
 html {
     overflow: scroll;
     overflow-x: hidden;
-<<<<<<< HEAD
 
-=======
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
 }
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
@@ -68,16 +61,9 @@ code {
 }
 
 .white-text{
-<<<<<<< HEAD
   max-width: 12rem;
   padding-top: 5%;
   padding-left: 10%;
   color: black;
-=======
-  max-width: 11rem;
-  padding-top: 5%;
-  padding-left: 10%;
-  color: white;
->>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
   display: center;
 }

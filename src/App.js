@@ -3,17 +3,33 @@ import CategoriesContainer from './containers/categories';
 import CompaniesContainer from './containers/companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
+import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
-import Button from 'react-bootstrap/Button';
 import data from "./data.json"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter, Route, Link, Redirect } from "react-router-dom";
 import { history } from './helpers/history';
+import BottomButtons from './components/menu-buttons';
 
 const categories = data.categories;
 const companies = data.companies;
 const logos = data.logos;
 
 class App extends Component {
+
+  constructor(props) {
+    super(props)
+    this.idleTimer = null
+    this.onIdle = this._onIdle.bind(this)
+  }
+
+
+  _onIdle(e) {
+   if (document.window !== 'http://localhost:3000/') {
+     history.push("/")
+   }
+ }
+
+
   Company({ match }){
     var result;
     companies.forEach(( company ) => {
@@ -31,24 +47,33 @@ class App extends Component {
         result = category;
     })
 
-    return <CompaniesContainer data={result}/>
+    return <CompaniesContainer data={result} category={match.params.name}/>
   }
 
   Categories(){
-    return <CategoriesContainer data={categories}/>
+    return (
+      <div>
+    <CategoriesContainer data={categories}/>
+    </div>
+  )
   }
 
   render() {
     return (
       <div>
+      <IdleTimer
+          ref={ref => { this.idleTimer = ref }}
+          element={document}
+          onIdle={this.onIdle}
+          timeout={1000 * 20} />
+      <NavbarComponent/>
       <LogoSlider logos={logos}/>
-      <Router history={history}>
-        <div>
-          <Route exact path = "/" component = {this.Categories}/>
-          <Route path = "/categories/:name" component = {this.Category}/>
-          <Route path = "/companies/:name" component = {this.Company}/>
-        </div>
-      </Router>
+      <HashRouter history={history}>
+      <Route exact path = "/" component = {this.Categories}/>
+      <Route path = "/categories/:name" component = {this.Category}/>
+      <Route path = "/companies/:name" component = {this.Company}/>
+      </HashRouter>
+      <BottomButtons/>
     </div>
     );
   }

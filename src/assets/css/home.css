@@ -6,8 +6,9 @@
 }
 
 .card-body {
+  display: center;
   width: 13rem;
-  height: 9rem;
+  height: 13rem;
 }
 
 .card:active {
@@ -17,15 +18,11 @@
 }
 
 .card {
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  border-color: black;
 }
 
 .col {
   padding: 0px;
 
-}
-
-.no-underline {
-  text-decoration: none;
 }

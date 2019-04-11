@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import CategoryComponent from "../components/category";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import SearchBar from '../components/searchbar';
+import Fade from 'react-reveal/Fade';
+import NavbarComponent from '../components/navbar';
 
 
 class CategoriesContainer extends Component {
@@ -47,11 +48,18 @@ class CategoriesContainer extends Component {
 
   render() {
     return (
+      <>
+      <NavbarComponent title={"Categorías"}/>
+      <div className="space">
+      </div>
+      <Fade>
       <div className="space">
       <Row>
       {this.createComponents()}
       </Row>
       </div>
+      </Fade>
+      </>
     );
   }
 }

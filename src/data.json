@@ -1,6 +1,6 @@
 {"categories":[{
       "name": "Comercio internacional",
-      "icon": "fas fa-plane-departure",
+      "icon": "https://img.icons8.com/ios/100/000000/airplane-take-off.png",
       "companies": [
         {"name": "Faster Soluciones"},
         {"name": "Empresa2"},
@@ -9,7 +9,7 @@
     },
     {
       "name": "Consultoras Universitarias",
-      "icon": "fas fa-graduation-cap",
+      "icon": "https://img.icons8.com/ios/100/000000/university.png",
       "companies": [
         {"name": "Empresa4"},
         {"name": "Empresa5"},
@@ -18,7 +18,7 @@
     },
     {
       "name": "Comida",
-      "icon": "fas fa-utensils",
+      "icon": "https://img.icons8.com/ios/100/000000/restaurant.png",
       "companies": [
         {"name": "Empresa7"},
         {"name": "Empresa8"},
@@ -27,7 +27,7 @@
     },
     {
       "name": "Operadores Logísticas",
-      "icon": "fas fa-ship",
+      "icon": "https://img.icons8.com/pastel-glyph/100/000000/cargo-ship.png",
       "companies": [
         {"name": "Empresa10"},
         {"name": "Empresa11"},
@@ -36,7 +36,7 @@
     },
     {
       "name": "Tecnología",
-      "icon": "fas fa-tablet-alt",
+      "icon": "https://img.icons8.com/ios/100/000000/steve-jobs-filled.png",
       "companies": [
         {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
         {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
@@ -45,7 +45,7 @@
     },
     {
       "name": "Transporte",
-      "icon": "fas fa-truck",
+      "icon": "https://img.icons8.com/ios/100/000000/truck.png",
       "companies": [
         {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
         {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
@@ -69,7 +69,7 @@
     {"name": "Empresa12", "description": "Lorem ipsum", "image": "map.jpg"}
   ],
 
-"logos": [["faster.png", "line.jpg","logo1.png", "cetlog.png"],
-["logo1.png", "faster.png","line.jpg", "cetlog.png"]
+"logos": [["logo-filce.png", "line.jpg","logo1.png", "cetlog.png"],
+["logo1.png", "logo-filce.png","line.jpg", "cetlog.png"]
 ]
   }

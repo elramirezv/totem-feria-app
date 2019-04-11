@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/scroll.css';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 class ScrollCompanies extends Component {
 
@@ -28,13 +31,20 @@ displayCompanies(){
 }
 
   render() {
-    return (
-  <>
-  <ListGroup variant="flush">
-    {this.displayCompanies()}
-  </ListGroup>;
-    {this.createAlphaArray()}
-  </>)
+    return(
+      <Container>
+      <Row>
+      <Col>
+      <ListGroup variant="flush">
+        {this.displayCompanies()}
+      </ListGroup>
+      </Col>
+      <Col align="right">
+      {this.createAlphaArray()}
+      </Col>
+      </Row>
+      </Container>
+)
   }
 }
 

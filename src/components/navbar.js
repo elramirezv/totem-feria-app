@@ -9,9 +9,7 @@ class NavbarComponent extends Component {
   render() {
     return (
       <Navbar>
-      <Navbar.Brand className="navbar-brand-centered">
-      <Image height={'85px'} width={'120.738px'} src={require('../assets/logos/logo-filce.png')} rounded />
-      </Navbar.Brand>
+      <h1 style={{"color":"white", "margin-left":"30px","font-size":"40px" ,"text-transform":"uppercase"}}>{this.props.title}</h1>
       </Navbar>
     );
   }

@@ -12,7 +12,7 @@ class CategoryComponent extends Component {
         <Card>
         <Card.Body>
         <h1 className="black-text">
-        <i className={this.props.category.icon}></i>
+        <img width= {"100px"}src={this.props.category.icon}/>
         </h1>
         </Card.Body>
         </Card>

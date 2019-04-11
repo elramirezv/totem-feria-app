@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { history } from '../helpers/history';
 import Fade from 'react-reveal/Fade';
+import NavbarComponent from '../components/navbar';
 
 class CompaniesContainer extends Component {
 
@@ -13,6 +14,7 @@ class CompaniesContainer extends Component {
     this.state = {
         companies: props.data.companies,
         isLoading: false,
+        category: props.category
     }
 }
 
@@ -46,6 +48,8 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
+      <div>
+    <NavbarComponent title={this.state.category}/>
       <Fade>
       <div className="space">
       <Row>
@@ -58,6 +62,7 @@ class CompaniesContainer extends Component {
       </Button>
       </div>
       </Fade>
+      </div>
     );
   }
 }

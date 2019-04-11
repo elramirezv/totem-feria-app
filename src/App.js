@@ -4,13 +4,16 @@ import CompaniesContainer from './containers/companies';
 import ScrollCompanies from './containers/search-companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
-import NavbarComponent from './components/navbar';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
 import { HashRouter, Route, Link, Redirect } from "react-router-dom";
 import { history } from './helpers/history';
+<<<<<<< HEAD
 import Button from 'react-bootstrap/Button';
+=======
+import BottomButtons from './components/menu-buttons';
+>>>>>>> 3cf4ed7bc974543953ba97dd2daae48bb2971030
 
 const categories = data.categories;
 const companies = data.companies;
@@ -48,11 +51,15 @@ class App extends Component {
         result = category;
     })
 
-    return <CompaniesContainer data={result}/>
+    return <CompaniesContainer data={result} category={match.params.name}/>
   }
 
   Categories(){
-    return <CategoriesContainer data={categories}/>
+    return (
+      <div>
+    <CategoriesContainer data={categories}/>
+    </div>
+  )
   }
 
   SearchCompanies(){
@@ -77,6 +84,7 @@ class App extends Component {
           <Route path = "/companies/" component = {this.SearchCompanies}/>
         </div>
       </HashRouter>
+      <BottomButtons/>
     </div>
     );
   }

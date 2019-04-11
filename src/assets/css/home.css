@@ -19,7 +19,7 @@
 
 .card {
   border-radius: 50%;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  border-color: black;
 }
 
 .col {

@@ -1,5 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 .navbar {
-        left: 38%;
         display: center;
         text-align: center;
+        min-height: 120px;
+        margin-top: 40px;
+        background-color: black;
+        margin-bottom: 80px;
     }

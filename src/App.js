@@ -3,6 +3,10 @@ import CategoriesContainer from './containers/categories';
 import CompaniesContainer from './containers/companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
+<<<<<<< HEAD
+=======
+import NavbarComponent from './components/navbar';
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
@@ -69,11 +73,20 @@ class App extends Component {
       <NavbarComponent/>
       <LogoSlider logos={logos}/>
       <HashRouter history={history}>
+<<<<<<< HEAD
       <Route exact path = "/" component = {this.Categories}/>
       <Route path = "/categories/:name" component = {this.Category}/>
       <Route path = "/companies/:name" component = {this.Company}/>
       </HashRouter>
       <BottomButtons/>
+=======
+        <div>
+          <Route exact path = "/" component = {this.Categories}/>
+          <Route path = "/categories/:name" component = {this.Category}/>
+          <Route path = "/companies/:name" component = {this.Company}/>
+        </div>
+      </HashRouter>
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
     </div>
     );
   }

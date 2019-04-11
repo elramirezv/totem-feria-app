@@ -1,6 +1,10 @@
 {"categories":[{
       "name": "Comercio internacional",
+<<<<<<< HEAD
       "icon": "https://img.icons8.com/ios/100/000000/airplane-take-off.png",
+=======
+      "icon": "fas fa-plane-departure",
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       "companies": [
         {"name": "Faster Soluciones"},
         {"name": "Empresa2"},
@@ -9,7 +13,11 @@
     },
     {
       "name": "Consultoras Universitarias",
+<<<<<<< HEAD
       "icon": "https://img.icons8.com/ios/100/000000/university.png",
+=======
+      "icon": "fas fa-graduation-cap",
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       "companies": [
         {"name": "Empresa4"},
         {"name": "Empresa5"},
@@ -18,7 +26,11 @@
     },
     {
       "name": "Comida",
+<<<<<<< HEAD
       "icon": "https://img.icons8.com/ios/100/000000/restaurant.png",
+=======
+      "icon": "fas fa-utensils",
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       "companies": [
         {"name": "Empresa7"},
         {"name": "Empresa8"},
@@ -27,7 +39,11 @@
     },
     {
       "name": "Operadores Logísticas",
+<<<<<<< HEAD
       "icon": "https://img.icons8.com/pastel-glyph/100/000000/cargo-ship.png",
+=======
+      "icon": "fas fa-ship",
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       "companies": [
         {"name": "Empresa10"},
         {"name": "Empresa11"},
@@ -36,7 +52,11 @@
     },
     {
       "name": "Tecnología",
+<<<<<<< HEAD
       "icon": "https://img.icons8.com/ios/100/000000/steve-jobs-filled.png",
+=======
+      "icon": "fas fa-tablet-alt",
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       "companies": [
         {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
         {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},
@@ -45,7 +65,11 @@
     },
     {
       "name": "Transporte",
+<<<<<<< HEAD
       "icon": "https://img.icons8.com/ios/100/000000/truck.png",
+=======
+      "icon": "fas fa-truck",
+>>>>>>> 3b5eb3fa09f952acbde5f110efe32511a2e393ba
       "companies": [
         {"name": "Empresa10", "description": "Lorem ipsum", "image": "map.jpg"},
         {"name": "Empresa11", "description": "Lorem ipsum", "image": "map.jpg"},

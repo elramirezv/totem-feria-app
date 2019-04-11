@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CategoriesContainer from './containers/categories';
 import CompaniesContainer from './containers/companies';
+import ScrollCompanies from './containers/search-companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
 import NavbarComponent from './components/navbar';
@@ -9,6 +10,7 @@ import './assets/css/index.css';
 import data from "./data.json"
 import { HashRouter, Route, Link, Redirect } from "react-router-dom";
 import { history } from './helpers/history';
+import Button from 'react-bootstrap/Button';
 
 const categories = data.categories;
 const companies = data.companies;
@@ -28,7 +30,6 @@ class App extends Component {
      history.push("/")
    }
  }
-
 
   Company({ match }){
     var result;
@@ -54,6 +55,10 @@ class App extends Component {
     return <CategoriesContainer data={categories}/>
   }
 
+  SearchCompanies(){
+    return <ScrollCompanies data={companies}/>
+  }
+
   render() {
     return (
       <div>
@@ -69,6 +74,7 @@ class App extends Component {
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
+          <Route path = "/companies/" component = {this.SearchCompanies}/>
         </div>
       </HashRouter>
     </div>

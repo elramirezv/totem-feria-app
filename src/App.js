@@ -29,7 +29,7 @@ class App extends Component {
 
   _onIdle(e) {
    if (document.window !== 'http://localhost:3000/') {
-     history.push("/")
+     history.push("/");
    }
  }
 

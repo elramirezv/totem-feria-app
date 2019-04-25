@@ -3,6 +3,8 @@
   padding: none;
   border: none;
   background: none;
+  outline: none;
+  text-decoration: none;
 }
 
 .card-body {
@@ -24,5 +26,17 @@
 
 .col {
   padding: 0px;
+
+}
+
+.btn{
+  outline: none;
+  text-decoration: "none"; 
+}
+
+.btn:hover{
+  outline: none;
+  text-decoration: "none"; 
+
 
 }

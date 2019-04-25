@@ -14,9 +14,15 @@
   margin-top: 1em;
 }
 
-.nice-button {
-  margin-left: 10%;
-  margin-top: 1em;
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.nice-button:active {
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 .name-tag {

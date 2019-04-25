@@ -5,6 +5,10 @@ import '../assets/css/profile.css';
 import { Link } from "react-router-dom";
 import { history } from '../helpers/history';
 import Fade from 'react-reveal/Fade';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 
 class ProfileComponent extends Component {
@@ -107,26 +111,52 @@ getWebPage(){
   render() {
     return (
 <Fade>
-<div className='container'>
-<div>
-<img className='profile-logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
-</div>
-<div className='name-tag'>
-<h1>{this.props.data.name}</h1>
-</div>
-</div>
-<img className = 'map-image' src={require('../assets/images/' + this.props.data.image)}/>
-<h5 className='company-description'> {this.props.data.description}</h5>
-{this.getVideo()}
-{this.getPdf()}
-{this.getWebPage()}
-<div className="back-button">
-<Button style = {{ width: "100%", height: "100%", borderRadius: "50%"}} variant={"light"} onClick={history.goBack}>
-  <h1><i class="fas fa-chevron-left"></i></h1>
-</Button>
-</div>
+<Container>
+  <Row style={{alignItems:"center"}}>
+    <div style={{height:"310px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+      <div style={{alignItems:"center", marginTop: "30%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
+        <div style={{paddingLeft: "20px"}}>
+        <h1 style={{"color": "white", paddingTop: "5px"}}>
+          {this.props.data.name}
+        </h1>
+        <h3 style={{"color": "white", paddingBottom: "8px"}}>
+          Santiago, CL
+        </h3>
+        </div>
+      </div>
+    </div>
+  </Row>
+  <Row>
+  <div style={{paddingTop: "20px"}}>
+  <div style={{backgroundColor: "rgb(208,208,208)", padding: "20px"}}>
+    <h3 style={{padding: "5px"}}>
+          Nosotros
+    </h3>
+    <div style={{display:"flex"}}>
+    <div style={{padding: "5px"}}> 
+    <Col>
+      <Image style={{maxWidth: "330px", maxHeight:"350px"}} src={require("../assets/images/"+this.props.data.image1)} rounded />
+    </Col>
+    </div>
+    <div style={{padding: "5px"}}>
+    <Col>
+      <Image style={{maxWidth: "330px", maxHeight:"350px"}} src={require("../assets/images/"+this.props.data.image1)} rounded />
+    </Col>
+    </div>
+    </div>
+  </div>
+  </div>
+  </Row>
+  <div style={{paddingTop: "20px", paddingBottom: "30px"}}>
+  <Row style={{alignItems:"center"}}>
+  <Col>
+      <Image style={{width: "720px", maxHeight:"400px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
+    </Col>
+  </Row>
+  </div>
+</Container>
  </Fade>
-    );
+    )
   }
 }
 

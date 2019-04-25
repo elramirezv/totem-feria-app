@@ -25,7 +25,7 @@ class BottomButtons extends Component {
       </Button>
       </Col>
       <Col>
-      <Button onClick={<Link to="/" replace />} style={{"textDecoration": "none", "outline":"none"}} className="card-button">
+      <Button onClick={() => history.push("/")} style={{"textDecoration": "none", "outline":"none"}} className="card-button">
         <Card style={{padding: "15px"}}>
         <img style={{"width": "40px", "height": "40px"}} src="https://img.icons8.com/windows/64/000000/home.png"/>
         </Card>

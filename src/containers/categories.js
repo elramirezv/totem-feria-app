@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CategoryComponent from "../components/category";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SearchBar from '../components/searchbar';
 import Fade from 'react-reveal/Fade';
 import NavbarComponent from '../components/navbar';
 
@@ -54,7 +53,7 @@ class CategoriesContainer extends Component {
       </div>
       <Fade>
       <div className="space">
-      <Row>
+      <Row style={{paddingLeft: "3%"}}>
       {this.createComponents()}
       </Row>
       </div>

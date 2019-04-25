@@ -54,9 +54,13 @@ getVideo(){
   if(this.props.data.video){
     return(
       <>
-      <Button variant="primary" className = 'nice-button' onClick={this.handleShowVid}>
-        Ver Video
+      <div style={{"textAlign": "center"}}>
+      <Button variant="light-outline" onClick={this.handleShowVid}>
+        <h2 style={{"color": "white", paddingTop: "60px"}}>
+        Video
+        </h2>
       </Button>
+      </div>
 
       <Modal show={this.state.showVid} onHide={this.handleCloseVid} dialogClassName="custom-dialog">
         <Modal.Body>
@@ -94,9 +98,13 @@ getWebPage(){
   if(this.props.data.webpage){
     return(
       <>
-      <Button variant="primary" className = 'nice-button' onClick={this.handleShowPage}>
-        Ver Página Web
+      <div style={{"textAlign": "center"}}>
+      <Button variant="light-outline" onClick={this.handleShowPage}>
+        <h2 style={{"color": "white", paddingTop: "60px"}}>
+        Página web
+        </h2>
       </Button>
+      </div>
       <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
         <Modal.Body>
         <iframe src={"https://" + this.props.data.webpage} name ="iframe_a" width="100%" height="500px" />
@@ -110,10 +118,11 @@ getWebPage(){
 }
   render() {
     return (
+      <>
 <Fade>
-<Container>
+<Container style={{marginTop:"8%"}}>
   <Row style={{alignItems:"center"}}>
-    <div style={{height:"310px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+    <div style={{height:"315px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
       <div style={{alignItems:"center", marginTop: "30%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
         <div style={{paddingLeft: "20px"}}>
         <h1 style={{"color": "white", paddingTop: "5px"}}>
@@ -135,12 +144,20 @@ getWebPage(){
     <div style={{display:"flex"}}>
     <div style={{padding: "5px"}}> 
     <Col>
-      <Image style={{maxWidth: "330px", maxHeight:"350px"}} src={require("../assets/images/"+this.props.data.image1)} rounded />
+    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+      <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
+        {this.getVideo()}
+      </div>
+    </div>
     </Col>
     </div>
     <div style={{padding: "5px"}}>
     <Col>
-      <Image style={{maxWidth: "330px", maxHeight:"350px"}} src={require("../assets/images/"+this.props.data.image1)} rounded />
+    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+      <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
+        {this.getWebPage()}
+      </div>
+    </div>
     </Col>
     </div>
     </div>
@@ -156,6 +173,7 @@ getWebPage(){
   </div>
 </Container>
  </Fade>
+ </>
     )
   }
 }

@@ -7,8 +7,7 @@ import LogoSlider from './components/logo-slider';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
-import { BrowserRouter as Router, Route, Link, Redirect, Switch} from "react-router-dom";
-import { Router } from "react-router";
+import { Router, Route, Link, Redirect, Switch} from "react-router-dom";
 import { history } from './helpers/history';
 import Button from 'react-bootstrap/Button';
 import BottomButtons from './components/menu-buttons';
@@ -75,12 +74,9 @@ class App extends Component {
           timeout={1000 * 20} />
       <LogoSlider logos={logos}/>
       <Router history={history}>
-        <Switch>
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
-          <Route path = "/companies/" component = {this.SearchCompanies}/>
-        </Switch>
       </Router>
       <BottomButtons/>
     </div>

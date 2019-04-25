@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import CategoriesContainer from './containers/categories';
 import CompaniesContainer from './containers/companies';
-import ScrollCompanies from './containers/search-companies';
+import SearchCompanies from './containers/search-companies';
 import ProfileComponent from './components/profile';
 import LogoSlider from './components/logo-slider';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
 import { BrowserRouter as Router, Route, Link, Redirect, Switch} from "react-router-dom";
-import { Router } from "react-router";
 import { history } from './helpers/history';
 import Button from 'react-bootstrap/Button';
 import BottomButtons from './components/menu-buttons';
@@ -62,7 +61,7 @@ class App extends Component {
   }
 
   SearchCompanies(){
-    return <ScrollCompanies data={companies}/>
+    return <SearchCompanies data={companies}/>
   }
 
   render() {
@@ -74,6 +73,7 @@ class App extends Component {
           onIdle={this.onIdle}
           timeout={1000 * 20} />
       <LogoSlider logos={logos}/>
+      <div className='main-container'>
       <Router history={history}>
         <Switch>
           <Route exact path = "/" component = {this.Categories}/>
@@ -82,6 +82,7 @@ class App extends Component {
           <Route path = "/companies/" component = {this.SearchCompanies}/>
         </Switch>
       </Router>
+      </div>
       <BottomButtons/>
     </div>
     );

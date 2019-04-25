@@ -5,49 +5,79 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import NavbarComponent from '../components/navbar';
 
-class ScrollCompanies extends Component {
-
+class SearchCompanies extends Component {
   constructor(props) {
     super(props);
+    let letters = [];
+    for(let i= 65; i<91; i++){
+      letters.push(String.fromCharCode(i))
+    }
     this.state = {
         companies: props.data,
-        isLoading: false,
+        alphabet:'',
+        letters: letters,
+        changed: true,
+    }
+}
+  onAlphabetClick = (e) => {
+    this.setState({alphabet: e.target.value})
+  }
+  prepareAlphabets = () => {
+    let result = [<button className = 'boton-scroll' type="button" key ={0} onClick={this.onAlphabetClick} value = "">X</button>];
+    for(let i=65; i<91; i++) {
+      result.push(
+        <button className = 'boton-scroll' type="button" key={i + 1} onClick={this.onAlphabetClick} value={String.fromCharCode(i)} >{String.fromCharCode(i)}</button>
+      )
+    }
+    return result;
+  }
+
+  filterItems = (itemList) => {
+    let result = [];
+    const { alphabet } = this.state;
+    if(itemList && alphabet) {
+      result = itemList.filter((element) => (element.name.charAt(0).toLowerCase() === alphabet.toLowerCase()));
+        result.unshift({'letter':alphabet})
+    } else {
+      if(!alphabet){
+        for (var i = 0; i < this.state.letters.length; i++) {
+          result.push({'letter':this.state.letters[i]})
+          const items = itemList.filter((element) =>(element.name.charAt(0).toLowerCase() === this.state.letters[i].toLowerCase()));
+          if(items){
+          for (var j = 0; j < items.length; j++) {
+            result.push(items[j])
+          }}
+      }
+      }
+    }
+    result = result.map((item)=> {
+      if(item.name){
+      return <li><Link to= {'/companies/' + item.name}>{item.name}</Link></li>}
+    else{
+      return <h3 className='main-letter'>{item.letter}</h3>
+    }}
+    )
+    return result;
+  }
+
+    render() {
+        const itemList = this.state.companies;
+        // const itemList = undefined;
+      const filteredList = this.filterItems(itemList);
+    return (
+      <>
+      <NavbarComponent title={"Buscar Empresa"}/>
+      <div className='scroll-container'>
+        {this.prepareAlphabets()}
+        </div>
+        <ul>
+          {filteredList}
+        </ul>
+      </>
+    );
     }
 }
 
-createAlphaArray(){
-  let letters = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i));
-  return letters.map((letter) => {
-    return <p style={{fontWeight: "bold", padding: 0, margin: 5, border: 0}}>
-          {letter}
-          </p>
-    })
-}
-
-displayCompanies(){
-  return this.state.companies.map((company) => {
-    return <ListGroup.Item>{company.name}</ListGroup.Item>
-    })
-
-}
-
-  render() {
-    return(
-      <Container>
-      <Row>
-      <Col>
-      <ListGroup variant="flush">
-        {this.displayCompanies()}
-      </ListGroup>
-      </Col>
-      <Col align="right">
-      {this.createAlphaArray()}
-      </Col>
-      </Row>
-      </Container>
-)
-  }
-}
-
-export default ScrollCompanies;
+export default SearchCompanies;

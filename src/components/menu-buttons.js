@@ -15,7 +15,7 @@ class BottomButtons extends Component {
 
   render() {
     return (
-      <Container align="center">
+      <Container className="buttons-container" align="center">
       <Row>
       <Col>
       <Button onClick={history.goBack} style={{"textDecoration": "none", "outline":"none"}} className="card-button">

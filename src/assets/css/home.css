@@ -26,3 +26,7 @@
   padding: 0px;
 
 }
+
+.main-container{
+  min-height: 1100px;
+}

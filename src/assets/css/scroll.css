@@ -1,1 +1,13 @@
 
+.scroll-container{
+  max-width: 40px;
+  float: right;
+}
+
+.boton-scroll{
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  font-size: 20px;
+}

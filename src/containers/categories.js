@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CategoryComponent from "../components/category";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SearchBar from '../components/searchbar';
+import { Link } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 import NavbarComponent from '../components/navbar';
 
@@ -50,6 +50,7 @@ class CategoriesContainer extends Component {
     return (
       <>
       <NavbarComponent title={"Categorías"}/>
+      <Link to= '/companies/'>BUSCAR</Link>
       <div className="space">
       </div>
       <Fade>

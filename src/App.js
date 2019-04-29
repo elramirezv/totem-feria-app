@@ -7,11 +7,7 @@ import HiddableLogoSlider from './components/logo-slider';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
-<<<<<<< HEAD
-import { BrowserRouter as Router, Route, Link, Redirect, Switch} from "react-router-dom";
-=======
 import { Router, Route, Link, Redirect, Switch} from "react-router-dom";
->>>>>>> ccbd879de166c8f98016ce21224d48dd1ca3015c
 import { history } from './helpers/history';
 import BottomButtons from './components/menu-buttons';
 
@@ -73,13 +69,7 @@ class App extends Component {
           ref={ref => { this.idleTimer = ref }}
           element={document}
           onIdle={this.onIdle}
-<<<<<<< HEAD
-          timeout={1000 * 20} />
-      <LogoSlider logos={logos}/>
-      <div className='main-container'>
-=======
           timeout={1000 * 60} />
->>>>>>> ccbd879de166c8f98016ce21224d48dd1ca3015c
       <Router history={history}>
           <HiddableLogoSlider logos={logos}/>
           <Route exact path = "/" component = {this.Categories}/>

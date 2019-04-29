@@ -55,7 +55,7 @@ class CategoriesContainer extends Component {
       </div>
       <Fade>
       <div className="space">
-      <Row>
+      <Row style={{paddingLeft: "3%"}}>
       {this.createComponents()}
       </Row>
       </div>

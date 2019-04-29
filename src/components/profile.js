@@ -5,6 +5,10 @@ import '../assets/css/profile.css';
 import { Link } from "react-router-dom";
 import { history } from '../helpers/history';
 import Fade from 'react-reveal/Fade';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 
 class ProfileComponent extends Component {
@@ -50,9 +54,13 @@ getVideo(){
   if(this.props.data.video){
     return(
       <>
-      <Button variant="primary" className = 'nice-button' onClick={this.handleShowVid}>
-        Ver Video
+      <div style={{"textAlign": "center"}}>
+      <Button variant="light-outline" onClick={this.handleShowVid}>
+        <h2 style={{"color": "white", paddingTop: "60px"}}>
+        Video
+        </h2>
       </Button>
+      </div>
 
       <Modal show={this.state.showVid} onHide={this.handleCloseVid} dialogClassName="custom-dialog">
         <Modal.Body>
@@ -90,9 +98,13 @@ getWebPage(){
   if(this.props.data.webpage){
     return(
       <>
-      <Button variant="primary" className = 'nice-button' onClick={this.handleShowPage}>
-        Ver Página Web
+      <div style={{"textAlign": "center"}}>
+      <Button variant="light-outline" onClick={this.handleShowPage}>
+        <h2 style={{"color": "white", paddingTop: "60px"}}>
+        Página web
+        </h2>
       </Button>
+      </div>
       <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
         <Modal.Body>
         <iframe src={"https://" + this.props.data.webpage} name ="iframe_a" width="100%" height="500px" />
@@ -106,27 +118,63 @@ getWebPage(){
 }
   render() {
     return (
+      <>
 <Fade>
-<div className='container'>
-<div>
-<img className='profile-logo' src = {require('../assets/logos/' + this.props.data.logo)} width='150px'/>
-</div>
-<div className='name-tag'>
-<h1>{this.props.data.name}</h1>
-</div>
-</div>
-<img className = 'map-image' src={require('../assets/images/' + this.props.data.image)}/>
-<h5 className='company-description'> {this.props.data.description}</h5>
-{this.getVideo()}
-{this.getPdf()}
-{this.getWebPage()}
-<div className="back-button">
-<Button style = {{ width: "100%", height: "100%", borderRadius: "50%"}} variant={"light"} onClick={history.goBack}>
-  <h1><i class="fas fa-chevron-left"></i></h1>
-</Button>
-</div>
+<Container style={{marginTop:"8%"}}>
+  <Row style={{alignItems:"center"}}>
+    <div style={{height:"315px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+      <div style={{alignItems:"center", marginTop: "30%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
+        <div style={{paddingLeft: "20px"}}>
+        <h1 style={{"color": "white", paddingTop: "5px"}}>
+          {this.props.data.name}
+        </h1>
+        <h3 style={{"color": "white", paddingBottom: "8px"}}>
+          Santiago, CL
+        </h3>
+        </div>
+      </div>
+    </div>
+  </Row>
+  <Row>
+  <div style={{paddingTop: "20px"}}>
+  <div style={{backgroundColor: "rgb(208,208,208)", padding: "20px"}}>
+    <h3 style={{padding: "5px"}}>
+          Nosotros
+    </h3>
+    <div style={{display:"flex"}}>
+    <div style={{padding: "5px"}}> 
+    <Col>
+    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+      <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
+        {this.getVideo()}
+      </div>
+    </div>
+    </Col>
+    </div>
+    <div style={{padding: "5px"}}>
+    <Col>
+    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+      <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
+        {this.getWebPage()}
+      </div>
+    </div>
+    </Col>
+    </div>
+    </div>
+  </div>
+  </div>
+  </Row>
+  <div style={{paddingTop: "20px", paddingBottom: "30px"}}>
+  <Row style={{alignItems:"center"}}>
+  <Col>
+      <Image style={{width: "720px", maxHeight:"400px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
+    </Col>
+  </Row>
+  </div>
+</Container>
  </Fade>
-    );
+ </>
+    )
   }
 }
 

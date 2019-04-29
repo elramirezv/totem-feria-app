@@ -3,12 +3,12 @@ import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import { withRouter } from 'react-router-dom';
 
 class LogoSlider extends Component {
 
   loadLogos() {
     return this.props.logos.map((logo) => {
-      console.log(logo[0])
       return (
         <Carousel.Item>
         <Row className = 'logo-holder'>
@@ -24,6 +24,10 @@ class LogoSlider extends Component {
   }
 
   render() {
+    const { location } = this.props;
+    if (location.pathname.match("/companies/")){
+      return null;
+    }
     return (
       <div>
       <Carousel indicators={false} pauseOnHover={false} controls={false}>
@@ -31,7 +35,9 @@ class LogoSlider extends Component {
       </Carousel>
       </div>
     );
+
   }
 }
 
-export default LogoSlider;
+const HiddableLogoSlider = withRouter(LogoSlider);
+export default HiddableLogoSlider;

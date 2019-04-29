@@ -3,6 +3,8 @@
   padding: none;
   border: none;
   background: none;
+  outline: none;
+  text-decoration: none;
 }
 
 .card-body {
@@ -26,7 +28,18 @@
   padding: 0px;
 
 }
-
 .main-container{
   min-height: 1100px;
+}
+
+.btn{
+  outline: none;
+  text-decoration: "none";
+}
+
+.btn:hover{
+  outline: none;
+  text-decoration: "none";
+
+
 }

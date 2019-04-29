@@ -50,7 +50,7 @@ class CategoriesContainer extends Component {
     return (
       <>
       <NavbarComponent title={"Categorías"}/>
-      <Link to= '/companies/'>BUSCAR</Link>
+      <Link to= '/search/'>BUSCAR</Link>
       <div className="space">
       </div>
       <Fade>

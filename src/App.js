@@ -75,10 +75,11 @@ class App extends Component {
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
+          <Route path = "/search" component = {this.SearchCompanies}/>
+
       </Router>
-      </div>
       <BottomButtons/>
-    </div>
+      </div>
     );
   }
 }

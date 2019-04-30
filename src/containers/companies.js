@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import { history } from '../helpers/history';
 import Fade from 'react-reveal/Fade';
 import NavbarComponent from '../components/navbar';
+import BottomButtons from '../components/menu-buttons';
 
 class CompaniesContainer extends Component {
 
@@ -57,6 +58,7 @@ class CompaniesContainer extends Component {
       </Row>
       </div>
       </Fade>
+      <BottomButtons disabled={false} previousPage={"/"}/>
       </div>
     );
   }

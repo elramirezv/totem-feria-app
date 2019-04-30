@@ -9,7 +9,6 @@ import './assets/css/index.css';
 import data from "./data.json"
 import { Router, Route, Link, Redirect, Switch} from "react-router-dom";
 import { history } from './helpers/history';
-import BottomButtons from './components/menu-buttons';
 
 const categories = data.categories;
 const companies = data.companies;
@@ -76,9 +75,7 @@ class App extends Component {
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
           <Route path = "/search" component = {this.SearchCompanies}/>
-
       </Router>
-      <BottomButtons/>
       </div>
     );
   }

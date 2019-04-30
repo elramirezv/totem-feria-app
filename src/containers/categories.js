@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 import NavbarComponent from '../components/navbar';
-
+import BottomButtons from '../components/menu-buttons';
 
 class CategoriesContainer extends Component {
 
@@ -60,6 +60,7 @@ class CategoriesContainer extends Component {
       </Row>
       </div>
       </Fade>
+      <BottomButtons disabled={true} previousPage={"/"}/>
       </div>
     );
   }

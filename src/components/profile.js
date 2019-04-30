@@ -122,7 +122,7 @@ getWebPage(){
 <Fade>
 <Container style={{marginTop:"8%"}}>
   <Row style={{alignItems:"center"}}>
-    <div style={{height:"315px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+    <div style={{height:"315px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.image)})`}}>
       <div style={{alignItems:"center", marginTop: "30%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
         <div style={{paddingLeft: "20px"}}>
         <h1 style={{"color": "white", paddingTop: "5px"}}>
@@ -144,7 +144,7 @@ getWebPage(){
     <div style={{display:"flex"}}>
     <div style={{padding: "5px"}}> 
     <Col>
-    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
       <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
         {this.getVideo()}
       </div>
@@ -153,7 +153,7 @@ getWebPage(){
     </div>
     <div style={{padding: "5px"}}>
     <Col>
-    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image1)})`}}>
+    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo2)})`}}>
       <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
         {this.getWebPage()}
       </div>

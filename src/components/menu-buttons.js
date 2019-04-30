@@ -15,10 +15,12 @@ class BottomButtons extends Component {
     constructor(props) {
       super(props);
       this.state = {
-          showMap: false
+          showMap: false,
+          image: 'mapa.png'
       };
       this.handleShowMap = this.handleShowMap.bind(this);
       this.handleCloseMap = this.handleCloseMap.bind(this);
+      this.handleImageChange = this.handleImageChange.bind(this);
     }
 
   handleShowMap(){
@@ -29,13 +31,23 @@ class BottomButtons extends Component {
     this.setState({ showMap: false});
   }
 
+  handleImageChange(){
+    if (this.state.image === 'mapa.png'){
+      this.setState({image: 'mapa2.png'})
+    }
+    else this.setState({image:'mapa.png'})
+  }
+
   render() {
     return (
       <>
 
       <Modal show={this.state.showMap} onHide={this.handleCloseMap} dialogClassName="custom-dialog">
         <Modal.Body>
-        <Image className="logo" src={require('../assets/images/mapa.png')} rounded />
+        <div className='modal-container'>
+        <Image  className='modal-image' src={require('../assets/images/' + this.state.image)} rounded />
+        </div>
+        <Button onClick={this.handleImageChange}>Cambiar Piso</Button>
         </Modal.Body>
       </Modal>
       <Container className="buttons-container" align="center">

@@ -53,3 +53,15 @@
   max-height: 1100px;
   overflow-y: auto;
 }
+
+.modal-container{
+  min-height: 500px;
+  max-height: 500px;
+  max-width: 600px;
+  min-width: 600px;
+}
+
+.modal-image{
+  max-width: 600px;
+  min-width: 600px;
+}

@@ -1,75 +1,354 @@
-{"categories":[{
-      "name": "Comercio internacional",
-      "icon": "https://img.icons8.com/ios/100/000000/airplane-take-off.png",
-      "companies": [
-        {"name": "Faster Soluciones"},
-        {"name": "Empresa2"},
-        {"name": "Empresa3"}
-      ]
-    },
-    {
-      "name": "Consultoras Universitarias",
-      "icon": "https://img.icons8.com/ios/100/000000/university.png",
-      "companies": [
-        {"name": "Empresa4"},
-        {"name": "Empresa5"},
-        {"name": "Empresa6"}
-      ]
-    },
-    {
-      "name": "Comida",
-      "icon": "https://img.icons8.com/ios/100/000000/restaurant.png",
-      "companies": [
-        {"name": "Empresa7"},
-        {"name": "Empresa8"},
-        {"name": "Empresa9"}
-      ]
-    },
-    {
-      "name": "Operadores Logísticas",
-      "icon": "https://img.icons8.com/pastel-glyph/100/000000/cargo-ship.png",
-      "companies": [
-        {"name": "Empresa10"},
-        {"name": "Empresa11"},
-        {"name": "Empresa12"}
-      ]
-    },
-    {
-      "name": "Tecnología",
-      "icon": "https://img.icons8.com/ios/100/000000/steve-jobs-filled.png",
-      "companies": [
-        {"name": "Empresa10", "description": "Lorem ipsum", "image": "mapa.png"},
-        {"name": "Empresa11", "description": "Lorem ipsum", "image": "mapa.png"},
-        {"name": "Empresa12", "description": "Lorem ipsum", "image": "mapa.png"}
-      ]
-    },
-    {
-      "name": "Transporte",
-      "icon": "https://img.icons8.com/ios/100/000000/truck.png",
-      "companies": [
-        {"name": "Empresa10", "description": "Lorem ipsum", "image": "mapa.png"},
-        {"name": "Empresa11", "description": "Lorem ipsum", "image": "mapa.png"},
-        {"name": "Empresa12", "description": "Lorem ipsum", "image": "mapa.png"}
-      ]
-    }
+{"categories":[
+  {
+    "name": "Comercio exterior",
+    "icon": "",
+    "companies": [
+      "Sli",
+      "Sicex",
+      "Cargox",
+      "Agencia aduanas walter perez",
+      "Datasur",
+      "Thomson reuters",
+      "Empresa portuaria valpara\ufffdso",
+      "Medlog",
+      "Msc",
+      "Boarder logistics"
+    ]
+  },
+  {
+    "name": "Consultoras & universidad",
+    "icon": "",
+    "companies": [
+      "Find talent",
+      "Cetlog"
+    ]
+  },
+  {
+    "name": "Bodegas & almacenamiento",
+    "icon": "",
+    "companies": [
+      "Pricing",
+      "Qclass (kardex)",
+      "D&c",
+      "Pallet parking"
+    ]
+  },
+  {
+    "name": "Tecnologia",
+    "icon": "",
+    "companies": [
+      "Pricing",
+      "Angel lira",
+      "Qclass (kardex)",
+      "Simpliroute",
+      "Valgreti",
+      "Position",
+      "Buonny",
+      "Quadminds",
+      "Datasur",
+      "Mobile form",
+      "Fleet up",
+      "Line gps",
+      "Sibpo (saur)",
+      "Smart bot",
+      "Thomson reuters",
+      "Beetrack",
+      "Sistemo"
+    ]
+  },
+  {
+    "name": "Transporte",
+    "icon": "",
+    "companies": [
+      "Simpliroute",
+      "Position",
+      "Quadminds",
+      "Fleet up",
+      "Line gps",
+      "Comaco",
+      "Beetrack"
+    ]
+  },
+  {
+    "name": "Operaciones",
+    "icon": "",
+    "companies": [
+      "Hotel city express"
+    ]
+  },
+  {
+    "name": "Prensa",
+    "icon": "",
+    "companies": [
+      "Revista logistec",
+      "Mas container"
+    ]
+  }
 ],
 "companies":
-  [
-    {"name": "Faster Soluciones", "image1": "test.jpg", "description": "Es una empresa dedicada a proporcionar soluciones integrales a las distintas necesidades corporativas y publicitarias del mercado con rapidez, creatividad e innovación. Realizamos todo tipo de impresiones e instalaciones gráficas, servicio de Wayfinding, Diseño y Desarrollo de Proyectos para Retail. Producciones audiovisuales y Digital Signage. Aquí podrás encontrar todo lo que necesitas en un solo lugar, nos especializamos en dar soluciones integrales, trabajando en diversas materialidades como: Hierro, aceros, aluminio compuesto, acrílico, madera, goma eva, entre otros.", "image": "mapa.png", "video":"video.mp4", "pdf":"faster-sol.pdf", "webpage":"www.fastersoluciones.cl", "logo":"faster.png" },
-    {"name": "Empresa2", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa3", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa4", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa5", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa6", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa7", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa8", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa9", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa10", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa11", "description": "Lorem ipsum", "image": "mapa.png"},
-    {"name": "Empresa12", "description": "Lorem ipsum", "image": "mapa.png"}
-  ],
+[
+  {
+    "stand": "1",
+    "name": "SLI",
+    "phone": "59 1 63518359",
+    "contact": "ANA",
+    "email": "gerencia@sli-soluciones.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "2",
+    "name": "FIND TALENT",
+    "phone": "987760549",
+    "contact": "VALESKA LIRA",
+    "email": "#REF!",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "3",
+    "name": "PRICING",
+    "phone": "992355106",
+    "contact": "MANUEL SALAZAR",
+    "email": "msalazar@pricing.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "4",
+    "name": "ANGEL LIRA",
+    "phone": "55 49 99286282",
+    "contact": "ALEJANDRO ARRIBAS",
+    "email": "alejandro.arribas@angellira.com.br",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "5",
+    "name": "SICEX",
+    "phone": "988582952",
+    "contact": "VALENTINA PACHECO",
+    "email": "vpacheco@hacienda.gov.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "6",
+    "name": "QCLASS (KARDEX)",
+    "phone": "991571880",
+    "contact": "JAVIER LOPEZ",
+    "email": "jlopez@qclass.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "7",
+    "name": "SIMPLIROUTE",
+    "phone": "994429146",
+    "contact": "ALVARO ECHEVERRIA",
+    "email": "alvaro@simpliroute.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "9",
+    "name": "VALGRETI",
+    "phone": "952077173",
+    "contact": "LUIS SANTANDER",
+    "email": "luis.santander@valgreti.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "10",
+    "name": "POSITION",
+    "phone": "961331206",
+    "contact": "RAFAEL SALAS",
+    "email": "rsalas@position.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "11",
+    "name": "DUOC",
+    "phone": "978533431",
+    "contact": "DARIO MORA",
+    "email": "dmora@duoc.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "12",
+    "name": "BUONNY",
+    "phone": "946991303",
+    "contact": "RENE ELLIS",
+    "email": "rene.ellis@buonny.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "13",
+    "name": "CARGOX",
+    "phone": "998838532",
+    "contact": "HUMBERTO STURIONE",
+    "email": "jhsturione@cargox.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "16",
+    "name": "AGENCIA ADUANAS WALTER PEREZ",
+    "phone": "990881021",
+    "contact": "WALTER PEREZ",
+    "email": "agente@agenciawalterperez.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "17",
+    "name": "QUADMINDS",
+    "phone": "999690474",
+    "contact": "CARLOS REINOSO",
+    "email": "carlos@quadminds.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "18",
+    "name": "DATASUR",
+    "phone": "956885117",
+    "contact": "PABLO MORALES",
+    "email": "pmorales@datasur.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "19",
+    "name": "MOBILE FORM",
+    "phone": "#N/A",
+    "contact": "#N/A",
+    "email": "#N/A",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "26",
+    "name": "FLEET UP",
+    "phone": "985053499",
+    "contact": "ENZO DIVIZIA",
+    "email": "edivizia@fleetup.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "27",
+    "name": "LINE GPS",
+    "phone": "948545117",
+    "contact": "MARIO JARA",
+    "email": "mario@linegps.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "28",
+    "name": "PUC",
+    "phone": "981298831",
+    "contact": "CLAUDIA GOMEZ",
+    "email": "cgomezo@ing.puc.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "29",
+    "name": "SIBPO (SAUR)",
+    "phone": "999262806",
+    "contact": "LEONARDO TORREALBA",
+    "email": "leonardo.torrealba@sibpogroup.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "30",
+    "name": "PUERTO COLUMBO",
+    "phone": "961432835",
+    "contact": "LUZ MAR\ufffdA MASAFIERRO",
+    "email": "lmasafierro@dycsa.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "31",
+    "name": "D&C",
+    "phone": "990433900",
+    "contact": "HUGO GALAZ",
+    "email": "hgalaz@dycsa.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "34",
+    "name": "HOTEL CITY EXPRESS",
+    "phone": "225897900",
+    "contact": "CARMEN GLORIA SANHUEZA",
+    "email": "cescl.gerencia@cityexpress.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "37",
+    "name": "SMART BOT",
+    "phone": "996271052",
+    "contact": "PABLO ECKELL",
+    "email": "peckell@smartbot.la",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "38",
+    "name": "COMACO",
+    "phone": "997010555",
+    "contact": "SOLEDAD LAMA",
+    "email": "soledadlama@comaco.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  },
+  {
+    "stand": "39",
+    "name": "CETLOG",
+    "phone": "979965064",
+    "contact": "MARCOS OLIVA",
+    "email": "moliva@cetlog.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "map.jpg"
+  }
+],
 
 "logos": [["logo-filce.png", "line.jpg","logo1.png", "cetlog.png"],
-["logo1.png", "logo-filce.png","line.jpg", "cetlog.png"]
-]
-  }
+["logo1.png", "logo-filce.png","line.jpg", "cetlog.png"]]
+}

@@ -18,17 +18,22 @@ class BottomButtons extends Component {
           showMap: false
       };
       this.handleShowMap = this.handleShowMap.bind(this);
+      this.handleCloseMap = this.handleCloseMap.bind(this);
     }
 
   handleShowMap(){
     this.setState({ showMap: true });
   }
 
+  handleCloseMap(){
+    this.setState({ showMap: false});
+  }
+
   render() {
     return (
       <>
 
-      <Modal show={true} dialogClassName="custom-dialog">
+      <Modal show={this.state.showMap} onHide={this.handleCloseMap} dialogClassName="custom-dialog">
         <Modal.Body>
         <Image className="logo" src={require('../assets/images/mapa.png')} rounded />
         </Modal.Body>
@@ -50,7 +55,7 @@ class BottomButtons extends Component {
       </Button>
       </Col>
       <Col>
-      <Button variant={"outline-light"}>
+      <Button variant={"outline-light"} onClick={this.handleShowMap}>
         <Card style={{padding: "15px"}}>
         <img style={{"width": "40px", "height": "40px"}} src="https://img.icons8.com/ios/100/000000/map-marker.png"/>
         </Card>

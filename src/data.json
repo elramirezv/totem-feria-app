@@ -3,85 +3,171 @@
     "name": "Comercio exterior",
     "icon": "",
     "companies": [
-      "Sli",
-      "Sicex",
-      "Cargox",
-      "Agencia aduanas walter perez",
-      "Datasur",
-      "Thomson reuters",
-      "Empresa portuaria valpara\ufffdso",
-      "Medlog",
-      "Msc",
-      "Boarder logistics"
+      {
+        "name": "Sli"
+      },
+      {
+        "name": "Sicex"
+      },
+      {
+        "name": "Cargox"
+      },
+      {
+        "name": "Agencia aduanas walter perez"
+      },
+      {
+        "name": "Datasur"
+      },
+      {
+        "name": "Thomson reuters"
+      },
+      {
+        "name": "Empresa portuaria valpara\ufffdso"
+      },
+      {
+        "name": "Medlog"
+      },
+      {
+        "name": "Msc"
+      },
+      {
+        "name": "Boarder logistics"
+      }
     ]
   },
   {
     "name": "Consultoras & universidad",
     "icon": "",
     "companies": [
-      "Find talent",
-      "Cetlog"
+      {
+        "name": "Find talent"
+      },
+      {
+        "name": "Cetlog"
+      }
     ]
   },
   {
     "name": "Bodegas & almacenamiento",
     "icon": "",
     "companies": [
-      "Pricing",
-      "Qclass (kardex)",
-      "D&c",
-      "Pallet parking"
+      {
+        "name": "Pricing"
+      },
+      {
+        "name": "Qclass (kardex)"
+      },
+      {
+        "name": "D&c"
+      },
+      {
+        "name": "Pallet parking"
+      }
     ]
   },
   {
     "name": "Tecnologia",
     "icon": "",
     "companies": [
-      "Pricing",
-      "Angel lira",
-      "Qclass (kardex)",
-      "Simpliroute",
-      "Valgreti",
-      "Position",
-      "Buonny",
-      "Quadminds",
-      "Datasur",
-      "Mobile form",
-      "Fleet up",
-      "Line gps",
-      "Sibpo (saur)",
-      "Smart bot",
-      "Thomson reuters",
-      "Beetrack",
-      "Sistemo"
+      {
+        "name": "Pricing"
+      },
+      {
+        "name": "Angel lira"
+      },
+      {
+        "name": "Qclass (kardex)"
+      },
+      {
+        "name": "Simpliroute"
+      },
+      {
+        "name": "Valgreti"
+      },
+      {
+        "name": "Position"
+      },
+      {
+        "name": "Buonny"
+      },
+      {
+        "name": "Quadminds"
+      },
+      {
+        "name": "Datasur"
+      },
+      {
+        "name": "Mobile form"
+      },
+      {
+        "name": "Fleet up"
+      },
+      {
+        "name": "Line gps"
+      },
+      {
+        "name": "Sibpo (saur)"
+      },
+      {
+        "name": "Smart bot"
+      },
+      {
+        "name": "Thomson reuters"
+      },
+      {
+        "name": "Beetrack"
+      },
+      {
+        "name": "Sistemo"
+      }
     ]
   },
   {
     "name": "Transporte",
     "icon": "",
     "companies": [
-      "Simpliroute",
-      "Position",
-      "Quadminds",
-      "Fleet up",
-      "Line gps",
-      "Comaco",
-      "Beetrack"
+      {
+        "name": "Simpliroute"
+      },
+      {
+        "name": "Position"
+      },
+      {
+        "name": "Quadminds"
+      },
+      {
+        "name": "Fleet up"
+      },
+      {
+        "name": "Line gps"
+      },
+      {
+        "name": "Comaco"
+      },
+      {
+        "name": "Beetrack"
+      }
     ]
   },
   {
     "name": "Operaciones",
     "icon": "",
     "companies": [
-      "Hotel city express"
+      {
+        "name": "Hotel city express"
+      }
     ]
   },
   {
     "name": "Prensa",
     "icon": "",
     "companies": [
-      "Revista logistec",
-      "Mas container"
+      {
+        "name": "Revista logistec"
+      },
+      {
+        "name": "Mas container"
+      }
     ]
   }
 ],
@@ -89,263 +175,373 @@
 [
   {
     "stand": "1",
-    "name": "SLI",
+    "name": "Sli",
     "phone": "59 1 63518359",
-    "contact": "ANA",
-    "email": "gerencia@sli-soluciones.com",
+    "contact": "Ana",
+    "email": "Gerencia@sli-soluciones.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "2",
-    "name": "FIND TALENT",
+    "name": "Find talent",
     "phone": "987760549",
-    "contact": "VALESKA LIRA",
-    "email": "#REF!",
+    "contact": "Valeska lira",
+    "email": "#ref!",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "3",
-    "name": "PRICING",
+    "name": "Pricing",
     "phone": "992355106",
-    "contact": "MANUEL SALAZAR",
-    "email": "msalazar@pricing.cl",
+    "contact": "Manuel salazar",
+    "email": "Msalazar@pricing.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "4",
-    "name": "ANGEL LIRA",
+    "name": "Angel lira",
     "phone": "55 49 99286282",
-    "contact": "ALEJANDRO ARRIBAS",
-    "email": "alejandro.arribas@angellira.com.br",
+    "contact": "Alejandro arribas",
+    "email": "Alejandro.arribas@angellira.com.br",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "5",
-    "name": "SICEX",
+    "name": "Sicex",
     "phone": "988582952",
-    "contact": "VALENTINA PACHECO",
-    "email": "vpacheco@hacienda.gov.cl",
+    "contact": "Valentina pacheco",
+    "email": "Vpacheco@hacienda.gov.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "6",
-    "name": "QCLASS (KARDEX)",
+    "name": "Qclass (kardex)",
     "phone": "991571880",
-    "contact": "JAVIER LOPEZ",
-    "email": "jlopez@qclass.cl",
+    "contact": "Javier lopez",
+    "email": "Jlopez@qclass.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "7",
-    "name": "SIMPLIROUTE",
+    "name": "Simpliroute",
     "phone": "994429146",
-    "contact": "ALVARO ECHEVERRIA",
-    "email": "alvaro@simpliroute.com",
+    "contact": "Alvaro echeverria",
+    "email": "Alvaro@simpliroute.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "9",
-    "name": "VALGRETI",
+    "name": "Valgreti",
     "phone": "952077173",
-    "contact": "LUIS SANTANDER",
-    "email": "luis.santander@valgreti.cl",
+    "contact": "Luis santander",
+    "email": "Luis.santander@valgreti.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "10",
-    "name": "POSITION",
+    "name": "Position",
     "phone": "961331206",
-    "contact": "RAFAEL SALAS",
-    "email": "rsalas@position.cl",
+    "contact": "Rafael salas",
+    "email": "Rsalas@position.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "11",
-    "name": "DUOC",
+    "name": "Duoc",
     "phone": "978533431",
-    "contact": "DARIO MORA",
-    "email": "dmora@duoc.cl",
+    "contact": "Dario mora",
+    "email": "Dmora@duoc.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "12",
-    "name": "BUONNY",
+    "name": "Buonny",
     "phone": "946991303",
-    "contact": "RENE ELLIS",
-    "email": "rene.ellis@buonny.cl",
+    "contact": "Rene ellis",
+    "email": "Rene.ellis@buonny.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "13",
-    "name": "CARGOX",
+    "name": "Cargox",
     "phone": "998838532",
-    "contact": "HUMBERTO STURIONE",
-    "email": "jhsturione@cargox.com",
+    "contact": "Humberto sturione",
+    "email": "Jhsturione@cargox.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "16",
-    "name": "AGENCIA ADUANAS WALTER PEREZ",
+    "name": "Agencia aduanas walter perez",
     "phone": "990881021",
-    "contact": "WALTER PEREZ",
-    "email": "agente@agenciawalterperez.com",
+    "contact": "Walter perez",
+    "email": "Agente@agenciawalterperez.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "17",
-    "name": "QUADMINDS",
+    "name": "Quadminds",
     "phone": "999690474",
-    "contact": "CARLOS REINOSO",
-    "email": "carlos@quadminds.com",
+    "contact": "Carlos reinoso",
+    "email": "Carlos@quadminds.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "18",
-    "name": "DATASUR",
+    "name": "Datasur",
     "phone": "956885117",
-    "contact": "PABLO MORALES",
-    "email": "pmorales@datasur.com",
+    "contact": "Pablo morales",
+    "email": "Pmorales@datasur.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "19",
-    "name": "MOBILE FORM",
+    "name": "Mobile form",
     "phone": "#N/A",
-    "contact": "#N/A",
-    "email": "#N/A",
+    "contact": "#n/a",
+    "email": "#n/a",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "26",
-    "name": "FLEET UP",
+    "name": "Fleet up",
     "phone": "985053499",
-    "contact": "ENZO DIVIZIA",
-    "email": "edivizia@fleetup.com",
+    "contact": "Enzo divizia",
+    "email": "Edivizia@fleetup.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "27",
-    "name": "LINE GPS",
+    "name": "Line gps",
     "phone": "948545117",
-    "contact": "MARIO JARA",
-    "email": "mario@linegps.cl",
+    "contact": "Mario jara",
+    "email": "Mario@linegps.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "28",
-    "name": "PUC",
+    "name": "Puc",
     "phone": "981298831",
-    "contact": "CLAUDIA GOMEZ",
-    "email": "cgomezo@ing.puc.cl",
+    "contact": "Claudia gomez",
+    "email": "Cgomezo@ing.puc.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "29",
-    "name": "SIBPO (SAUR)",
+    "name": "Sibpo (saur)",
     "phone": "999262806",
-    "contact": "LEONARDO TORREALBA",
-    "email": "leonardo.torrealba@sibpogroup.com",
+    "contact": "Leonardo torrealba",
+    "email": "Leonardo.torrealba@sibpogroup.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "30",
-    "name": "PUERTO COLUMBO",
+    "name": "Puerto columbo",
     "phone": "961432835",
-    "contact": "LUZ MAR\ufffdA MASAFIERRO",
-    "email": "lmasafierro@dycsa.cl",
+    "contact": "Luz mar\ufffda masafierro",
+    "email": "Lmasafierro@dycsa.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "31",
-    "name": "D&C",
+    "name": "D&c",
     "phone": "990433900",
-    "contact": "HUGO GALAZ",
-    "email": "hgalaz@dycsa.cl",
+    "contact": "Hugo galaz",
+    "email": "Hgalaz@dycsa.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "34",
-    "name": "HOTEL CITY EXPRESS",
+    "name": "Hotel city express",
     "phone": "225897900",
-    "contact": "CARMEN GLORIA SANHUEZA",
-    "email": "cescl.gerencia@cityexpress.cl",
+    "contact": "Carmen gloria sanhueza",
+    "email": "Cescl.gerencia@cityexpress.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "37",
-    "name": "SMART BOT",
+    "name": "Smart bot",
     "phone": "996271052",
-    "contact": "PABLO ECKELL",
-    "email": "peckell@smartbot.la",
+    "contact": "Pablo eckell",
+    "email": "Peckell@smartbot.la",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "38",
-    "name": "COMACO",
+    "name": "Comaco",
     "phone": "997010555",
-    "contact": "SOLEDAD LAMA",
-    "email": "soledadlama@comaco.cl",
+    "contact": "Soledad lama",
+    "email": "Soledadlama@comaco.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
   },
   {
     "stand": "39",
-    "name": "CETLOG",
+    "name": "Cetlog",
     "phone": "979965064",
-    "contact": "MARCOS OLIVA",
-    "email": "moliva@cetlog.cl",
+    "contact": "Marcos oliva",
+    "email": "Moliva@cetlog.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "map.jpg"
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "40",
+    "name": "Pallet parking",
+    "phone": "992187732",
+    "contact": "Oscar de saint pierre",
+    "email": "Oscar.desaintpierre@palletparking.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "43",
+    "name": "Revista logistec",
+    "phone": "994550867",
+    "contact": "Paula cortes",
+    "email": "Paula.cortes@revistalogistec.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "47",
+    "name": "Thomson reuters",
+    "phone": "971401499",
+    "contact": "Yessica calcagno",
+    "email": "Yessica.calcagnochandia@thomsonreuters.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "48",
+    "name": "Empresa portuaria valpara\ufffdso",
+    "phone": "944019913",
+    "contact": "Carlos carcamo",
+    "email": "Ccarcamo@puertovalparaiso.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "49",
+    "name": "Camcap",
+    "phone": "992379945",
+    "contact": "Hernan bustos",
+    "email": "Hernan.bustos@camcap.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "52",
+    "name": "Medlog",
+    "phone": "#N/A",
+    "contact": "#n/a",
+    "email": "#n/a",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "52",
+    "name": "Msc",
+    "phone": "998704534",
+    "contact": "Cecilia parada",
+    "email": "#ref!",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "53",
+    "name": "Mas container",
+    "phone": "#N/A",
+    "contact": "#n/a",
+    "email": "#n/a",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "14 - 15",
+    "name": "Beetrack",
+    "phone": "989016090",
+    "contact": "Sebastian ojeda",
+    "email": "Sebastian@beetrack.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "32 - 33",
+    "name": "Sistemo",
+    "phone": "998856507",
+    "contact": "Francisco bello",
+    "email": "Fbello@sistemo.cl",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
+  },
+  {
+    "stand": "50 -51",
+    "name": "Boarder logistics",
+    "phone": "995393458",
+    "contact": "Esteban marchant",
+    "email": "Emf@blcorporations.com",
+    "tinylogo1": "test.jpg",
+    "tinylogo2": "test.jpg",
+    "image": "mapa.jpg"
   }
 ],
 

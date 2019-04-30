@@ -48,7 +48,7 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className='big-container'>
     <NavbarComponent title={this.state.category}/>
       <Fade>
       <div className="space">

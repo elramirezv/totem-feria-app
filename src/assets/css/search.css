@@ -1,0 +1,32 @@
+
+.search-container{
+  max-width: 40px;
+  float: right;
+  min-height: 1100px;
+  max-height: 1100px;
+  overflow-y: auto;
+}
+
+.boton-search{
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: none;
+  padding: none;
+  border: none;
+  background: none;
+  outline: none;
+  text-decoration: "none";
+}
+.boton-search:hover{
+  outline: none;
+  text-decoration: "none";
+}
+
+.search-font{
+    font-size: 40px;
+    color: black;
+}

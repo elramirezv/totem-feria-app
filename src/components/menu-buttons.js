@@ -6,12 +6,33 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import '../assets/css/home.css';
+import Image from 'react-bootstrap/Image';
+import Modal from 'react-bootstrap/Modal';
 import { history } from '../helpers/history';
 
 class BottomButtons extends Component {
 
+    constructor(props) {
+      super(props);
+      this.state = {
+          showMap: false
+      };
+      this.handleShowMap = this.handleShowMap.bind(this);
+    }
+
+  handleShowMap(){
+    this.setState({ showMap: true });
+  }
+
   render() {
     return (
+      <>
+
+      <Modal show={true} dialogClassName="custom-dialog">
+        <Modal.Body>
+        <Image className="logo" src={require('../assets/images/mapa.png')} rounded />
+        </Modal.Body>
+      </Modal>
       <Container className="buttons-container" align="center">
       <Row>
       <Col>
@@ -37,6 +58,7 @@ class BottomButtons extends Component {
       </Col>
       </Row>
       </Container>
+      </>
     );
   }
 }

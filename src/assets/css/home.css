@@ -40,6 +40,16 @@
 .btn:hover{
   outline: none;
   text-decoration: "none";
+}
 
+.big-container{
+  min-height: 1300px;
+  max-height: 1300px;
+  overflow-y: auto;
+}
 
+.medium-container{
+  min-height: 1100px;
+  max-height: 1100px;
+  overflow-y: auto;
 }

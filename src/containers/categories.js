@@ -48,7 +48,7 @@ class CategoriesContainer extends Component {
 
   render() {
     return (
-      <>
+      <div className = 'big-container'>
       <NavbarComponent title={"Categorías"}/>
       <Link to= '/search/'>BUSCAR</Link>
       <div className="space">
@@ -60,7 +60,7 @@ class CategoriesContainer extends Component {
       </Row>
       </div>
       </Fade>
-      </>
+      </div>
     );
   }
 }

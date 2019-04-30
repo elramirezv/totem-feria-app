@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import '../assets/css/scroll.css';
+import '../assets/css/search.css';
+import '../assets/css/home.css';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -25,10 +26,10 @@ class SearchCompanies extends Component {
     this.setState({alphabet: e.target.value})
   }
   prepareAlphabets = () => {
-    let result = [<button className = 'boton-scroll' type="button" key ={0} onClick={this.onAlphabetClick} value = "">X</button>];
+    let result = [<button className = 'boton-search' type="button" key ={0} onClick={this.onAlphabetClick} value = "">%</button>];
     for(let i=65; i<91; i++) {
       result.push(
-        <button className = 'boton-scroll' type="button" key={i + 1} onClick={this.onAlphabetClick} value={String.fromCharCode(i)} >{String.fromCharCode(i)}</button>
+        <button className = 'boton-search' type="button" key={i + 1} onClick={this.onAlphabetClick} value={String.fromCharCode(i)} >{String.fromCharCode(i)}</button>
       )
     }
     return result;
@@ -54,7 +55,7 @@ class SearchCompanies extends Component {
     }
     result = result.map((item)=> {
       if(item.name){
-      return <li><Link to= {'/companies/' + item.name}>{item.name}</Link></li>}
+      return <div ><Link to= {'/companies/' + item.name}className = 'search-font'>{item.name}</Link></div>}
     else{
       return <h3 className='main-letter'>{item.letter}</h3>
     }}
@@ -67,15 +68,15 @@ class SearchCompanies extends Component {
         // const itemList = undefined;
       const filteredList = this.filterItems(itemList);
     return (
-      <>
+      <div>
       <NavbarComponent title={"Buscar Empresa"}/>
-      <div className='scroll-container'>
+      <div className='search-container'>
         {this.prepareAlphabets()}
         </div>
-        <ul>
+        <ul className = 'medium-container'>
           {filteredList}
         </ul>
-      </>
+      </div>
     );
     }
 }

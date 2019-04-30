@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import '../assets/css/profile.css';
-import { Link } from "react-router-dom";
-import { history } from '../helpers/history';
 import Fade from 'react-reveal/Fade';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

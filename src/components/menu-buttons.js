@@ -52,7 +52,7 @@ class BottomButtons extends Component {
       <Container className="buttons-container" align="center">
       <Row>
       <Col>
-      <Button disabled={this.props.disabled} variant={"outline-light"} onClick={()=>history.push(this.props.previousPage)}>
+      <Button disabled={this.props.disabled} variant={"outline-light"} onClick={() => history.push(this.props.previousPage)}>
         <Card style={{padding: "15px"}}>
         <img style={{"width": "40px", "height": "40px"}}src="https://img.icons8.com/ios/50/000000/back-filled.png"/>
         </Card>

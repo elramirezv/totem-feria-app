@@ -22,15 +22,30 @@ class SearchCompanies extends Component {
         changed: true,
     }
 }
+componentDidMount(){
+  this.prepareLetters(this.state.companies)
+}
+
+prepareLetters = (itemList) => {
+  let letters = []
+  for (var i = 0; i < this.state.letters.length; i++) {
+    const items = itemList.filter((element) =>(element.name.charAt(0).toLowerCase() === this.state.letters[i].toLowerCase()));
+
+    if(items.length > 0){
+      console.log(items);
+      letters.push(this.state.letters[i])
+    }
+  }
+  this.setState({letters: letters})
+}
   onAlphabetClick = (e) => {
     this.setState({alphabet: e.target.value})
   }
   prepareAlphabets = () => {
-    let result = [<button className = 'boton-search' type="button" key ={0} onClick={this.onAlphabetClick} value = "">%</button>];
-    for(let i=65; i<91; i++) {
-      result.push(
-        <button className = 'boton-search' type="button" key={i + 1} onClick={this.onAlphabetClick} value={String.fromCharCode(i)} >{String.fromCharCode(i)}</button>
-      )
+    console.log(this.state.letters);
+    let result = [<button className = 'boton-search' type="button" key ={0}onMouseEnter = {this.onAlphabetClick} onClick={this.onAlphabetClick} value = "">↻</button>];
+    for(let i=0; i<this.state.letters.length; i++) {
+        result.push(<button className = 'boton-search' type="button" key={i + 1} onClick={this.onAlphabetClick} onMouseEnter = {this.onAlphabetClick} value={this.state.letters[i]} >{this.state.letters[i]}</button>)
     }
     return result;
   }

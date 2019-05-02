@@ -142,7 +142,7 @@ getWebPage(){
     <div style={{display:"flex"}}>
     <div style={{padding: "5px"}}>
     <Col>
-    <div style={{width: "390px", height:"180px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
+    <div style={{width: "370px", height:"180px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
       <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
         {this.getVideo()}
       </div>
@@ -151,7 +151,7 @@ getWebPage(){
     </div>
     <div style={{padding: "5px"}}>
     <Col>
-    <div style={{width: "390px", height:"180px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo2)})`}}>
+    <div style={{width: "370px", height:"180px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo2)})`}}>
       <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
         {this.getWebPage()}
       </div>
@@ -165,7 +165,7 @@ getWebPage(){
   <div style={{paddingTop: "20px"}}>
   <Row style={{alignItems:"center"}}>
   <Col>
-      <Image style={{"min-height":"500px", "max-height":"500px", "width": "835px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
+      <Image style={{"min-height":"500px", "max-height":"500px", "width": "825px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
     </Col>
   </Row>
   </div>

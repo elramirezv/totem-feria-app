@@ -54,8 +54,8 @@ getVideo(){
       <>
       <div style={{"textAlign": "center"}}>
       <Button variant="light-outline" onClick={this.handleShowVid}>
-        <h2 style={{"color": "white", paddingTop: "60px"}}>
-        Video
+        <h2 style={{"color": "white", paddingTop: "45px"}}>
+        <Image style={{"min-height":"60px", "max-height":"60px"}} src={require("../assets/images/play.png")} rounded />
         </h2>
       </Button>
       </div>
@@ -98,14 +98,14 @@ getWebPage(){
       <>
       <div style={{"textAlign": "center"}}>
       <Button variant="light-outline" onClick={this.handleShowPage}>
-        <h2 style={{"color": "white", paddingTop: "60px"}}>
-        Página web
+        <h2 style={{"color": "white", paddingTop: "35px"}}>
+        <Image style={{"min-height":"70px", "max-height":"70px"}} src={require("../assets/images/web.png")} rounded />
         </h2>
       </Button>
       </div>
       <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
         <Modal.Body>
-        <iframe src={"https://" + this.props.data.webpage} name ="iframe_a" width="100%" height="500px" />
+        <iframe src={"https://" + this.props.data.webpage} name ="iframe_a" width="100%" height="900px" />
         </Modal.Body>
       </Modal>
     </>

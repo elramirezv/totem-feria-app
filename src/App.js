@@ -47,17 +47,16 @@ class App extends Component {
       if(company.name === match.params.name)
       result = company;
     })
-    console.log(match.params.searched);
     if(match.params.searched === '0'){
       back = "/categories/" + this.state.category
     }
     else{
       back = "/search"
     }
-
+    console.log(result.stand);
     return(
     <>
-    <NavbarComponent profile={true}/>
+    <NavbarComponent profile={true} title={result.stand}/>
     <ProfileComponent data={result}/>
     <BottomButtons disabled={false} previousPage={back}/>
     </>)

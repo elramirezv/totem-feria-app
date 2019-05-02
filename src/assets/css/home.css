@@ -9,8 +9,8 @@
 
 .card-body {
   display: center;
-  width: 13rem;
-  height: 13rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .card:active {
@@ -43,8 +43,8 @@
 }
 
 .big-container{
-  min-height: 950px;
-  max-height: 950px;
+  min-height: 1000px;
+  max-height: 1000px;
   overflow-y: auto;
 }
 

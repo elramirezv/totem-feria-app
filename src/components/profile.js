@@ -54,7 +54,7 @@ getVideo(){
       <>
       <div style={{"textAlign": "center"}}>
       <Button variant="light-outline" onClick={this.handleShowVid}>
-        <h2 style={{"color": "white", paddingTop: "45px"}}>
+        <h2 style={{"color": "white", paddingTop: "50px"}}>
         <Image style={{"min-height":"60px", "max-height":"60px"}} src={require("../assets/images/play.png")} rounded />
         </h2>
       </Button>
@@ -98,7 +98,7 @@ getWebPage(){
       <>
       <div style={{"textAlign": "center"}}>
       <Button variant="light-outline" onClick={this.handleShowPage}>
-        <h2 style={{"color": "white", paddingTop: "35px"}}>
+        <h2 style={{"color": "white", paddingTop: "50px"}}>
         <Image style={{"min-height":"70px", "max-height":"70px"}} src={require("../assets/images/web.png")} rounded />
         </h2>
       </Button>
@@ -118,10 +118,10 @@ getWebPage(){
     return (
       <>
 <Fade>
-<Container style={{marginTop:"5%"}}>
+<div className="container-test">
   <Row style={{alignItems:"center"}}>
-    <div style={{height:"315px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
-      <div style={{alignItems:"center", marginTop: "30%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
+    <div style={{height:"340px", width: "100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
+      <div style={{alignItems:"center", marginTop: "28.6%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
         <div style={{paddingLeft: "20px"}}>
         <h1 style={{"color": "white", paddingTop: "5px"}}>
           {this.props.data.name}
@@ -142,7 +142,7 @@ getWebPage(){
     <div style={{display:"flex"}}>
     <div style={{padding: "5px"}}>
     <Col>
-    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
+    <div style={{width: "390px", height:"180px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
       <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
         {this.getVideo()}
       </div>
@@ -151,7 +151,7 @@ getWebPage(){
     </div>
     <div style={{padding: "5px"}}>
     <Col>
-    <div style={{width: "330px", height:"160px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo2)})`}}>
+    <div style={{width: "390px", height:"180px", backgroundSize: "100% 100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo2)})`}}>
       <div style={{width: "100%", height:"100%", "background-color":"rgba(0,0,0,0.7)"}}>
         {this.getWebPage()}
       </div>
@@ -162,14 +162,14 @@ getWebPage(){
   </div>
   </div>
   </Row>
-  <div style={{paddingTop: "20px", paddingBottom: "30px"}}>
+  <div style={{paddingTop: "20px"}}>
   <Row style={{alignItems:"center"}}>
   <Col>
-      <Image style={{"min-height":"500px", "max-height":"500px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
+      <Image style={{"min-height":"500px", "max-height":"500px", "width": "835px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
     </Col>
   </Row>
   </div>
-</Container>
+  </div>
  </Fade>
  </>
     )

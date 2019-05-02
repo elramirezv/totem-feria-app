@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import NavbarComponent from '../components/navbar';
+import BottomButtons from '../components/menu-buttons';
 
 class SearchCompanies extends Component {
   constructor(props) {
@@ -91,6 +92,7 @@ prepareLetters = (itemList) => {
         <ul className = 'medium-container'>
           {filteredList}
         </ul>
+      <BottomButtons disabled={false} previousPage={"/"}/>
       </div>
     );
     }

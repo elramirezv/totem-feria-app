@@ -10,15 +10,20 @@ import data from "./data.json"
 import { Router, Route, Link, Redirect, Switch} from "react-router-dom";
 import { history } from './helpers/history';
 import BottomButtons from './components/menu-buttons';
+import { runInThisContext } from 'vm';
 
 const categories = data.categories;
 const companies = data.companies;
 const logos = data.logos;
+var current_category;
 
 class App extends Component {
 
   constructor(props) {
     super(props)
+    this.state = {
+      current_categorie: ""
+    }
     this.idleTimer = null
     this.onIdle = this._onIdle.bind(this)
   }
@@ -37,11 +42,12 @@ class App extends Component {
       result = company;
     })
 
-    return <ProfileComponent data={result}/>
+    return <div><ProfileComponent data={result}/><BottomButtons disabled={false} previousPage={`/categories/${current_category}`}/></div>
   }
 
   Category({ match }){
     var result;
+    current_category = match.params.name;
     categories.forEach((category) => {
       if(category.name === match.params.name)
         result = category;
@@ -76,9 +82,7 @@ class App extends Component {
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name" component = {this.Company}/>
           <Route path = "/search" component = {this.SearchCompanies}/>
-
       </Router>
-      <BottomButtons/>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 {"categories":[
   {
     "name": "Comercio exterior",
-    "icon": "",
+    "icon": "https://img.icons8.com/ios/100/000000/airplane-take-off.png",
     "companies": [
       {
         "name": "Sli"
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "name": "Consultoras & universidad",
-    "icon": "",
+    "name": "Consultoras & Universidad",
+    "icon": "https://img.icons8.com/ios/100/000000/university.png",
     "companies": [
       {
         "name": "Find talent"
@@ -48,8 +48,8 @@
     ]
   },
   {
-    "name": "Bodegas & almacenamiento",
-    "icon": "",
+    "name": "Bodegas & Almacenamiento",
+    "icon": "https://img.icons8.com/ios/100/000000/open-box-filled.png",
     "companies": [
       {
         "name": "Pricing"
@@ -67,7 +67,7 @@
   },
   {
     "name": "Tecnologia",
-    "icon": "",
+    "icon": "https://img.icons8.com/ios/100/000000/steve-jobs-filled.png",
     "companies": [
       {
         "name": "Pricing"
@@ -124,7 +124,7 @@
   },
   {
     "name": "Transporte",
-    "icon": "",
+    "icon": "https://img.icons8.com/ios/100/000000/truck.png",
     "companies": [
       {
         "name": "Simpliroute"
@@ -151,7 +151,7 @@
   },
   {
     "name": "Operaciones",
-    "icon": "",
+    "icon": "https://img.icons8.com/pastel-glyph/100/000000/cargo-ship.png",
     "companies": [
       {
         "name": "Hotel city express"
@@ -160,7 +160,7 @@
   },
   {
     "name": "Prensa",
-    "icon": "",
+    "icon": "https://img.icons8.com/ios/100/000000/news.png",
     "companies": [
       {
         "name": "Revista logistec"

@@ -41,7 +41,6 @@ class BottomButtons extends Component {
   render() {
     return (
       <>
-
       <Modal show={this.state.showMap} onHide={this.handleCloseMap} dialogClassName="custom-dialog">
         <Modal.Body>
         <div className='modal-container'>
@@ -53,14 +52,14 @@ class BottomButtons extends Component {
       <Container className="buttons-container" align="center">
       <Row>
       <Col>
-      <Button variant={"outline-light"} onClick={history.goBack}>
+      <Button disabled={this.props.disabled} variant={"outline-light"} onClick={() => history.push(this.props.previousPage)}>
         <Card style={{padding: "15px"}}>
         <img style={{"width": "40px", "height": "40px"}}src="https://img.icons8.com/ios/50/000000/back-filled.png"/>
         </Card>
       </Button>
       </Col>
       <Col>
-      <Button variant={"outline-light"} onClick={() =>history.push("/")}>
+      <Button disabled={this.props.disabled} variant={"outline-light"} onClick={() =>history.push("/")}>
         <Card style={{padding: "15px"}}>
         <img style={{"width": "40px", "height": "40px"}} src="https://img.icons8.com/windows/64/000000/home.png"/>
         </Card>

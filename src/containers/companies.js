@@ -49,8 +49,9 @@ class CompaniesContainer extends Component {
 
   render() {
     return (
-      <div className='big-container'>
+      <>
     <NavbarComponent title={this.state.category}/>
+      <div className='big-container'>
       <Fade>
       <div className="space">
       <Row style={{paddingLeft: "3%"}}>
@@ -58,8 +59,9 @@ class CompaniesContainer extends Component {
       </Row>
       </div>
       </Fade>
-      <BottomButtons disabled={false} previousPage={"/"}/>
       </div>
+      <BottomButtons disabled={false} previousPage={"/"}/>
+      </>
     );
   }
 }

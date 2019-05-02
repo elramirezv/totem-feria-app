@@ -48,8 +48,9 @@ class CategoriesContainer extends Component {
 
   render() {
     return (
-      <div className = 'big-container'>
+      <>
       <NavbarComponent title={"Categorías"}/>
+      <div className = 'big-container'>
       <div className="space">
       </div>
       <Fade>
@@ -59,8 +60,9 @@ class CategoriesContainer extends Component {
       </Row>
       </div>
       </Fade>
-      <BottomButtons disabled={true} previousPage={"/"}/>
       </div>
+      <BottomButtons disabled={true} previousPage={"/"}/>
+      </>
     );
   }
 }

@@ -10,22 +10,27 @@ import data from "./data.json"
 import { Router, Route, Link, Redirect, Switch} from "react-router-dom";
 import { history } from './helpers/history';
 import BottomButtons from './components/menu-buttons';
-import { runInThisContext } from 'vm';
+import NavbarComponent from './components/navbar';
 
 const categories = data.categories;
 const companies = data.companies;
 const logos = data.logos;
-var current_category;
 
 class App extends Component {
 
   constructor(props) {
     super(props)
     this.state = {
-      current_categorie: ""
+      category: null,
+      loaded: false,
+      changed: false,
     }
     this.idleTimer = null
     this.onIdle = this._onIdle.bind(this)
+    this.Category = this.Category.bind(this)
+    this.Company = this.Company.bind(this)
+    this.Categories = this.Categories.bind(this)
+    this.SearchCompanies = this.SearchCompanies.bind(this)
   }
 
 
@@ -37,26 +42,42 @@ class App extends Component {
 
   Company({ match }){
     var result;
+    var back;
     companies.forEach(( company ) => {
       if(company.name === match.params.name)
       result = company;
     })
+    console.log(match.params.searched);
+    if(match.params.searched === '0'){
+      back = "/categories/" + this.state.category
+    }
+    else{
+      back = "/search"
+    }
 
-    return <div><ProfileComponent data={result}/><BottomButtons disabled={false} previousPage={`/categories/${current_category}`}/></div>
+    return(
+    <>
+    <NavbarComponent profile={true}/>
+    <ProfileComponent data={result}/>
+    <BottomButtons disabled={false} previousPage={back}/>
+    </>)
   }
 
   Category({ match }){
     var result;
-    current_category = match.params.name;
     categories.forEach((category) => {
       if(category.name === match.params.name)
         result = category;
     })
+    if (!this.state.loaded)
+    this.setState({category: match.params.name, loaded: true})
 
     return <CompaniesContainer data={result} category={match.params.name}/>
   }
 
   Categories(){
+  if(this.state.loaded)
+  this.setState({loaded: false})
     return (
       <div>
     <CategoriesContainer data={categories}/>
@@ -65,6 +86,8 @@ class App extends Component {
   }
 
   SearchCompanies(){
+  if(this.state.loaded)
+  this.setState({loaded: false})
     return <SearchCompanies data={companies}/>
   }
 
@@ -80,8 +103,9 @@ class App extends Component {
           <HiddableLogoSlider logos={logos}/>
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
-          <Route path = "/companies/:name" component = {this.Company}/>
+          <Route path = "/companies/:name&:searched" component = {this.Company}/>
           <Route path = "/search" component = {this.SearchCompanies}/>
+
       </Router>
       </div>
     );

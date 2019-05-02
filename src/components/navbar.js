@@ -6,13 +6,16 @@ import { Link } from "react-router-dom";
 class NavbarComponent extends Component {
 
   render() {
+    if(this.props.profile === true)
+    return(
+      <Navbar className='empty-navbar'/>
+    )
+    else
     return (
-      <Navbar>
+      <Navbar >
         <h1 style={{"color":"white","fontSize":"40px" ,"textTransform":"uppercase"}}>{this.props.title}</h1>
         <Link style={{"textDecoration": "none", color: "white"}} to= '/search/'>
-        <div style={{marginLeft: "350px", marginRight: "0px"}}>
-        <h1><img src="https://img.icons8.com/color/96/000000/search.png"/></h1>
-        </div>
+        <h1 ><img src="https://img.icons8.com/color/96/000000/search.png"/></h1>
         </Link>
       </Navbar>
     );

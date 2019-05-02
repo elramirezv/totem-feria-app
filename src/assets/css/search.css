@@ -2,9 +2,8 @@
 .search-container{
   max-width: 40px;
   float: right;
-  min-height: 1100px;
-  max-height: 1100px;
-  overflow-y: auto;
+  min-height: 700px;
+  max-height: 700px;
 }
 
 .boton-search{

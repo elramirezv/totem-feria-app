@@ -118,7 +118,7 @@ getWebPage(){
     return (
       <>
 <Fade>
-<Container style={{marginTop:"8%"}}>
+<Container style={{marginTop:"5%"}}>
   <Row style={{alignItems:"center"}}>
     <div style={{height:"315px", width: "720px", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
       <div style={{alignItems:"center", marginTop: "30%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
@@ -165,7 +165,7 @@ getWebPage(){
   <div style={{paddingTop: "20px", paddingBottom: "30px"}}>
   <Row style={{alignItems:"center"}}>
   <Col>
-      <Image style={{width: "720px", maxHeight:"400px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
+      <Image style={{"min-height":"500px", "max-height":"500px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
     </Col>
   </Row>
   </div>

@@ -7,6 +7,7 @@ import { history } from '../helpers/history';
 import Fade from 'react-reveal/Fade';
 import NavbarComponent from '../components/navbar';
 import BottomButtons from '../components/menu-buttons';
+import { Link } from "react-router-dom";
 
 class CompaniesContainer extends Component {
 
@@ -24,13 +25,17 @@ class CompaniesContainer extends Component {
     var counter = -1;
     this.state.companies.map((company) => {
       counter+=1;
+      console.log(company);
       if ((counter%3)===0){
         return (
           columns.push(
             <div>
             <Col>
-            <CompanyComponent key={company.name} company={company}/>
+            <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&0'}>
+            <img src={require('../assets/logos/'+company.logo)} style = {{'max-width':'200px'}}/>
+            </Link>
             </Col>
+
             <p className="space">
             </p>
           </div>))
@@ -39,7 +44,9 @@ class CompaniesContainer extends Component {
         columns.push(
           <div>
           <Col>
-          <CompanyComponent key={company.name} company={company}/>
+          <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&0'}>
+          <img src={require('../assets/logos/'+company.logo)} style = {{'max-width':'200px'}}/>
+          </Link>
           </Col>
           </div>
         ))

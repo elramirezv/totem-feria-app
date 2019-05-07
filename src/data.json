@@ -4,34 +4,44 @@
     "icon": "departures.png",
     "companies": [
       {
+        "logo":"SLI.png",
         "name": "Sli"
       },
       {
-        "name": "Sicex"
+        "name": "Sicex",
+        "logo": "sicex.png"
       },
       {
-        "name": "Cargox"
+        "name": "Cargox",
+        "logo": "cargox.png"
       },
       {
-        "name": "Agencia aduanas walter perez"
+        "name": "Agencia aduanas walter perez",
+        "logo": "wap.png"
       },
       {
-        "name": "Datasur"
+        "name": "Datasur",
+        "logo": "datasur.png"
       },
       {
-        "name": "Thomson reuters"
+        "name": "Thomson reuters",
+        "logo": "thomson.png"
       },
       {
-        "name": "Empresa portuaria valparaíso"
+        "name": "Empresa portuaria valparaíso",
+        "logo": "Puerto_valpo.png"
       },
       {
-        "name": "Medlog"
+        "name": "Medlog",
+        "logo": "medlog.png"
       },
       {
-        "name": "Msc"
+        "name": "Msc",
+        "logo": "msc.png"
       },
       {
-        "name": "Boarder logistics"
+        "name": "Boarder logistics",
+        "logo": "bl.png"
       }
     ]
   },
@@ -40,19 +50,24 @@
     "icon": "cap.png",
     "companies": [
       {
-        "name": "Find talent"
+        "name": "Find talent",
+        "logo":"find talent.png"
       },
       {
-        "name": "Cetlog"
+        "name": "Cetlog",
+        "logo": "cetlog.png"
       },
       {
-        "name": "Puc"
+        "name": "Puc",
+        "logo": "UC.png"
       },
       {
-        "name": "Duoc"
+        "name": "Duoc",
+        "logo": "duocUC.png"
       },
       {
-        "name": "Camcap"
+        "name": "Camcap",
+        "logo": "smartgroup.png"
       }
     ]
   },
@@ -61,16 +76,20 @@
     "icon": "box.png",
     "companies": [
       {
-        "name": "Pricing"
+        "name": "Pricing",
+        "logo": "smartgroup.png"
       },
       {
-        "name": "Qclass (kardex)"
+        "name": "Qclass (kardex)",
+        "logo": "kardex.png"
       },
       {
-        "name": "D&c"
+        "name": "D&c",
+        "logo": "DClogistic.png"
       },
       {
-        "name": "Pallet parking"
+        "name": "Pallet parking",
+        "logo": "pallet.png"
       }
     ]
   },
@@ -79,55 +98,72 @@
     "icon": "devices.png",
     "companies": [
       {
-        "name": "Pricing"
+        "name": "Pricing",
+        "logo": "smartgroup.png"
       },
       {
-        "name": "Angel lira"
+        "name": "Angel lira",
+        "logo": "angellira.png"
       },
       {
-        "name": "Qclass (kardex)"
+        "name": "Qclass (kardex)",
+        "logo": "kardex.png"
       },
       {
-        "name": "Simpliroute"
+        "name": "Simpliroute",
+        "logo": "simpliroute.png"
       },
       {
-        "name": "Valgreti"
+        "name": "Valgreti",
+        "logo": "valgreti.png"
       },
       {
-        "name": "Position"
+        "name": "Position",
+        "logo": "Position.png"
       },
       {
-        "name": "Buonny"
+        "name": "Buonny",
+        "logo": "buonny.png"
       },
       {
-        "name": "Quadminds"
+        "name": "Quadminds",
+        "logo": "quadminds.png"
       },
       {
-        "name": "Datasur"
+        "name": "Datasur",
+        "logo": "datasur.png"
       },
       {
-        "name": "Mobile form"
+        "name": "Mobile form",
+        "logo": "smartgroup.png"
       },
       {
-        "name": "Fleet up"
+        "name": "Fleet up",
+        "logo": "fleetup.png"
       },
       {
-        "name": "Line gps"
+        "name": "Line gps",
+        "logo": "line.png"
       },
       {
-        "name": "Sibpo (saur)"
+        "name": "Sibpo (saur)",
+        "logo": "sibpo.png"
       },
       {
-        "name": "Smart bot"
+        "name": "Smart bot",
+        "logo": "smartbot.png"
       },
       {
-        "name": "Thomson reuters"
+        "name": "Thomson reuters",
+        "logo": "thomson.png"
       },
       {
-        "name": "Beetrack"
+        "name": "Beetrack",
+        "logo": "beetrack.png"
       },
       {
-        "name": "Sistemo"
+        "name": "Sistemo",
+        "logo": "sistemo.png"
       }
     ]
   },
@@ -136,25 +172,32 @@
     "icon": "truck.png",
     "companies": [
       {
-        "name": "Simpliroute"
+        "name": "Simpliroute",
+        "logo": "simpliroute.png"
       },
       {
-        "name": "Position"
+        "name": "Position",
+        "logo": "Position.png"
       },
       {
-        "name": "Quadminds"
+        "name": "Quadminds",
+        "logo": "quadminds.png"
       },
       {
-        "name": "Fleet up"
+        "name": "Fleet up",
+        "logo": "fleetup.png"
       },
       {
-        "name": "Line gps"
+        "name": "Line gps",
+        "logo": "line.png"
       },
       {
-        "name": "Comaco"
+        "name": "Comaco",
+        "logo": "comaco.png"
       },
       {
-        "name": "Beetrack"
+        "name": "Beetrack",
+        "logo": "beetrack.png"
       }
     ]
   },
@@ -163,25 +206,33 @@
     "icon": "ship.png",
     "companies": [
       {
-        "name": "Hotel city express"
+        "name": "Hotel city express",
+        "logo": "cityexpress.png"
       },
       {
-        "name": "Sibpo (saur)"
+        "name": "Sibpo (saur)",
+        "logo": "sibpo.png"
       },
       {
-        "name": "Puerto columbo"
+        "name": "Puerto columbo",
+        "logo": "columbo.png"
       },
       {
-        "name": "D&c"
+        "name": "D&c",
+        "logo": "DClogistic.png"
       },
       {
-        "name": "Comaco"
+        "name": "Comaco",
+        "logo": "comaco.png"
+
       },
       {
-        "name": "Pallet parking"
+        "name": "Pallet parking",
+        "logo": "pallet.png"
       },
       {
-        "name": "Medlog"
+        "name": "Medlog",
+        "logo": "medlog.png"
       }
     ]
   },
@@ -190,10 +241,12 @@
     "icon": "newspaper.png",
     "companies": [
       {
-        "name": "Revista logistec"
+        "name": "Revista logistec",
+        "logo": "logistec.png"
       },
       {
-        "name": "Mas container"
+        "name": "Mas container",
+        "logo": "mascontainer.png"
       }
     ]
   },
@@ -202,10 +255,12 @@
     "icon": "dish.png",
     "companies": [
       {
-        "name": "Revista logistec"
+        "name": "Revista logistec",
+        "logo": "logistec.png"
       },
       {
-        "name": "Mas container"
+        "name": "Mas container",
+        "logo": "mascontainer.png"
       }
     ]
   },
@@ -214,10 +269,12 @@
     "icon": "toilet.png",
     "companies": [
       {
-        "name": "Revista logistec"
+        "name": "Revista logistec",
+        "logo": "logistec.png"
       },
       {
-        "name": "Mas container"
+        "name": "Mas container",
+        "logo": "mascontainer.png"
       }
     ]
   }
@@ -232,6 +289,7 @@
     "email": "Gerencia@sli-soluciones.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
+    "logo":"SLI.png",
     "image": "mapa.png",
     "video": "video.mp4",
     "webpage": "www.fastersoluciones.com"
@@ -244,6 +302,7 @@
     "email": "#ref!",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
+    "logo":"find talent.png",
     "image": "mapa.png"
   },
   {
@@ -254,7 +313,8 @@
     "email": "Msalazar@pricing.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "smartgroup.png"
   },
   {
     "stand": "4",
@@ -265,7 +325,8 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "webpage": "angellira.com/es"
+    "webpage": "angellira.com/es",
+    "logo": "angellira.png"
   },
   {
     "stand": "5",
@@ -275,7 +336,8 @@
     "email": "Vpacheco@hacienda.gov.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "sicex.png"
   },
   {
     "stand": "6",
@@ -285,7 +347,8 @@
     "email": "Jlopez@qclass.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "kardex.png"
   },
   {
     "stand": "7",
@@ -295,7 +358,8 @@
     "email": "Alvaro@simpliroute.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "simpliroute.png"
   },
   {
     "stand": "9",
@@ -305,7 +369,8 @@
     "email": "Luis.santander@valgreti.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "valgreti.png"
   },
   {
     "stand": "10",
@@ -315,7 +380,8 @@
     "email": "Rsalas@position.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "Position.png"
   },
   {
     "stand": "11",
@@ -325,7 +391,8 @@
     "email": "Dmora@duoc.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "duocUC.png"
   },
   {
     "stand": "12",
@@ -335,7 +402,8 @@
     "email": "Rene.ellis@buonny.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "buonny.png"
   },
   {
     "stand": "13",
@@ -345,7 +413,8 @@
     "email": "Jhsturione@cargox.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "cargox.png"
   },
   {
     "stand": "16",
@@ -355,7 +424,8 @@
     "email": "Agente@agenciawalterperez.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "wap.png"
   },
   {
     "stand": "17",
@@ -365,7 +435,8 @@
     "email": "Carlos@quadminds.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "quadminds.png"
   },
   {
     "stand": "18",
@@ -375,7 +446,8 @@
     "email": "Pmorales@datasur.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "datasur.png"
   },
   {
     "stand": "19",
@@ -385,7 +457,8 @@
     "email": "#n/a",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "smartgroup.png"
   },
   {
     "stand": "26",
@@ -395,7 +468,8 @@
     "email": "Edivizia@fleetup.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "fleetup.png"
   },
   {
     "stand": "27",
@@ -405,7 +479,8 @@
     "email": "Mario@linegps.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "line.png"
   },
   {
     "stand": "28",
@@ -415,7 +490,8 @@
     "email": "Cgomezo@ing.puc.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "UC.png"
   },
   {
     "stand": "29",
@@ -425,7 +501,8 @@
     "email": "Leonardo.torrealba@sibpogroup.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "sibpo.png"
   },
   {
     "stand": "30",
@@ -435,7 +512,8 @@
     "email": "Lmasafierro@dycsa.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "columbo.png"
   },
   {
     "stand": "31",
@@ -445,7 +523,8 @@
     "email": "Hgalaz@dycsa.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "DClogistic.png"
   },
   {
     "stand": "34",
@@ -455,7 +534,8 @@
     "email": "Cescl.gerencia@cityexpress.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "cityexpress.png"
   },
   {
     "stand": "37",
@@ -465,7 +545,8 @@
     "email": "Peckell@smartbot.la",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "smartbot.png"
   },
   {
     "stand": "38",
@@ -475,7 +556,8 @@
     "email": "Soledadlama@comaco.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "comaco.png"
   },
   {
     "stand": "39",
@@ -485,7 +567,8 @@
     "email": "Moliva@cetlog.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "cetlog.png"
   },
   {
     "stand": "40",
@@ -495,7 +578,8 @@
     "email": "Oscar.desaintpierre@palletparking.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "pallet.png"
   },
   {
     "stand": "43",
@@ -505,7 +589,8 @@
     "email": "Paula.cortes@revistalogistec.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "logistec.png"
   },
   {
     "stand": "47",
@@ -515,17 +600,19 @@
     "email": "Yessica.calcagnochandia@thomsonreuters.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "thomson.png"
   },
   {
     "stand": "48",
-    "name": "Empresa portuaria valpara\ufffdso",
+    "name": "Empresa portuaria valparaíso",
     "phone": "944019913",
     "contact": "Carlos carcamo",
     "email": "Ccarcamo@puertovalparaiso.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "Puerto_valpo.png"
   },
   {
     "stand": "49",
@@ -535,7 +622,8 @@
     "email": "Hernan.bustos@camcap.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "smartgroup.png"
   },
   {
     "stand": "52",
@@ -545,7 +633,8 @@
     "email": "#n/a",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "medlog.png"
   },
   {
     "stand": "52",
@@ -555,7 +644,8 @@
     "email": "#ref!",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "msc.png"
   },
   {
     "stand": "53",
@@ -565,7 +655,8 @@
     "email": "#n/a",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "mascontainer.png"
   },
   {
     "stand": "14 - 15",
@@ -576,7 +667,8 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "webpage": "www.beetrack.com"
+    "webpage": "www.beetrack.com",
+    "logo": "beetrack.png"
   },
   {
     "stand": "32 - 33",
@@ -586,7 +678,8 @@
     "email": "Fbello@sistemo.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "sistemo.png"
   },
   {
     "stand": "50 -51",
@@ -596,7 +689,8 @@
     "email": "Emf@blcorporations.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "logo": "bl.png"
   }
 ],
 
@@ -612,4 +706,3 @@
 ["smartbot.png","thomson.png","UC.png","valgreti.png"],
 ["wap.png","logistec.png","smartgroup.png","comaco.png"]]
 }
-

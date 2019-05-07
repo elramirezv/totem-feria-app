@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import VideoComponent from './video';
 
 
 class ProfileComponent extends Component {
@@ -62,7 +63,6 @@ getVideo(){
 
       <Modal show={this.state.showVid} onHide={this.handleCloseVid} dialogClassName="custom-dialog">
         <Modal.Body>
-
           <video className = 'video-player' autoPlay loop>
           <source src={require('../assets/videos/' + this.props.data.video)}/>
           </video>

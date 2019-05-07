@@ -44,6 +44,15 @@
       },
       {
         "name": "Cetlog"
+      },
+      {
+        "name": "Puc"
+      },
+      {
+        "name": "Duoc"
+      },
+      {
+        "name": "Camcap"
       }
     ]
   },
@@ -155,6 +164,24 @@
     "companies": [
       {
         "name": "Hotel city express"
+      },
+      {
+        "name": "Sibpo (saur)"
+      },
+      {
+        "name": "Puerto columbo"
+      },
+      {
+        "name": "D&c"
+      },
+      {
+        "name": "Comaco"
+      },
+      {
+        "name": "Pallet parking"
+      },
+      {
+        "name": "Medlog"
       }
     ]
   },
@@ -237,7 +264,8 @@
     "email": "Alejandro.arribas@angellira.com.br",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "webpage": "angellira.com/es"
   },
   {
     "stand": "5",
@@ -547,7 +575,8 @@
     "email": "Sebastian@beetrack.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "webpage": "www.beetrack.com"
   },
   {
     "stand": "32 - 33",
@@ -571,6 +600,15 @@
   }
 ],
 
-"logos": [["logo-filce.png", "line.jpg","logo1.png", "cetlog.png"],
-["logo1.png", "logo-filce.png","line.jpg", "cetlog.png"]]
+"logos": [["adexco.png", "angellira.png","beetrack.png", "bl.png"],
+["buonny.png", "cargox.png","cetlog.png", "cityexpress.png"],
+["columbo.png","comaco.png","datasur.png","DClogistic.png"],
+["duocUC.png","find talent.png","fleetup.png","kardex.png"],
+["Kauffman.png","line.png","logistec.png","logistic group.png"],
+["mascontainer.png","medlog.png","metricarts.png","more value.png"],
+["msc.png","pallet.png","Position.png","Puerto_valpo.png"],
+["quadminds.png","royal.png","sibpo.png","sicex.png"],
+["simpliroute.png","sistemo.png","SLI.png","smartgroup.png"],
+["smartbot.png","thomson.png","UC.png","valgreti.png"],
+["wap.png","logistec.png","smartgroup.png","comaco.png"]]
 }

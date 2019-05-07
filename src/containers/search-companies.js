@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/search.css';
 import '../assets/css/home.css';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import NavbarComponent from '../components/navbar';
 import BottomButtons from '../components/menu-buttons';
 

@@ -10,7 +10,7 @@ class NavbarComponent extends Component {
     return(
       <Navbar className="profile-navbar">
       <div className="to-right">
-        <h1 style={{"color":"white","fontSize":"40px"}}>Stand: {this.props.title}</h1>
+        <h1 style={{"color":"white","fontSize":"40px"}}>Stand {this.props.title}</h1>
       </div>
       </Navbar>
     )

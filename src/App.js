@@ -7,7 +7,7 @@ import HiddableLogoSlider from './components/logo-slider';
 import IdleTimer from 'react-idle-timer';
 import './assets/css/index.css';
 import data from "./data.json"
-import { Router, Route, Link, Redirect, Switch} from "react-router-dom";
+import { Router, Route} from "react-router-dom";
 import { history } from './helpers/history';
 import BottomButtons from './components/menu-buttons';
 import NavbarComponent from './components/navbar';

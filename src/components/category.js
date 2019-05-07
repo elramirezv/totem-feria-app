@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
 
 class CategoryComponent extends Component {
 
@@ -12,7 +13,7 @@ class CategoryComponent extends Component {
         <Card>
         <Card.Body>
         <h1 className="black-text">
-        <img width= {"100px"}src={this.props.category.icon}/>
+        <Image style={{"min-height":"100px", "max-height":"100px"}} src={require("../assets/images/"+this.props.category.icon)} rounded />
         </h1>
         </Card.Body>
         </Card>

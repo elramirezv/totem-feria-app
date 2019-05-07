@@ -120,7 +120,7 @@ getWebPage(){
 <Fade>
 <div className="container-test">
   <Row style={{alignItems:"center"}}>
-    <div style={{height:"340px", width: "100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.tinylogo1)})`}}>
+    <div style={{height:"340px", width: "100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image)})`}}>
       <div style={{alignItems:"center", marginTop: "28.6%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
         <div style={{paddingLeft: "20px"}}>
         <h1 style={{"color": "white", paddingTop: "5px"}}>
@@ -165,7 +165,7 @@ getWebPage(){
   <div style={{paddingTop: "20px"}}>
   <Row style={{alignItems:"center"}}>
   <Col>
-      <Image style={{"min-height":"500px", "max-height":"500px", "width": "825px"}} src={require("../assets/images/"+this.props.data.image)} rounded />
+      <Image style={{"min-height":"500px", "max-height":"500px", "width": "825px"}} src={require("../assets/images/"+this.props.data.mapa)} rounded />
     </Col>
   </Row>
   </div>

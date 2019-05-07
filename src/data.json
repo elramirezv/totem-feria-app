@@ -287,12 +287,13 @@
     "phone": "59 1 63518359",
     "contact": "Ana",
     "email": "Gerencia@sli-soluciones.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
+    "tinylogo1": "sl2.jpg",
+    "tinylogo2": "sl3.jpg",
+    "image": "sl1.jpg",
     "logo":"SLI.png",
-    "image": "mapa.png",
     "video": "video.mp4",
-    "webpage": "www.fastersoluciones.com"
+    "mapa": "mapa.png",
+    "webpage": "http://www.slisoluciones.com"
   },
   {
     "stand": "2",
@@ -300,10 +301,12 @@
     "phone": "987760549",
     "contact": "Valeska lira",
     "email": "#ref!",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
+    "tinylogo1": "find1.jpg",
+    "tinylogo2": "find2.jpg",
+    "image": "find3.jpeg",
+    "mapa": "mapa.png",
     "logo":"find talent.png",
-    "image": "mapa.png"
+    "webpage": "http://www.findtalent.cl"
   },
   {
     "stand": "3",
@@ -311,10 +314,12 @@
     "phone": "992355106",
     "contact": "Manuel salazar",
     "email": "Msalazar@pricing.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "smartgroup.png"
+    "tinylogo1": "pric2.jpg",
+    "tinylogo2": "pric3.jpg",
+    "image": "pric1.jpg",
+    "logo": "smartgroup.png",
+    "mapa": "mapa.png",
+    "webpage": "https://www.pricing.cl"
   },
   {
     "stand": "4",
@@ -322,11 +327,12 @@
     "phone": "55 49 99286282",
     "contact": "Alejandro arribas",
     "email": "Alejandro.arribas@angellira.com.br",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "webpage": "angellira.com/es",
-    "logo": "angellira.png"
+    "tinylogo1": "a2.jpg",
+    "tinylogo2": "a3.jpg",
+    "image": "a1.jpg",
+    "logo": "angellira.png",
+    "mapa": "mapa.png",
+    "webpage": "angellira.com/es"
   },
   {
     "stand": "5",
@@ -334,10 +340,12 @@
     "phone": "988582952",
     "contact": "Valentina pacheco",
     "email": "Vpacheco@hacienda.gov.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "sicex.png"
+    "tinylogo1": "sicx.png",
+    "tinylogo2": "sicx2.jpg",
+    "image": "sicx1.png",
+    "mapa": "mapa.png",
+    "logo": "sicex.png",
+    "webpage": "https://www.sicexchile.cl"
   },
   {
     "stand": "6",
@@ -345,10 +353,12 @@
     "phone": "991571880",
     "contact": "Javier lopez",
     "email": "Jlopez@qclass.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "kardex.png"
+    "tinylogo1": "q2.jpg",
+    "tinylogo2": "q3.jpg",
+    "image": "q1.jpeg",
+    "mapa": "mapa.png",
+    "logo": "kardex.png",
+    "webpage": "http://www.qclass.cl/kardex.html"
   },
   {
     "stand": "7",
@@ -356,10 +366,13 @@
     "phone": "994429146",
     "contact": "Alvaro echeverria",
     "email": "Alvaro@simpliroute.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "simpliroute.png"
+    "tinylogo1": "sim1.svg",
+    "tinylogo2": "sim3.jpg",
+    "image": "sim1.jpg",
+    "mapa": "mapa.png",
+    "logo": "simpliroute.png",
+
+    "webpage": "https://www.simpliroute.com/"
   },
   {
     "stand": "9",
@@ -367,10 +380,12 @@
     "phone": "952077173",
     "contact": "Luis santander",
     "email": "Luis.santander@valgreti.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "valgreti.png"
+    "tinylogo1": "val2.jpeg",
+    "tinylogo2": "val2.png",
+    "image": "val1.png",
+    "logo": "valgreti.png",
+    "mapa": "mapa.png",
+    "webpage": "http://valgreti.cl/"
   },
   {
     "stand": "10",
@@ -381,7 +396,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "Position.png"
+    "mapa": "mapa.png",
+    "logo": "Position.png",
+    "webpage": "https://www.position-latam.com/"
   },
   {
     "stand": "11",
@@ -389,10 +406,12 @@
     "phone": "978533431",
     "contact": "Dario mora",
     "email": "Dmora@duoc.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "duocUC.png"
+    "tinylogo1": "duoc2.jpg",
+    "tinylogo2": "duoc3.jpg",
+    "logo": "duocUC.png",
+    "image": "duoc1.jpg",
+    "mapa": "mapa.png",
+    "webpage": "http://www.duoc.cl/inicio"
   },
   {
     "stand": "12",
@@ -400,10 +419,12 @@
     "phone": "946991303",
     "contact": "Rene ellis",
     "email": "Rene.ellis@buonny.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "buonny.png"
+    "tinylogo1": "bou2.jpg",
+    "logo": "buonny.png",
+    "tinylogo2": "bou3.png",
+    "image": "bou1.jpeg",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "13",

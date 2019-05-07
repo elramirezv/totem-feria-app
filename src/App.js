@@ -47,17 +47,15 @@ class App extends Component {
       if(company.name === match.params.name)
       result = company;
     })
-    console.log(match.params.searched);
     if(match.params.searched === '0'){
       back = "/categories/" + this.state.category
     }
     else{
       back = "/search"
     }
-
     return(
     <>
-    <NavbarComponent profile={true}/>
+    <NavbarComponent profile={true} title={result.stand}/>
     <ProfileComponent data={result}/>
     <BottomButtons disabled={false} previousPage={back}/>
     </>)
@@ -105,7 +103,6 @@ class App extends Component {
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name&:searched" component = {this.Company}/>
           <Route path = "/search" component = {this.SearchCompanies}/>
-
       </Router>
       </div>
     );

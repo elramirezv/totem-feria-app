@@ -22,7 +22,7 @@
         "name": "Thomson reuters"
       },
       {
-        "name": "Empresa portuaria valpara\ufffdso"
+        "name": "Empresa portuaria valparaíso"
       },
       {
         "name": "Medlog"
@@ -169,6 +169,30 @@
         "name": "Mas container"
       }
     ]
+  },
+  {
+    "name": "Comida",
+    "icon": "https://img.icons8.com/ios/100/000000/food.png",
+    "companies": [
+      {
+        "name": "Revista logistec"
+      },
+      {
+        "name": "Mas container"
+      }
+    ]
+  },
+  {
+    "name": "Baños",
+    "icon": "https://img.icons8.com/ios/100/000000/toilet.png",
+    "companies": [
+      {
+        "name": "Revista logistec"
+      },
+      {
+        "name": "Mas container"
+      }
+    ]
   }
 ],
 "companies":
@@ -181,7 +205,9 @@
     "email": "Gerencia@sli-soluciones.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png"
+    "image": "mapa.png",
+    "video": "video.mp4",
+    "webpage": "www.fastersoluciones.com"
   },
   {
     "stand": "2",

@@ -11,8 +11,12 @@
         margin-bottom: 10px;
     }
 
-.empty-navbar{
-
+.profile-navbar{
   margin-top: 0px;
-  min-height: 70px;
+  min-height: 80px;
+}
+
+.to-rigth {
+  position: relative;
+  float: right;
 }

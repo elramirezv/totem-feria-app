@@ -424,7 +424,8 @@
     "tinylogo2": "bou3.png",
     "image": "bou1.jpeg",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "http://www.buonny.com.br",
+    "ubication": "São Paulo, BR"
   },
   {
     "stand": "13",
@@ -432,10 +433,13 @@
     "phone": "998838532",
     "contact": "Humberto sturione",
     "email": "Jhsturione@cargox.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "cargox.png"
+    "tinylogo1": "cargo2.jpg",
+    "tinylogo2": "cargo3.jpg",
+    "image": "cargo1.jpg",
+    "logo": "cargox.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.cargox.com",
+    "ubication": "Ciudad de Panamá, PA" 
   },
   {
     "stand": "16",
@@ -443,10 +447,13 @@
     "phone": "990881021",
     "contact": "Walter perez",
     "email": "Agente@agenciawalterperez.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "wap.png"
+    "tinylogo1": "walter1.jpg",
+    "tinylogo2": "walter2.jpg",
+    "image": "walter3.jpg",
+    "logo": "wap.png",
+    "mapa": "mapa.png",
+    "webpage": "http://agenciawalterperez.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "17",
@@ -454,10 +461,13 @@
     "phone": "999690474",
     "contact": "Carlos reinoso",
     "email": "Carlos@quadminds.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "quadminds.png"
+    "tinylogo1": "quad2.jpg",
+    "tinylogo2": "quad3.png",
+    "image": "quad1.jpg",
+    "logo": "quadminds.png",
+    "mapa": "mapa.png",
+    "webpage": "https://www.quadminds.com",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "18",
@@ -465,10 +475,13 @@
     "phone": "956885117",
     "contact": "Pablo morales",
     "email": "Pmorales@datasur.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "datasur.png"
+    "tinylogo1": "datasur2.jpg",
+    "tinylogo2": "datasur3.jpg",
+    "image": "datasur1.png",
+    "logo": "datasur.png",
+    "mapa": "mapa.png",
+    "webpage": "https://www.datasur.com",
+    "ubication":"Santiago, CL"
   },
   {
     "stand": "19",
@@ -479,7 +492,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "smartgroup.png"
+    "logo": "smartgroup.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "26",
@@ -487,10 +502,13 @@
     "phone": "985053499",
     "contact": "Enzo divizia",
     "email": "Edivizia@fleetup.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "fleetup.png"
+    "tinylogo1": "fleet2.png",
+    "tinylogo2": "fleet3.jpg",
+    "image": "fleetup.jpg",
+    "logo": "fleetup.png",
+    "mapa": "mapa.png",
+    "webpage": "https://fleetup.com/es",
+    "ubication": "San Jose, California, US"
   },
   {
     "stand": "27",
@@ -498,10 +516,13 @@
     "phone": "948545117",
     "contact": "Mario jara",
     "email": "Mario@linegps.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "line.png"
+    "tinylogo1": "line1.jpg",
+    "tinylogo2": "line2.jpg",
+    "image": "line.jpg",
+    "logo": "line.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.linegps.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "28",
@@ -509,10 +530,13 @@
     "phone": "981298831",
     "contact": "Claudia gomez",
     "email": "Cgomezo@ing.puc.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "UC.png"
+    "tinylogo1": "puc2.jpg",
+    "tinylogo2": "puc3.jpg",
+    "image": "puc1.jpeg",
+    "logo": "UC.png",
+    "mapa": "mapa.png",
+    "webpage": "https://www.uc.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "29",
@@ -520,10 +544,13 @@
     "phone": "999262806",
     "contact": "Leonardo torrealba",
     "email": "Leonardo.torrealba@sibpogroup.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "sibpo.png"
+    "tinylogo1": "sibpo2",
+    "tinylogo2": "sibpo3",
+    "image": "sib1.jpg",
+    "logo": "sibpo.png",
+    "mapa": "mapa.png",
+    "webpage": "https://sibpogroup.com/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "30",
@@ -531,10 +558,13 @@
     "phone": "961432835",
     "contact": "Luz mar\ufffda masafierro",
     "email": "Lmasafierro@dycsa.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "columbo.png"
+    "tinylogo1": "pc2.jpg",
+    "tinylogo2": "pc3.jpg",
+    "image": "pc1.png",
+    "logo": "columbo.png",
+    "mapa": "mapa.png",
+    "webpage": "https://www.puertocolumbo.com",
+    "ubication": "San Antonio, CL"
   },
   {
     "stand": "31",
@@ -542,10 +572,13 @@
     "phone": "990433900",
     "contact": "Hugo galaz",
     "email": "Hgalaz@dycsa.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "DClogistic.png"
+    "tinylogo1": "dc2.jpg",
+    "tinylogo2": "dc3.jpg",
+    "image": "dc1.jpg",
+    "logo": "DClogistic.png",
+    "mapa": "mapa.png",
+    "webpage": "https://www.dycsa.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "34",
@@ -553,10 +586,13 @@
     "phone": "225897900",
     "contact": "Carmen gloria sanhueza",
     "email": "Cescl.gerencia@cityexpress.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "cityexpress.png"
+    "tinylogo1": "hp2.jpg",
+    "tinylogo2": "hp1.jpg3",
+    "image": "hp1.jpg",
+    "logo": "cityexpress.png",
+    "mapa": "mapa.png",
+    "webpage": "https://www.cityexpress.com/es-cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "37",
@@ -564,10 +600,13 @@
     "phone": "996271052",
     "contact": "Pablo eckell",
     "email": "Peckell@smartbot.la",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "smartbot.png"
+    "tinylogo1": "sm2.jpg",
+    "tinylogo2": "sm3.jpg",
+    "image": "sm1.jpg",
+    "logo": "smartbot.png",
+    "mapa": "mapa.png",
+    "webpage": "https://smartbot.la/chile/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "38",
@@ -575,10 +614,12 @@
     "phone": "997010555",
     "contact": "Soledad lama",
     "email": "Soledadlama@comaco.cl",
-    "tinylogo1": "test.jpg",
+    "tinylogo1": "sm1.png",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "comaco.png"
+    "image": "sm.jpeg",
+    "logo": "comaco.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "39",
@@ -589,7 +630,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "cetlog.png"
+    "logo": "cetlog.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "40",
@@ -600,7 +643,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "pallet.png"
+    "logo": "pallet.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "43",
@@ -611,7 +656,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "logistec.png"
+    "logo": "logistec.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "47",
@@ -622,7 +669,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "thomson.png"
+    "logo": "thomson.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "48",
@@ -633,7 +682,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "Puerto_valpo.png"
+    "logo": "Puerto_valpo.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "49",
@@ -644,7 +695,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "smartgroup.png"
+    "logo": "smartgroup.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "52",
@@ -655,7 +708,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "medlog.png"
+    "logo": "medlog.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "52",
@@ -666,7 +721,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "msc.png"
+    "logo": "msc.png",
+    "mapa": "mapa.png",
+    "webpage": "http://www.buonny.com.br/"
   },
   {
     "stand": "53",

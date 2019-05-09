@@ -105,7 +105,7 @@ getWebPage(){
       </div>
       <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
         <Modal.Body>
-        <iframe sandbox = {"allow-scripts"} src={this.props.data.webpage} name ="iframe_a" width="100%" height="900px" />
+        <iframe src={this.props.data.webpage} name ="iframe_a" width="100%" height="900px" />
         </Modal.Body>
       </Modal>
     </>

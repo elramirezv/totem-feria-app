@@ -335,7 +335,7 @@
     "image": "a1.jpg",
     "logo": "angellira.png",
     "mapa": "mapa.png",
-    "webpage": "angellira.com/es",
+    "webpage": "https://www.angellira.com/es",
     "ubication": "Chapecó, BR"
   },
   {
@@ -349,7 +349,7 @@
     "image": "sicx1.png",
     "mapa": "mapa.png",
     "logo": "sicex.png",
-    "webpage": "https://www.sicexchile.cl",
+    "webpage": "https://www.sicexchile.cl/portal/web/sicex/organizacion",
     "ubication": "Santiago, CL"
   },
   {
@@ -738,7 +738,7 @@
     "email": "#ref!",
     "tinylogo1": "msc.jpeg",
     "tinylogo2": "msc2.jpg",
-    "image": "msc.jpg",
+    "image": "msc1.jpg",
     "logo": "msc.png",
     "mapa": "mapa.png",
     "webpage": "https://www.msc.com/chl",
@@ -770,7 +770,8 @@
     "mapa": "mapa.png",
     "webpage": "https://www.beetrack.com/",
     "logo": "beetrack.png",
-    "ubication": ""
+    "ubication": "",
+    "pdf": "beetrack.pdf"
   },
   {
     "stand": "32 - 33",

@@ -614,12 +614,13 @@
     "phone": "997010555",
     "contact": "Soledad lama",
     "email": "Soledadlama@comaco.cl",
-    "tinylogo1": "sm1.png",
-    "tinylogo2": "test.jpg",
-    "image": "sm.jpeg",
+    "tinylogo1": "com1.jpg",
+    "tinylogo2": "com2.jpg",
+    "image": "coma1.png",
     "logo": "comaco.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "http://www.comaco.cl/wpcomaco",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "39",
@@ -627,12 +628,13 @@
     "phone": "979965064",
     "contact": "Marcos oliva",
     "email": "Moliva@cetlog.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "cet1.jpeg",
+    "tinylogo2": "cet2.png",
+    "image": "cet1.jpg",
     "logo": "cetlog.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "http://www.ingenieria.utalca.cl/Unidad/Detalles/CETLOG",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "40",
@@ -640,12 +642,13 @@
     "phone": "992187732",
     "contact": "Oscar de saint pierre",
     "email": "Oscar.desaintpierre@palletparking.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "pallet2.jpg",
+    "tinylogo2": "pallet3.png",
+    "image": "pallet1.jpg",
     "logo": "pallet.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "https://palletparking.com/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "43",
@@ -653,12 +656,13 @@
     "phone": "994550867",
     "contact": "Paula cortes",
     "email": "Paula.cortes@revistalogistec.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "logic2.jpg",
+    "tinylogo2": "logic3.jpg",
+    "image": "logic1.jpeg",
     "logo": "logistec.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "https://www.revistalogistec.com/",
+    "ubication": ""
   },
   {
     "stand": "47",
@@ -666,12 +670,13 @@
     "phone": "971401499",
     "contact": "Yessica calcagno",
     "email": "Yessica.calcagnochandia@thomsonreuters.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "thom2.jpg",
+    "tinylogo2": "thom3.jpg",
+    "image": "thom1.jpg",
     "logo": "thomson.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "https://www.thomsonreuters.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "48",
@@ -679,12 +684,13 @@
     "phone": "944019913",
     "contact": "Carlos carcamo",
     "email": "Ccarcamo@puertovalparaiso.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "valpo2.jpg",
+    "tinylogo2": "valpo3.png",
+    "image": "valpo1.jpg",
     "logo": "Puerto_valpo.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "https://www.puertovalparaiso.cl/",
+    "ubication": "Valparaíso, CL"
   },
   {
     "stand": "49",
@@ -697,7 +703,8 @@
     "image": "mapa.png",
     "logo": "smartgroup.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "http://www.camcaponline.cl/",
+    "ubication": "Valparaíso, CL"
   },
   {
     "stand": "52",
@@ -710,7 +717,8 @@
     "image": "mapa.png",
     "logo": "medlog.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "http://www.medlogchile.cl/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "52",
@@ -723,7 +731,8 @@
     "image": "mapa.png",
     "logo": "msc.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "https://www.msc.com/chl",
+    "ubication":""
   },
   {
     "stand": "53",
@@ -734,7 +743,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "mascontainer.png"
+    "logo": "mascontainer.png",
+    "webpage": "http://www.mascontainer.com/",
+    "ubication":""
   },
   {
     "stand": "14 - 15",
@@ -745,8 +756,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "webpage": "www.beetrack.com",
-    "logo": "beetrack.png"
+    "webpage": "https://www.beetrack.com",
+    "logo": "beetrack.png",
+    "ubication": ""
   },
   {
     "stand": "32 - 33",
@@ -757,7 +769,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "sistemo.png"
+    "logo": "sistemo.png",
+    "webpage": "http://www.sistemo.cl/",
+    "ubication": ""
   },
   {
     "stand": "50 -51",
@@ -768,7 +782,9 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "bl.png"
+    "logo": "bl.png",
+    "webpage": "http://blsa.cl/empresa/",
+    "ubication": ""
   }
 ],
 

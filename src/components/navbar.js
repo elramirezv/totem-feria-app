@@ -19,7 +19,7 @@ class NavbarComponent extends Component {
       <div className="topnav">
       <h1 >{this.props.title}</h1>
       <Link style={{"textDecoration": "none", color: "white"}} to= '/search/'>
-      <div className="lupita"><img src="https://img.icons8.com/color/96/000000/search.png"/></div>
+      <div className="lupita"><img src={require("../assets/images/search.png")} style={{"max-width":"80px"}}/></div>
       </Link>
 </div>
     );

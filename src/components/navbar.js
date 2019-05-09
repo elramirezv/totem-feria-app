@@ -8,20 +8,20 @@ class NavbarComponent extends Component {
   render() {
     if(this.props.profile === true)
     return(
-      <Navbar className="profile-navbar">
+      <div className="topnav" style={{"margin-top":"0px"}}>
       <div className="to-right">
-        <h1 style={{"color":"white","fontSize":"40px"}}>Stand {this.props.title}</h1>
+        <h1>Stand {this.props.title}</h1>
       </div>
-      </Navbar>
+      </div>
     )
     else
     return (
-      <Navbar>
-        <h1 style={{"color":"white","fontSize":"40px" ,"textTransform":"uppercase"}}>{this.props.title}</h1>
-        <Link style={{"textDecoration": "none", color: "white"}} to= '/search/'>
-        <h1><img src="https://img.icons8.com/color/96/000000/search.png"/></h1>
-        </Link>
-      </Navbar>
+      <div className="topnav">
+      <h1 >{this.props.title}</h1>
+      <Link style={{"textDecoration": "none", color: "white"}} to= '/search/'>
+      <div className="lupita"><img src="https://img.icons8.com/color/96/000000/search.png"/></div>
+      </Link>
+</div>
     );
   }
 }

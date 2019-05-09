@@ -44,7 +44,7 @@ class BottomButtons extends Component {
       <Modal show={this.state.showMap} onHide={this.handleCloseMap} dialogClassName="custom-dialog">
         <Modal.Body>
         <div className='modal-container'>
-        <Image  className='modal-image' src={require('../assets/images/' + this.state.image)} rounded />
+        <Image  className='modal-image' src={require('../assets/mapas/' + this.state.image)} rounded />
         </div>
         <Button onClick={this.handleImageChange}>Cambiar Piso</Button>
         </Modal.Body>

@@ -32,7 +32,7 @@ class CompaniesContainer extends Component {
             <div>
             <Col>
             <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&0'}>
-            <img src={require('../assets/logos/'+company.logo)} style = {{'max-width':'200px'}}/>
+            <img className= "logo-image" src={require('../assets/logos/'+company.logo)}/>
             </Link>
             </Col>
 
@@ -45,7 +45,7 @@ class CompaniesContainer extends Component {
           <div>
           <Col>
           <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&0'}>
-          <img src={require('../assets/logos/'+company.logo)} style = {{'max-width':'200px'}}/>
+          <img className= "logo-image" src={require('../assets/logos/'+company.logo)}/>
           </Link>
           </Col>
           </div>
@@ -61,7 +61,7 @@ class CompaniesContainer extends Component {
       <div className='big-container'>
       <Fade>
       <div className="space">
-      <Row style={{paddingLeft: "3%"}}>
+      <Row>
       {this.createComponents()}
       </Row>
       </div>

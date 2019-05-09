@@ -96,7 +96,7 @@ class App extends Component {
           ref={ref => { this.idleTimer = ref }}
           element={document}
           onIdle={this.onIdle}
-          timeout={1000 * 60} />
+          timeout={1000 * 40} />
       <Router history={history}>
           <HiddableLogoSlider logos={logos}/>
           <Route exact path = "/" component = {this.Categories}/>

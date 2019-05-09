@@ -29,7 +29,6 @@ prepareLetters = (itemList) => {
     const items = itemList.filter((element) =>(element.name.charAt(0).toLowerCase() === this.state.letters[i].toLowerCase()));
 
     if(items.length > 0){
-      console.log(items);
       letters.push(this.state.letters[i])
     }
   }
@@ -39,7 +38,6 @@ prepareLetters = (itemList) => {
     this.setState({alphabet: e.target.value})
   }
   prepareAlphabets = () => {
-    console.log(this.state.letters);
     let result = [<button className = 'boton-search' type="button" key ={0}onMouseEnter = {this.onAlphabetClick} onClick={this.onAlphabetClick} value = "">↻</button>];
     for(let i=0; i<this.state.letters.length; i++) {
         result.push(<button className = 'boton-search' type="button" key={i + 1} onClick={this.onAlphabetClick} onMouseEnter = {this.onAlphabetClick} value={this.state.letters[i]} >{this.state.letters[i]}</button>)

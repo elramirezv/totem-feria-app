@@ -5,7 +5,7 @@
     "companies": [
       {
         "logo":"SLI.png",
-        "name": "Sli"
+        "name": "Sli-soluciones"
       },
       {
         "name": "Sicex",
@@ -16,7 +16,7 @@
         "logo": "cargox.png"
       },
       {
-        "name": "Agencia aduanas walter perez",
+        "name": "Agencia de aduanas Walter Perez",
         "logo": "wap.png"
       },
       {
@@ -24,11 +24,11 @@
         "logo": "datasur.png"
       },
       {
-        "name": "Thomson reuters",
+        "name": "Thomson Reuters",
         "logo": "thomson.png"
       },
       {
-        "name": "Empresa portuaria valparaíso",
+        "name": "Empresa Portuaria Valparaíso",
         "logo": "Puerto_valpo.png"
       },
       {
@@ -36,11 +36,11 @@
         "logo": "medlog.png"
       },
       {
-        "name": "Msc",
+        "name": "MSC",
         "logo": "msc.png"
       },
       {
-        "name": "Boarder logistics",
+        "name": "Boarder Logistics",
         "logo": "bl.png"
       }
     ]
@@ -50,7 +50,7 @@
     "icon": "cap.png",
     "companies": [
       {
-        "name": "Find talent",
+        "name": "Findtalent",
         "logo":"find talent.png"
       },
       {
@@ -58,11 +58,11 @@
         "logo": "cetlog.png"
       },
       {
-        "name": "Puc",
+        "name": "PUC",
         "logo": "UC.png"
       },
       {
-        "name": "Duoc",
+        "name": "DuocUC",
         "logo": "duocUC.png"
       },
       {
@@ -80,15 +80,15 @@
         "logo": "smartgroup.png"
       },
       {
-        "name": "Qclass (kardex)",
+        "name": "QClass",
         "logo": "kardex.png"
       },
       {
-        "name": "D&c",
+        "name": "D&C",
         "logo": "DClogistic.png"
       },
       {
-        "name": "Pallet parking",
+        "name": "Pallet Parking",
         "logo": "pallet.png"
       }
     ]
@@ -106,7 +106,7 @@
         "logo": "angellira.png"
       },
       {
-        "name": "Qclass (kardex)",
+        "name": "QClass",
         "logo": "kardex.png"
       },
       {
@@ -134,7 +134,7 @@
         "logo": "datasur.png"
       },
       {
-        "name": "Mobile form",
+        "name": "Movilform",
         "logo": "smartgroup.png"
       },
       {
@@ -142,19 +142,19 @@
         "logo": "fleetup.png"
       },
       {
-        "name": "Line gps",
+        "name": "Line GPS",
         "logo": "line.png"
       },
       {
-        "name": "Sibpo (saur)",
+        "name": "Sibpo Group",
         "logo": "sibpo.png"
       },
       {
-        "name": "Smart bot",
+        "name": "SmartBot",
         "logo": "smartbot.png"
       },
       {
-        "name": "Thomson reuters",
+        "name": "Thomson Reuters",
         "logo": "thomson.png"
       },
       {
@@ -188,7 +188,7 @@
         "logo": "fleetup.png"
       },
       {
-        "name": "Line gps",
+        "name": "Line GPS",
         "logo": "line.png"
       },
       {
@@ -206,19 +206,19 @@
     "icon": "ship.png",
     "companies": [
       {
-        "name": "Hotel city express",
+        "name": "Hotel City Express",
         "logo": "cityexpress.png"
       },
       {
-        "name": "Sibpo (saur)",
+        "name": "Sibpo Group",
         "logo": "sibpo.png"
       },
       {
-        "name": "Puerto columbo",
+        "name": "Puerto Columbo",
         "logo": "columbo.png"
       },
       {
-        "name": "D&c",
+        "name": "D&C",
         "logo": "DClogistic.png"
       },
       {
@@ -227,7 +227,7 @@
 
       },
       {
-        "name": "Pallet parking",
+        "name": "Pallet Parking",
         "logo": "pallet.png"
       },
       {
@@ -241,11 +241,11 @@
     "icon": "newspaper.png",
     "companies": [
       {
-        "name": "Revista logistec",
+        "name": "Revista Logistec",
         "logo": "logistec.png"
       },
       {
-        "name": "Mas container",
+        "name": "Mas Container",
         "logo": "mascontainer.png"
       }
     ]
@@ -255,11 +255,11 @@
     "icon": "dish.png",
     "companies": [
       {
-        "name": "Revista logistec",
+        "name": "Revista Logistec",
         "logo": "logistec.png"
       },
       {
-        "name": "Mas container",
+        "name": "Mas Container",
         "logo": "mascontainer.png"
       }
     ]
@@ -269,11 +269,11 @@
     "icon": "toilet.png",
     "companies": [
       {
-        "name": "Revista logistec",
+        "name": "Revista Logistec",
         "logo": "logistec.png"
       },
       {
-        "name": "Mas container",
+        "name": "Mas Container",
         "logo": "mascontainer.png"
       }
     ]
@@ -283,7 +283,7 @@
 [
   {
     "stand": "1",
-    "name": "Sli",
+    "name": "Sli-soluciones",
     "phone": "59 1 63518359",
     "contact": "Ana",
     "email": "Gerencia@sli-soluciones.com",
@@ -298,7 +298,7 @@
   },
   {
     "stand": "2",
-    "name": "Find talent",
+    "name": "Findtalent",
     "phone": "987760549",
     "contact": "Valeska lira",
     "email": "#ref!",
@@ -354,7 +354,7 @@
   },
   {
     "stand": "6",
-    "name": "Qclass (kardex)",
+    "name": "QClass",
     "phone": "991571880",
     "contact": "Javier lopez",
     "email": "Jlopez@qclass.cl",
@@ -410,7 +410,7 @@
   },
   {
     "stand": "11",
-    "name": "Duoc",
+    "name": "DuocUC",
     "phone": "978533431",
     "contact": "Dario mora",
     "email": "Dmora@duoc.cl",
@@ -452,7 +452,7 @@
   },
   {
     "stand": "16",
-    "name": "Agencia aduanas walter perez",
+    "name": "Agencia de aduanas Walter Perez",
     "phone": "990881021",
     "contact": "Walter perez",
     "email": "Agente@agenciawalterperez.com",
@@ -522,7 +522,7 @@
   },
   {
     "stand": "27",
-    "name": "Line gps",
+    "name": "Line GPS",
     "phone": "948545117",
     "contact": "Mario jara",
     "email": "Mario@linegps.cl",
@@ -536,7 +536,7 @@
   },
   {
     "stand": "28",
-    "name": "Puc",
+    "name": "PUC",
     "phone": "981298831",
     "contact": "Claudia gomez",
     "email": "Cgomezo@ing.puc.cl",
@@ -550,7 +550,7 @@
   },
   {
     "stand": "29",
-    "name": "Sibpo (saur)",
+    "name": "Sibpo Group",
     "phone": "999262806",
     "contact": "Leonardo torrealba",
     "email": "Leonardo.torrealba@sibpogroup.com",
@@ -564,7 +564,7 @@
   },
   {
     "stand": "30",
-    "name": "Puerto columbo",
+    "name": "Puerto Columbo",
     "phone": "961432835",
     "contact": "Luz mar\ufffda masafierro",
     "email": "Lmasafierro@dycsa.cl",
@@ -578,7 +578,7 @@
   },
   {
     "stand": "31",
-    "name": "D&c",
+    "name": "D&C",
     "phone": "990433900",
     "contact": "Hugo galaz",
     "email": "Hgalaz@dycsa.cl",
@@ -592,7 +592,7 @@
   },
   {
     "stand": "34",
-    "name": "Hotel city express",
+    "name": "Hotel City Express",
     "phone": "225897900",
     "contact": "Carmen gloria sanhueza",
     "email": "Cescl.gerencia@cityexpress.cl",
@@ -606,7 +606,7 @@
   },
   {
     "stand": "37",
-    "name": "Smart bot",
+    "name": "SmartBot",
     "phone": "996271052",
     "contact": "Pablo eckell",
     "email": "Peckell@smartbot.la",
@@ -648,7 +648,7 @@
   },
   {
     "stand": "40",
-    "name": "Pallet parking",
+    "name": "Pallet Parking",
     "phone": "992187732",
     "contact": "Oscar de saint pierre",
     "email": "Oscar.desaintpierre@palletparking.com",
@@ -662,7 +662,7 @@
   },
   {
     "stand": "43",
-    "name": "Revista logistec",
+    "name": "Revista Logistec",
     "phone": "994550867",
     "contact": "Paula cortes",
     "email": "Paula.cortes@revistalogistec.com",
@@ -676,7 +676,7 @@
   },
   {
     "stand": "47",
-    "name": "Thomson reuters",
+    "name": "Thomson Reuters",
     "phone": "971401499",
     "contact": "Yessica calcagno",
     "email": "Yessica.calcagnochandia@thomsonreuters.com",
@@ -690,7 +690,7 @@
   },
   {
     "stand": "48",
-    "name": "Empresa portuaria valparaíso",
+    "name": "Empresa Portuaria Valparaíso",
     "phone": "944019913",
     "contact": "Carlos carcamo",
     "email": "Ccarcamo@puertovalparaiso.cl",
@@ -732,7 +732,7 @@
   },
   {
     "stand": "52",
-    "name": "Msc",
+    "name": "MSC",
     "phone": "998704534",
     "contact": "Cecilia parada",
     "email": "#ref!",
@@ -742,11 +742,11 @@
     "logo": "msc.png",
     "mapa": "mapa.png",
     "webpage": "https://www.msc.com/chl",
-    "ubication":""
+    "ubication":"Santiago, CL"
   },
   {
     "stand": "53",
-    "name": "Mas container",
+    "name": "Mas Container",
     "phone": "#N/A",
     "contact": "#n/a",
     "email": "#n/a",
@@ -770,8 +770,7 @@
     "mapa": "mapa.png",
     "webpage": "https://www.beetrack.com/",
     "logo": "beetrack.png",
-    "ubication": "",
-    "pdf": "beetrack.pdf"
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "32 - 33",
@@ -789,7 +788,7 @@
   },
   {
     "stand": "50 -51",
-    "name": "Boarder logistics",
+    "name": "Boarder Logistics",
     "phone": "995393458",
     "contact": "Esteban marchant",
     "email": "Emf@blcorporations.com",

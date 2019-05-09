@@ -101,7 +101,7 @@ class App extends Component {
           <HiddableLogoSlider logos={logos}/>
           <Route exact path = "/" component = {this.Categories}/>
           <Route path = "/categories/:name" component = {this.Category}/>
-          <Route path = "/companies/:name&:searched" component = {this.Company}/>
+          <Route path = "/companies/:name&&:searched" component = {this.Company}/>
           <Route path = "/search" component = {this.SearchCompanies}/>
       </Router>
       </div>

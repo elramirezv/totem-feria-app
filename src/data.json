@@ -67,7 +67,7 @@
       },
       {
         "name": "Camcap",
-        "logo": "smartgroup.png"
+        "logo": "camcap.png"
       }
     ]
   },
@@ -77,7 +77,7 @@
     "companies": [
       {
         "name": "Pricing",
-        "logo": "smartgroup.png"
+        "logo": "pricing.png"
       },
       {
         "name": "QClass",
@@ -335,7 +335,7 @@
     "image": "a1.jpg",
     "logo": "angellira.png",
     "mapa": "mapa.png",
-    "webpage": "angellira.com/es",
+    "webpage": "https://www.angellira.com/es",
     "ubication": "Chapecó, BR"
   },
   {
@@ -583,7 +583,7 @@
     "contact": "Hugo galaz",
     "email": "Hgalaz@dycsa.cl",
     "tinylogo1": "dc2.jpg",
-    "tinylogo2": "dc3.jpg",
+    "tinylogo2": "dc3.png",
     "image": "dc1.jpg",
     "logo": "DClogistic.png",
     "mapa": "mapa.png",
@@ -710,10 +710,10 @@
     "email": "Hernan.bustos@camcap.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "image": "fleet2.png",
     "logo": "campcap.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.camcaponline.cl/",
+    "webpage": "http://www.camcap.cl/",
     "ubication": "Valparaíso, CL"
   },
   {
@@ -738,7 +738,7 @@
     "email": "#ref!",
     "tinylogo1": "msc.jpeg",
     "tinylogo2": "msc2.jpg",
-    "image": "msc.jpg",
+    "image": "msc1.jpg",
     "logo": "msc.png",
     "mapa": "mapa.png",
     "webpage": "https://www.msc.com/chl",

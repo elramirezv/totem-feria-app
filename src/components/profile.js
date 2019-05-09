@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import VideoComponent from './video';
 
 
 class ProfileComponent extends Component {
@@ -104,7 +105,7 @@ getWebPage(){
       </div>
       <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
         <Modal.Body>
-        <iframe sandbox = {"allow-scripts"} src={this.props.data.webpage} name ="iframe_a" width="100%" height="900px" />
+        <img src={require('../assets/QR/' + this.props.data.name + '_qr.png')} />
         </Modal.Body>
       </Modal>
     </>
@@ -119,7 +120,7 @@ getWebPage(){
 <Fade>
 <div className="container-test">
   <Row style={{alignItems:"center"}}>
-    <div style={{height:"340px", width: "100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image)})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+    <div style={{height:"340px", width: "100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image)})`}}>
       <div style={{alignItems:"center", marginTop: "28.6%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
         <div style={{paddingLeft: "20px"}}>
         <h1 style={{"color": "white", paddingTop: "5px"}}>

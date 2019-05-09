@@ -30,7 +30,7 @@ class LogoSlider extends Component {
     }
     return (
       <div>
-      <Carousel indicators={false} pauseOnHover={false} controls={false} interval={1000}>
+      <Carousel indicators={false} pauseOnHover={false} controls={false} interval={3000}>
       {this.loadLogos()}
       </Carousel>
       </div>

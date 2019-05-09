@@ -31,7 +31,7 @@ class CompaniesContainer extends Component {
           columns.push(
             <div>
             <Col>
-            <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&0'}>
+            <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&&0'}>
             <img className= "logo-image" src={require('../assets/logos/'+company.logo)}/>
             </Link>
             </Col>
@@ -44,7 +44,7 @@ class CompaniesContainer extends Component {
         columns.push(
           <div>
           <Col>
-          <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&0'}>
+          <Link style={{"textDecoration": "none"}} to={'/companies/' + company.name + '&&0'}>
           <img className= "logo-image" src={require('../assets/logos/'+company.logo)}/>
           </Link>
           </Col>

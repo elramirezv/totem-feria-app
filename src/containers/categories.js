@@ -50,8 +50,6 @@ class CategoriesContainer extends Component {
       <>
       <NavbarComponent title={"Categorías"}/>
       <div className = 'big-container'>
-      <div className="space">
-      </div>
       <Fade>
       <div className="space">
       <Row style={{paddingLeft: "3%"}}>

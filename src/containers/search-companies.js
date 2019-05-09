@@ -67,7 +67,7 @@ prepareLetters = (itemList) => {
     }
     result = result.map((item)=> {
       if(item.name){
-      return <div ><Link to= {'/companies/' + item.name + '&1'}className = 'search-font'>{item.name}</Link></div>}
+      return <div ><Link to= {'/companies/' + item.name + '&&1'}className = 'search-font'>{item.name}</Link></div>}
     else{
       return <h3 className='main-letter'>{item.letter}</h3>
     }}

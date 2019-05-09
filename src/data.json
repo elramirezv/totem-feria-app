@@ -293,7 +293,8 @@
     "logo":"SLI.png",
     "video": "video.mp4",
     "mapa": "mapa.png",
-    "webpage": "http://www.sli-soluciones.com"
+    "webpage": "http://www.sli-soluciones.com/",
+    "ubication": "Santa Cruz de la Sierra, BO"
   },
   {
     "stand": "2",
@@ -306,7 +307,8 @@
     "image": "find3.jpeg",
     "mapa": "mapa.png",
     "logo":"find talent.png",
-    "webpage": "http://www.findtalent.cl"
+    "webpage": "http://www.findtalent.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "3",
@@ -317,9 +319,10 @@
     "tinylogo1": "pric2.jpg",
     "tinylogo2": "pric3.jpg",
     "image": "pric1.jpg",
-    "logo": "smartgroup.png",
+    "logo": "pricing.png",
     "mapa": "mapa.png",
-    "webpage": "https://www.pricing.cl"
+    "webpage": "https://www.pricing.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "4",
@@ -332,7 +335,8 @@
     "image": "a1.jpg",
     "logo": "angellira.png",
     "mapa": "mapa.png",
-    "webpage": "angellira.com/es"
+    "webpage": "angellira.com/es",
+    "ubication": "Chapecó, BR"
   },
   {
     "stand": "5",
@@ -345,7 +349,8 @@
     "image": "sicx1.png",
     "mapa": "mapa.png",
     "logo": "sicex.png",
-    "webpage": "https://www.sicexchile.cl"
+    "webpage": "https://www.sicexchile.cl",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "6",
@@ -358,7 +363,8 @@
     "image": "q1.jpeg",
     "mapa": "mapa.png",
     "logo": "kardex.png",
-    "webpage": "http://www.qclass.cl/kardex.html"
+    "webpage": "http://www.qclass.cl/kardex.html",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "7",
@@ -371,8 +377,8 @@
     "image": "sim1.jpg",
     "mapa": "mapa.png",
     "logo": "simpliroute.png",
-
-    "webpage": "https://www.simpliroute.com/"
+    "webpage": "https://www.simpliroute.com/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "9",
@@ -385,7 +391,8 @@
     "image": "val1.png",
     "logo": "valgreti.png",
     "mapa": "mapa.png",
-    "webpage": "http://valgreti.cl/"
+    "webpage": "http://valgreti.cl/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "10",
@@ -398,7 +405,8 @@
     "image": "mapa.png",
     "mapa": "mapa.png",
     "logo": "Position.png",
-    "webpage": "https://www.position-latam.com/"
+    "webpage": "https://www.position-latam.com/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "11",
@@ -411,7 +419,8 @@
     "logo": "duocUC.png",
     "image": "duoc1.jpg",
     "mapa": "mapa.png",
-    "webpage": "http://www.duoc.cl/inicio"
+    "webpage": "http://www.duoc.cl/inicio",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "12",
@@ -485,16 +494,17 @@
   },
   {
     "stand": "19",
-    "name": "Mobile form",
+    "name": "Movilform",
     "phone": "#N/A",
     "contact": "#n/a",
     "email": "#n/a",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "logo": "smartgroup.png",
+    "tinylogo1": "movi2.jpg",
+    "tinylogo2": "movi3.jpg",
+    "image": "movi1.png",
+    "logo": "movilform.png",
     "mapa": "mapa.png",
-    "webpage": "http://www.buonny.com.br/"
+    "webpage": "https://www.movilform.com/",
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "26",
@@ -614,9 +624,9 @@
     "phone": "997010555",
     "contact": "Soledad lama",
     "email": "Soledadlama@comaco.cl",
-    "tinylogo1": "com1.jpg",
-    "tinylogo2": "com2.jpg",
-    "image": "coma1.png",
+    "tinylogo1": "comaco1.jpg",
+    "tinylogo2": "comaco2.jpg",
+    "image": "comaco.png",
     "logo": "comaco.png",
     "mapa": "mapa.png",
     "webpage": "http://www.comaco.cl/wpcomaco",
@@ -701,7 +711,7 @@
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
     "image": "mapa.png",
-    "logo": "smartgroup.png",
+    "logo": "campcap.png",
     "mapa": "mapa.png",
     "webpage": "http://www.camcaponline.cl/",
     "ubication": "Valparaíso, CL"
@@ -712,9 +722,9 @@
     "phone": "#N/A",
     "contact": "#n/a",
     "email": "#n/a",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "medlog2.jpg",
+    "tinylogo2": "medlog3.jpg",
+    "image": "medlog1.jpg",
     "logo": "medlog.png",
     "mapa": "mapa.png",
     "webpage": "http://www.medlogchile.cl/",
@@ -726,9 +736,9 @@
     "phone": "998704534",
     "contact": "Cecilia parada",
     "email": "#ref!",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "msc.jpeg",
+    "tinylogo2": "msc2.jpg",
+    "image": "msc.jpg",
     "logo": "msc.png",
     "mapa": "mapa.png",
     "webpage": "https://www.msc.com/chl",
@@ -740,12 +750,13 @@
     "phone": "#N/A",
     "contact": "#n/a",
     "email": "#n/a",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "mas2.jpg",
+    "tinylogo2": "mas3.jpg",
+    "image": "mas1.jpeg",
     "logo": "mascontainer.png",
+    "mapa": "mapa.png",
     "webpage": "http://www.mascontainer.com/",
-    "ubication":""
+    "ubication":"Valparaíso, CL"
   },
   {
     "stand": "14 - 15",
@@ -753,10 +764,11 @@
     "phone": "989016090",
     "contact": "Sebastian ojeda",
     "email": "Sebastian@beetrack.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "mapa.png",
-    "webpage": "https://www.beetrack.com",
+    "tinylogo1": "bee2.jpeg",
+    "tinylogo2": "bee3.jpg",
+    "image": "bee1.jpeg",
+    "mapa": "mapa.png",
+    "webpage": "https://www.beetrack.com/",
     "logo": "beetrack.png",
     "ubication": ""
   },
@@ -766,12 +778,13 @@
     "phone": "998856507",
     "contact": "Francisco bello",
     "email": "Fbello@sistemo.cl",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
+    "tinylogo1": "sistemo2.jpg",
+    "tinylogo2": "sistemo3.jpg",
     "image": "mapa.png",
     "logo": "sistemo.png",
+    "mapa": "mapa.png",
     "webpage": "http://www.sistemo.cl/",
-    "ubication": ""
+    "ubication": "Santiago, CL"
   },
   {
     "stand": "50 -51",
@@ -781,10 +794,11 @@
     "email": "Emf@blcorporations.com",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "image": "blsa1.jpg",
     "logo": "bl.png",
+    "mapa": "mapa.png",
     "webpage": "http://blsa.cl/empresa/",
-    "ubication": ""
+    "ubication": "Santiago, CL"
   }
 ],
 

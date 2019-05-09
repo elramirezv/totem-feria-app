@@ -13,7 +13,6 @@ html {
 }
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
 }
 
 body {
@@ -49,8 +48,12 @@ code {
 }
 
 .space{
-  margin: 5%;
+  margin-left: 25px;
+}
 
+.logo-image{
+  margin-left: 10px;
+  max-width: 250px;
 }
 
 .black-text{

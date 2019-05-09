@@ -165,7 +165,7 @@ getWebPage(){
   <div style={{paddingTop: "20px"}}>
   <Row style={{alignItems:"center"}}>
   <Col>
-      <Image style={{"min-height":"500px", "max-height":"500px", "width": "825px"}} src={require("../assets/images/"+this.props.data.mapa)} rounded />
+      <Image style={{"min-height":"500px", "max-height":"500px", "width": "825px"}} src={require("../assets/mapas/"+this.props.data.mapa)} rounded />
     </Col>
   </Row>
   </div>

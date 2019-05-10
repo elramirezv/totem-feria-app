@@ -5,7 +5,7 @@
     "companies": [
       {
         "logo":"SLI.png",
-        "name": "Sli-soluciones"
+        "name": "SLI Soluciones"
       },
       {
         "name": "Sicex",
@@ -94,12 +94,12 @@
     ]
   },
   {
-    "name": "Tecnologia",
+    "name": "Tecnología",
     "icon": "devices.png",
     "companies": [
       {
         "name": "Pricing",
-        "logo": "smartgroup.png"
+        "logo": "pricing.png"
       },
       {
         "name": "Angel lira",
@@ -135,10 +135,10 @@
       },
       {
         "name": "Movilform",
-        "logo": "smartgroup.png"
+        "logo": "movilform.png"
       },
       {
-        "name": "Fleet up",
+        "name": "FleetUp",
         "logo": "fleetup.png"
       },
       {
@@ -184,7 +184,7 @@
         "logo": "quadminds.png"
       },
       {
-        "name": "Fleet up",
+        "name": "FleetUp",
         "logo": "fleetup.png"
       },
       {
@@ -283,7 +283,7 @@
 [
   {
     "stand": "1",
-    "name": "Sli-soluciones",
+    "name": "SLI Soluciones",
     "phone": "59 1 63518359",
     "contact": "Ana",
     "email": "Gerencia@sli-soluciones.com",
@@ -330,7 +330,7 @@
     "phone": "55 49 99286282",
     "contact": "Alejandro arribas",
     "email": "Alejandro.arribas@angellira.com.br",
-    "tinylogo1": "a2.jpg",
+    "tinylogo1": "a2.png",
     "tinylogo2": "a3.jpg",
     "image": "a1.jpg",
     "logo": "angellira.png",
@@ -387,7 +387,7 @@
     "contact": "Luis santander",
     "email": "Luis.santander@valgreti.cl",
     "tinylogo1": "val2.jpeg",
-    "tinylogo2": "val2.png",
+    "tinylogo2": "val2.jpg",
     "image": "val1.png",
     "logo": "valgreti.png",
     "mapa": "mapa.png",
@@ -402,7 +402,7 @@
     "email": "Rsalas@position.cl",
     "tinylogo1": "test.jpg",
     "tinylogo2": "test.jpg",
-    "image": "mapa.png",
+    "image": "test.jpg",
     "mapa": "mapa.png",
     "logo": "Position.png",
     "webpage": "https://www.position-latam.com/",
@@ -508,7 +508,7 @@
   },
   {
     "stand": "26",
-    "name": "Fleet up",
+    "name": "FleetUp",
     "phone": "985053499",
     "contact": "Enzo divizia",
     "email": "Edivizia@fleetup.com",
@@ -554,8 +554,8 @@
     "phone": "999262806",
     "contact": "Leonardo torrealba",
     "email": "Leonardo.torrealba@sibpogroup.com",
-    "tinylogo1": "sibpo2",
-    "tinylogo2": "sibpo3",
+    "tinylogo1": "sibpo2.jpg",
+    "tinylogo2": "sibpo3.jpg",
     "image": "sib1.jpg",
     "logo": "sibpo.png",
     "mapa": "mapa.png",
@@ -597,7 +597,7 @@
     "contact": "Carmen gloria sanhueza",
     "email": "Cescl.gerencia@cityexpress.cl",
     "tinylogo1": "hp2.jpg",
-    "tinylogo2": "hp1.jpg3",
+    "tinylogo2": "hp2.jpeg",
     "image": "hp1.jpg",
     "logo": "cityexpress.png",
     "mapa": "mapa.png",
@@ -610,8 +610,8 @@
     "phone": "996271052",
     "contact": "Pablo eckell",
     "email": "Peckell@smartbot.la",
-    "tinylogo1": "sm2.jpg",
-    "tinylogo2": "sm3.jpg",
+    "tinylogo1": "sm2.jpeg",
+    "tinylogo2": "sm3.jpeg",
     "image": "sm1.jpg",
     "logo": "smartbot.png",
     "mapa": "mapa.png",
@@ -638,8 +638,8 @@
     "phone": "979965064",
     "contact": "Marcos oliva",
     "email": "Moliva@cetlog.cl",
-    "tinylogo1": "cet1.jpeg",
-    "tinylogo2": "cet2.png",
+    "tinylogo1": "cet2.png",
+    "tinylogo2": "cet1.jpeg",
     "image": "cet1.jpg",
     "logo": "cetlog.png",
     "mapa": "mapa.png",
@@ -709,8 +709,8 @@
     "contact": "Hernan bustos",
     "email": "Hernan.bustos@camcap.cl",
     "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
-    "image": "fleet2.png",
+    "tinylogo2": "camcap2.jpg",
+    "image": "camcap1.jpg",
     "logo": "campcap.png",
     "mapa": "mapa.png",
     "webpage": "http://www.camcap.cl/",
@@ -778,9 +778,9 @@
     "phone": "998856507",
     "contact": "Francisco bello",
     "email": "Fbello@sistemo.cl",
-    "tinylogo1": "sistemo2.jpg",
-    "tinylogo2": "sistemo3.jpg",
-    "image": "mapa.png",
+    "tinylogo1": "sistemo3.jpg",
+    "tinylogo2": "sistemo2.jpg",
+    "image": "sistemo2.jpg",
     "logo": "sistemo.png",
     "mapa": "mapa.png",
     "webpage": "http://www.sistemo.cl/",
@@ -792,8 +792,8 @@
     "phone": "995393458",
     "contact": "Esteban marchant",
     "email": "Emf@blcorporations.com",
-    "tinylogo1": "test.jpg",
-    "tinylogo2": "test.jpg",
+    "tinylogo1": "blsa2.jpeg",
+    "tinylogo2": "blsa3.jpg",
     "image": "blsa1.jpg",
     "logo": "bl.png",
     "mapa": "mapa.png",

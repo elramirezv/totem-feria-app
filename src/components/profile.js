@@ -3,11 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import '../assets/css/profile.css';
 import Fade from 'react-reveal/Fade';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import VideoComponent from './video';
 
 
 class ProfileComponent extends Component {
@@ -99,13 +97,13 @@ getWebPage(){
       <div style={{"textAlign": "center"}}>
       <Button variant="light-outline" onClick={this.handleShowPage}>
         <h2 style={{"color": "white", paddingTop: "50px"}}>
-        <Image style={{"min-height":"70px", "max-height":"70px"}} src={require("../assets/images/web.png")} rounded />
+        <Image style={{"min-height":"70px", "max-height":"70px"}} src={require("../assets/images/www.png")} rounded />
         </h2>
       </Button>
       </div>
       <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
         <Modal.Body>
-        <img src={require('../assets/QR/' + this.props.data.name + '_qr.png')} />
+        <img style={{maxHeight: "600px"}}src={require('../assets/QR/' + this.props.data.name + '_qr.png')} />
         </Modal.Body>
       </Modal>
     </>
@@ -120,7 +118,7 @@ getWebPage(){
 <Fade>
 <div className="container-test">
   <Row style={{alignItems:"center"}}>
-    <div style={{height:"340px", width: "100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image)})`}}>
+    <div style={{height:"340px", width: "100%", backgroundImage: `url(${require("../assets/images/"+this.props.data.image)})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
       <div style={{alignItems:"center", marginTop: "28.6%", width: "100%", height:"100px", "background-color":"rgba(0,0,0,0.8)"}}>
         <div style={{paddingLeft: "20px"}}>
         <h1 style={{"color": "white", paddingTop: "5px"}}>
@@ -165,7 +163,7 @@ getWebPage(){
   <div style={{paddingTop: "20px"}}>
   <Row style={{alignItems:"center"}}>
   <Col>
-      <Image style={{"min-height":"500px", "max-height":"500px", "width": "825px"}} src={require("../assets/mapas/"+this.props.data.mapa)} rounded />
+      <Image style={{"min-height":"500px", "max-height":"500px", "width": "820px"}} src={require("../assets/mapas/"+this.props.data.mapa)} rounded />
     </Col>
   </Row>
   </div>

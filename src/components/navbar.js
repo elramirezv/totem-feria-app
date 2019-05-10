@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/css/navbar.css';
-import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
+import Bounce from 'react-reveal/Bounce';
 
 class NavbarComponent extends Component {
 
@@ -9,9 +9,7 @@ class NavbarComponent extends Component {
     if(this.props.profile === true)
     return(
       <div className="topnav" style={{"margin-top":"0px"}}>
-      <div className="to-right">
         <h1>Stand {this.props.title}</h1>
-      </div>
       </div>
     )
     else
@@ -19,7 +17,9 @@ class NavbarComponent extends Component {
       <div className="topnav">
       <h1 >{this.props.title}</h1>
       <Link style={{"textDecoration": "none", color: "white"}} to= '/search/'>
-      <div className="lupita"><img src={require("../assets/images/search.png")} style={{"max-width":"80px"}}/></div>
+      <Bounce>
+      <div className="lupita"><img src={require("../assets/images/search.png")} style={{"max-width":"75px"}}/></div>
+      </Bounce>
       </Link>
 </div>
     );

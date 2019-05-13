@@ -11,7 +11,7 @@ class SmartGroupSlider extends Component {
     return frases.map((frase) => {
       return (
         <Carousel.Item>
-        <h5>{frase}</h5>
+        <h2>{frase}</h2>
         </Carousel.Item>
       )
     }
@@ -19,7 +19,7 @@ class SmartGroupSlider extends Component {
   }
 
   render() {
-    const frases = [["Arriendo de Tótems interactivos en www.fastersoluciones.cl"],["Arriendo de Tótems interactivos en www.fastersoluciones.cl"]]
+    const frases = [["Arriendo de Tótems interactivos en www.smartgroup.cl"],["Arriendo de Tótems interactivos en www.smartgroup.cl"]]
     return (
     <div className = "frase-holder">
       <Carousel indicators={false} pauseOnHover={false} controls={false} interval={5000}>

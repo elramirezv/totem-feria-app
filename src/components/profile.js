@@ -48,7 +48,6 @@ handleShowPage(){
 }
 
 getVideo(){
-  if(this.props.data.video){
     return(
       <>
       <div style={{"textAlign": "center"}}>
@@ -61,15 +60,14 @@ getVideo(){
 
       <Modal show={this.state.showVid} onHide={this.handleCloseVid} dialogClassName="custom-dialog">
         <Modal.Body>
-          <video className = 'video-player' autoPlay loop>
-          <source src={require('../assets/videos/' + this.props.data.video)}/>
+          <video className = 'video-player' autoPlay loop  style = {{"max-width":"100px"}}>
+          <source src={require('../assets/videos/video.mp4')}/>
           </video>
         </Modal.Body>
       </Modal>
     </>
 
-    )
-  }
+  )
 }
 getPdf(){
   if(this.props.data.pdf){
@@ -101,7 +99,7 @@ getWebPage(){
         </h2>
       </Button>
       </div>
-      <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog">
+      <Modal show={this.state.showPage} onHide={this.handleClosePage} dialogClassName="custom-dialog2">
         <Modal.Body>
         <img style={{maxHeight: "600px"}}src={require('../assets/QR/' + this.props.data.name + '_qr.png')} />
         </Modal.Body>

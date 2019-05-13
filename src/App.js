@@ -11,6 +11,7 @@ import { Router, Route} from "react-router-dom";
 import { history } from './helpers/history';
 import BottomButtons from './components/menu-buttons';
 import NavbarComponent from './components/navbar';
+import SmartGroupSlider from './components/smartgroup-slider'
 
 const categories = data.categories;
 const companies = data.companies;
@@ -103,6 +104,7 @@ class App extends Component {
           <Route path = "/categories/:name" component = {this.Category}/>
           <Route path = "/companies/:name&&:searched" component = {this.Company}/>
           <Route path = "/search" component = {this.SearchCompanies}/>
+          <SmartGroupSlider/>
       </Router>
       </div>
     );

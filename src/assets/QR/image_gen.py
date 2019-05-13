@@ -25,5 +25,5 @@ for i in data['companies']:
     if len(i['webpage'])>= 35:
         x = 50
         fnt = ImageFont.truetype("arial.ttf", 40)
-    draw.text((x, 920),'www.' + i['webpage'].strip('http://').strip('https://').strip('www.'),(255,255,255), font=fnt)
+    draw.text((x, 920),'www.' + i['webpage'].replace('http://','').replace('https://','').strip('www.'),(255,255,255), font=fnt)
     background.save(f'{nombre}_qr.png')

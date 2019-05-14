@@ -68,7 +68,7 @@ class BottomButtons extends Component {
       <Col>
       <Button variant={"outline-light"} onClick={this.handleShowMap}>
         <Card style={{padding: "15px"}}>
-        <img style={{"width": "40px", "height": "40px"}} src="https://img.icons8.com/ios/100/000000/map-marker.png"/>
+        <img style={{"width": "40px", "height": "40px"}} src="https://img.icons8.com/ios/100/000000/calendar.png"/>
         </Card>
       </Button>
       </Col>

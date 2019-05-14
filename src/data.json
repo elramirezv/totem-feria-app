@@ -249,34 +249,6 @@
         "logo": "mascontainer.png"
       }
     ]
-  },
-  {
-    "name": "Comida",
-    "icon": "dish.png",
-    "companies": [
-      {
-        "name": "Revista Logistec",
-        "logo": "logistec.png"
-      },
-      {
-        "name": "Mas Container",
-        "logo": "mascontainer.png"
-      }
-    ]
-  },
-  {
-    "name": "Baños",
-    "icon": "toilet.png",
-    "companies": [
-      {
-        "name": "Revista Logistec",
-        "logo": "logistec.png"
-      },
-      {
-        "name": "Mas Container",
-        "logo": "mascontainer.png"
-      }
-    ]
   }
 ],
 "companies":
@@ -535,7 +507,7 @@
     "ubication": "Santiago, CL"
   },
   {
-    "stand": "28",
+    "stand": "28 - 30",
     "name": "PUC",
     "phone": "981298831",
     "contact": "Claudia gomez",
@@ -563,7 +535,7 @@
     "ubication": "Santiago, CL"
   },
   {
-    "stand": "30",
+    "stand": "29",
     "name": "Puerto Columbo",
     "phone": "961432835",
     "contact": "Luz mar\ufffda masafierro",
@@ -787,7 +759,7 @@
     "ubication": "Santiago, CL"
   },
   {
-    "stand": "50 -51",
+    "stand": "50 - 51",
     "name": "Boarder Logistics",
     "phone": "995393458",
     "contact": "Esteban marchant",
